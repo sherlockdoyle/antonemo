@@ -1,0 +1,12841 @@
+{
+ "good": [
+  "unhealthy",
+  "bad"
+ ],
+ "set": [
+  "ascend",
+  "rise"
+ ],
+ "little": [
+  "much",
+  "tall"
+ ],
+ "clear": [
+  "indistinct",
+  "unclear"
+ ],
+ "right": [
+  "falsify",
+  "incorrect"
+ ],
+ "break": [
+  "hold",
+  "make"
+ ],
+ "free": [
+  "block",
+  "freeze"
+ ],
+ "small": [
+  "big",
+  "harsh"
+ ],
+ "open": [
+  "shut",
+  "enclosed"
+ ],
+ "run": [
+  "idle",
+  "malfunction"
+ ],
+ "close": [
+  "far",
+  "loose"
+ ],
+ "plain": [
+  "cheer",
+  "hill"
+ ],
+ "common": [
+  "individual",
+  "uncommon"
+ ],
+ "drop": [
+  "recuperate",
+  "recover"
+ ],
+ "real": [
+  "insubstantial",
+  "unreal"
+ ],
+ "separate": [
+  "unify",
+  "integrated"
+ ],
+ "order": [
+  "chaos",
+  "disorder"
+ ],
+ "release": [
+  "confine",
+  "freeze"
+ ],
+ "full": [
+  "empty",
+  "fractional"
+ ],
+ "take": [
+  "disclaim",
+  "obviate"
+ ],
+ "cut": [
+  "enlarge",
+  "uncut"
+ ],
+ "decline": [
+  "better",
+  "incline"
+ ],
+ "dull": [
+  "interesting",
+  "loud"
+ ],
+ "spot": [],
+ "end": [
+  "start",
+  "begin"
+ ],
+ "old": [
+  "immature",
+  "young"
+ ],
+ "advance": [
+  "bump",
+  "recede"
+ ],
+ "discharge": [
+  "fill",
+  "charge"
+ ],
+ "fit": [
+  "disagree",
+  "unfit"
+ ],
+ "charge": [
+  "calm",
+  "discharge"
+ ],
+ "hard": [
+  "soft",
+  "fresh"
+ ],
+ "superior": [
+  "inferior",
+  "subscript"
+ ],
+ "natural": [
+  "processed",
+  "unnatural"
+ ],
+ "place": [
+  "divest"
+ ],
+ "bad": [
+  "unregretful",
+  "valid"
+ ],
+ "top": [
+  "underside",
+  "bottom"
+ ],
+ "complete": [
+  "unfinished",
+  "incomplete"
+ ],
+ "direct": [
+  "inverse",
+  "indirect"
+ ],
+ "great": [
+  "small",
+  "little"
+ ],
+ "low": [
+  "sufficient",
+  "loud"
+ ],
+ "check": [
+  "disagree"
+ ],
+ "ignore": [
+  "watch",
+  "consider"
+ ],
+ "raise": [
+  "bump",
+  "raze"
+ ],
+ "stop": [
+  "begin",
+  "start"
+ ],
+ "get": [
+  "leave",
+  "terminate"
+ ],
+ "keep": [
+  "allow",
+  "break"
+ ],
+ "sharp": [
+  "dull",
+  "pleasant"
+ ],
+ "split": [
+  "unify",
+  "unite"
+ ],
+ "calm": [
+  "nervous",
+  "stimulate"
+ ],
+ "late": [
+  "middle",
+  "early"
+ ],
+ "slight": [
+  "much",
+  "significant"
+ ],
+ "strain": [
+  "relax",
+  "unstrain"
+ ],
+ "light": [
+  "darkness",
+  "weighty"
+ ],
+ "rough": [
+  "exact",
+  "smooth"
+ ],
+ "sound": [
+  "silence",
+  "unsound"
+ ],
+ "mean": [
+  "rich",
+  "nice"
+ ],
+ "rise": [
+  "downfall",
+  "lie"
+ ],
+ "simple": [
+  "fancy",
+  "complex"
+ ],
+ "grand": [
+  "little",
+  "poor"
+ ],
+ "regular": [
+  "goofy",
+  "irregular"
+ ],
+ "master": [],
+ "noble": [
+  "reactive",
+  "ignoble"
+ ],
+ "note": [
+  "ignore"
+ ],
+ "way": [],
+ "inferior": [
+  "top",
+  "superior"
+ ],
+ "contract": [
+  "widen",
+  "enlarge"
+ ],
+ "high": [
+  "sober",
+  "grave"
+ ],
+ "new": [
+  "shabby",
+  "worn"
+ ],
+ "single": [
+  "common",
+  "multiple"
+ ],
+ "spread": [
+  "collect",
+  "garner"
+ ],
+ "boost": [],
+ "dead": [
+  "living",
+  "alive"
+ ],
+ "figure": [
+  "ground"
+ ],
+ "head": [
+  "point",
+  "rear"
+ ],
+ "hold": [
+  "disagree",
+  "relinquish"
+ ],
+ "support": [
+  "negate",
+  "oppose"
+ ],
+ "upset": [],
+ "disregard": [
+  "mention",
+  "consideration"
+ ],
+ "active": [
+  "dormant",
+  "inactive"
+ ],
+ "command": [],
+ "dark": [
+  "lighting",
+  "day"
+ ],
+ "established": [
+  "disprove",
+  "unestablished"
+ ],
+ "reject": [
+  "admit",
+  "accept"
+ ],
+ "short": [
+  "long",
+  "retentive"
+ ],
+ "smooth": [
+  "difficult",
+  "staccato"
+ ],
+ "work": [
+  "stagnate",
+  "malfunction"
+ ],
+ "correct": [
+  "falsify",
+  "incorrect"
+ ],
+ "fair": [
+  "ugly",
+  "unfair"
+ ],
+ "moderate": [
+  "intense",
+  "immoderate"
+ ],
+ "broadcast": [],
+ "just": [
+  "unfair",
+  "unjust"
+ ],
+ "last": [
+  "likely",
+  "initial"
+ ],
+ "part": [
+  "wholly",
+  "multiple"
+ ],
+ "awful": [
+  "good",
+  "nice"
+ ],
+ "better": [
+  "ill",
+  "worse"
+ ],
+ "fall": [
+  "rising",
+  "climb"
+ ],
+ "gain": [
+  "reduce",
+  "loss"
+ ],
+ "individual": [
+  "group",
+  "mutual"
+ ],
+ "miss": [
+  "feature",
+  "strike"
+ ],
+ "ordinary": [
+  "special",
+  "extraordinary"
+ ],
+ "control": [
+  "unrestraint"
+ ],
+ "cover": [
+  "expose",
+  "uncover"
+ ],
+ "distant": [
+  "close",
+  "near"
+ ],
+ "distinct": [
+  "same",
+  "indistinct"
+ ],
+ "like": [
+  "abhor",
+  "unlike"
+ ],
+ "make": [
+  "undo",
+  "unmake"
+ ],
+ "primary": [
+  "incidental",
+  "secondary"
+ ],
+ "quiet": [
+  "sound",
+  "unquiet"
+ ],
+ "standard": [
+  "uncommon",
+  "nonstandard"
+ ],
+ "strong": [
+  "weak",
+  "impotent"
+ ],
+ "true": [
+  "false",
+  "inaccurate"
+ ],
+ "beat": [],
+ "extra": [
+  "scheduled",
+  "necessary"
+ ],
+ "pass": [
+  "running",
+  "fail"
+ ],
+ "perfect": [
+  "imperfect"
+ ],
+ "secure": [
+  "vulnerable",
+  "insecure"
+ ],
+ "start": [
+  "middle",
+  "terminate"
+ ],
+ "straight": [
+  "crooked",
+  "bisexual"
+ ],
+ "substantial": [
+  "insubstantial"
+ ],
+ "bar": [
+  "unbar"
+ ],
+ "mark": [
+  "ignore"
+ ],
+ "show": [
+  "confute",
+  "disprove"
+ ],
+ "slow": [
+  "quicken",
+  "fast"
+ ],
+ "insignificant": [
+  "major",
+  "significant"
+ ],
+ "mass": [],
+ "big": [
+  "small",
+  "light"
+ ],
+ "clean": [
+  "dirty",
+  "unclean"
+ ],
+ "drive": [
+  "pull",
+  "draw"
+ ],
+ "fine": [
+  "harsh",
+  "thick"
+ ],
+ "forward": [
+  "reverse",
+  "backward"
+ ],
+ "hit": [
+  "miss"
+ ],
+ "stiff": [
+  "weak",
+  "flexible"
+ ],
+ "cool": [
+  "awkward",
+  "uncool"
+ ],
+ "heavy": [
+  "gradual",
+  "lively"
+ ],
+ "original": [
+  "copy",
+  "unoriginal"
+ ],
+ "pack": [
+  "unpack"
+ ],
+ "prime": [],
+ "report": [],
+ "obscure": [
+  "clear",
+  "conspicuous"
+ ],
+ "block": [
+  "disengage",
+  "unblock"
+ ],
+ "expand": [
+  "cut",
+  "reduce"
+ ],
+ "fix": [
+  "break",
+  "unfasten"
+ ],
+ "line": [
+  "column"
+ ],
+ "minor": [
+  "adult",
+  "major"
+ ],
+ "move": [
+  "stick",
+  "rest"
+ ],
+ "particular": [
+  "secondary",
+  "universal"
+ ],
+ "point": [
+  "unpointedness"
+ ],
+ "present": [
+  "future",
+  "paste"
+ ],
+ "press": [],
+ "soft": [
+  "hardened",
+  "stony"
+ ],
+ "yield": [
+  "stand",
+  "survive"
+ ],
+ "bust": [
+  "repair",
+  "fix"
+ ],
+ "advanced": [
+  "low",
+  "recede"
+ ],
+ "crack": [],
+ "current": [
+  "noncurrent"
+ ],
+ "fancy": [
+  "plain"
+ ],
+ "general": [
+  "specific",
+  "particular"
+ ],
+ "help": [],
+ "increase": [
+  "drop",
+  "decrease"
+ ],
+ "mind": [
+  "forget",
+  "body"
+ ],
+ "near": [
+  "distant",
+  "natural"
+ ],
+ "okay": [
+  "disapprove"
+ ],
+ "outside": [
+  "likely",
+  "inside"
+ ],
+ "refined": [
+  "crude",
+  "unrefined"
+ ],
+ "specific": [
+  "broad",
+  "nonspecific"
+ ],
+ "wrong": [
+  "outside",
+  "proper"
+ ],
+ "neglect": [],
+ "overlook": [],
+ "beginning": [
+  "conclusion",
+  "ending"
+ ],
+ "circle": [],
+ "face": [
+  "avoid",
+  "back"
+ ],
+ "lead": [
+  "follow",
+  "deficit"
+ ],
+ "lot": [],
+ "lower": [
+  "high",
+  "raise"
+ ],
+ "observe": [
+  "offend",
+  "break"
+ ],
+ "proper": [
+  "common",
+  "improper"
+ ],
+ "rejected": [
+  "approve",
+  "accept"
+ ],
+ "trouble": [],
+ "weak": [
+  "strong",
+  "skilled"
+ ],
+ "subordinate": [
+  "chief",
+  "insubordinate"
+ ],
+ "capital": [
+  "lowercase"
+ ],
+ "exceptional": [
+  "common",
+  "ordinary"
+ ],
+ "fresh": [
+  "old",
+  "preserved"
+ ],
+ "much": [
+  "little",
+  "few"
+ ],
+ "normal": [
+  "reverse",
+  "abnormal"
+ ],
+ "popular": [
+  "classical",
+  "unpopular"
+ ],
+ "senior": [
+  "young",
+  "junior"
+ ],
+ "thin": [
+  "broad",
+  "thicken"
+ ],
+ "notable": [
+  "unknown"
+ ],
+ "aid": [],
+ "choice": [],
+ "far": [
+  "close",
+  "near"
+ ],
+ "flat": [
+  "uneven",
+  "natural"
+ ],
+ "genuine": [
+  "false",
+  "counterfeit"
+ ],
+ "important": [
+  "insignificant",
+  "unimportant"
+ ],
+ "leave": [
+  "disown",
+  "arrive"
+ ],
+ "lose": [
+  "gain",
+  "come"
+ ],
+ "promote": [
+  "break",
+  "demote"
+ ],
+ "rush": [
+  "detain",
+  "linger"
+ ],
+ "section": [
+  "whole"
+ ],
+ "significant": [
+  "unimportant",
+  "insignificant"
+ ],
+ "well": [
+  "disadvantageously",
+  "ill"
+ ],
+ "slick": [],
+ "accept": [
+  "refuse",
+  "reject"
+ ],
+ "equal": [
+  "differ",
+  "unequal"
+ ],
+ "finish": [
+  "start",
+  "begin"
+ ],
+ "guide": [],
+ "hand": [],
+ "large": [
+  "inconspicuous",
+  "small"
+ ],
+ "major": [
+  "minor"
+ ],
+ "middle": [
+  "start",
+  "rim"
+ ],
+ "portion": [],
+ "public": [
+  "private",
+  "individual"
+ ],
+ "remote": [
+  "accessible",
+  "near"
+ ],
+ "special": [
+  "common",
+  "scheduled"
+ ],
+ "whole": [
+  "abstract",
+  "half"
+ ],
+ "draw": [
+  "push",
+  "drive"
+ ],
+ "dry": [
+  "moisten",
+  "drunk"
+ ],
+ "fat": [
+  "leanness",
+  "nonfat"
+ ],
+ "green": [
+  "sophisticated",
+  "neutral"
+ ],
+ "hurt": [],
+ "position": [],
+ "pure": [
+  "applied",
+  "impure"
+ ],
+ "rule": [],
+ "shape": [],
+ "thick": [
+  "mild",
+  "thin"
+ ],
+ "bear": [
+  "bull"
+ ],
+ "bill": [],
+ "confirmed": [
+  "negate",
+  "unconfirmed"
+ ],
+ "establish": [
+  "disprove",
+  "abolish"
+ ],
+ "false": [
+  "right",
+  "real"
+ ],
+ "first": [
+  "end",
+  "last"
+ ],
+ "give": [
+  "take",
+  "starve"
+ ],
+ "gross": [
+  "nett",
+  "specific"
+ ],
+ "hint": [],
+ "hot": [
+  "bad",
+  "old"
+ ],
+ "level": [
+  "raise",
+  "uneven"
+ ],
+ "mess": [],
+ "past": [
+  "future",
+  "present"
+ ],
+ "poor": [
+  "sufficient",
+  "fortunate"
+ ],
+ "power": [
+  "inability",
+  "powerlessness"
+ ],
+ "question": [
+  "answer"
+ ],
+ "quick": [
+  "slow"
+ ],
+ "quit": [
+  "preserve",
+  "continue"
+ ],
+ "reasonable": [
+  "arbitrary",
+  "unreasonable"
+ ],
+ "refuse": [
+  "allow",
+  "consent"
+ ],
+ "shot": [],
+ "total": [
+  "incomplete"
+ ],
+ "touch": [],
+ "unusual": [
+  "common",
+  "usual"
+ ],
+ "usual": [
+  "odd",
+  "unusual"
+ ],
+ "agreement": [
+  "disagreement"
+ ],
+ "allow": [
+  "interdict",
+  "disallow"
+ ],
+ "catch": [
+  "drop",
+  "unhitch"
+ ],
+ "cold": [
+  "fresh",
+  "close"
+ ],
+ "dispatch": [],
+ "easy": [
+  "difficult",
+  "uneasy"
+ ],
+ "fast": [
+  "rough",
+  "slow"
+ ],
+ "ring": [],
+ "stuff": [
+  "empty",
+  "unstuff"
+ ],
+ "trace": [],
+ "alive": [
+  "extinct",
+  "dead"
+ ],
+ "belt": [
+  "unbelt"
+ ],
+ "deal": [],
+ "division": [],
+ "father": [
+  "son",
+  "daughter"
+ ],
+ "minute": [
+  "large",
+  "great"
+ ],
+ "punch": [],
+ "raw": [
+  "polished",
+  "hot"
+ ],
+ "rich": [
+  "lean",
+  "thin"
+ ],
+ "lively": [
+  "dull"
+ ],
+ "suppressed": [
+  "publicized"
+ ],
+ "smash": [],
+ "average": [
+  "uncommon",
+  "extraordinary"
+ ],
+ "bright": [
+  "dull",
+  "dim"
+ ],
+ "classic": [
+  "nonclassical"
+ ],
+ "divide": [
+  "multiply",
+  "unite"
+ ],
+ "follow": [
+  "precede",
+  "forgo"
+ ],
+ "house": [],
+ "ill": [
+  "good",
+  "well"
+ ],
+ "plan": [],
+ "plug": [],
+ "stay": [
+  "move",
+  "depart"
+ ],
+ "unimportant": [
+  "great",
+  "important"
+ ],
+ "suppress": [],
+ "ace": [],
+ "ancient": [
+  "young",
+  "recent"
+ ],
+ "attack": [
+  "defend"
+ ],
+ "avoid": [
+  "confront",
+  "validate"
+ ],
+ "back": [
+  "front",
+  "face"
+ ],
+ "bit": [],
+ "box": [
+  "unbox"
+ ],
+ "certain": [
+  "unsealed",
+  "uncertain"
+ ],
+ "comfort": [
+  "discomfort"
+ ],
+ "conclusion": [
+  "beginning"
+ ],
+ "delight": [
+  "displease",
+  "disenchant"
+ ],
+ "draft": [
+  "discharge"
+ ],
+ "dress": [
+  "strip",
+  "undress"
+ ],
+ "fake": [
+  "natural",
+  "genuine"
+ ],
+ "fixed": [
+  "break",
+  "unfixed"
+ ],
+ "going": [
+  "stop",
+  "malfunction"
+ ],
+ "keen": [
+  "bad"
+ ],
+ "legal": [
+  "invalid",
+  "illegal"
+ ],
+ "let": [
+  "forbid",
+  "veto"
+ ],
+ "qualified": [
+  "disqualify",
+  "unqualified"
+ ],
+ "settle": [
+  "swim",
+  "float"
+ ],
+ "sign": [],
+ "strike": [
+  "miss"
+ ],
+ "study": [],
+ "very": [],
+ "detached": [
+  "attach",
+  "attached"
+ ],
+ "tolerable": [
+  "intolerable"
+ ],
+ "abundance": [
+  "scarcity",
+  "deficiency"
+ ],
+ "monstrous": [
+  "beautiful",
+  "small"
+ ],
+ "array": [],
+ "bother": [],
+ "design": [],
+ "exact": [
+  "incorrect",
+  "inexact"
+ ],
+ "fail": [
+  "succeed",
+  "win"
+ ],
+ "flash": [],
+ "flush": [],
+ "form": [],
+ "ground": [
+  "figure"
+ ],
+ "hide": [
+  "show"
+ ],
+ "mighty": [],
+ "now": [],
+ "offensive": [
+  "euphemistic",
+  "inoffensive"
+ ],
+ "promotion": [
+  "demotion"
+ ],
+ "push": [
+  "draw",
+  "pull"
+ ],
+ "remove": [
+  "add"
+ ],
+ "round": [
+  "exact",
+  "square"
+ ],
+ "serious": [
+  "playful",
+  "frivolous"
+ ],
+ "shadow": [],
+ "view": [
+  "controller",
+  "model"
+ ],
+ "wealth": [
+  "poverty"
+ ],
+ "wild": [
+  "safe",
+  "mild"
+ ],
+ "operative": [
+  "medical",
+  "inoperative"
+ ],
+ "sanction": [
+  "reject",
+  "disapprove"
+ ],
+ "pinch": [],
+ "acceptable": [
+  "bad",
+  "unacceptable"
+ ],
+ "broad": [
+  "specific",
+  "narrow"
+ ],
+ "chief": [],
+ "decent": [
+  "improperly",
+  "indecent"
+ ],
+ "deny": [
+  "allow",
+  "acknowledge"
+ ],
+ "direction": [],
+ "essential": [
+  "accessory",
+  "inessential"
+ ],
+ "final": [
+  "opening"
+ ],
+ "further": [
+  "close",
+  "near"
+ ],
+ "group": [],
+ "issue": [
+  "recall"
+ ],
+ "join": [
+  "disjoin"
+ ],
+ "kick": [
+  "cheer"
+ ],
+ "material": [
+  "insubstantial",
+  "immaterial"
+ ],
+ "mountain": [
+  "valley",
+  "plain"
+ ],
+ "pleasant": [
+  "unpleasant"
+ ],
+ "reason": [],
+ "roll": [
+  "unwind",
+  "unroll"
+ ],
+ "severe": [
+  "good",
+  "weak"
+ ],
+ "shield": [],
+ "stamp": [],
+ "steady": [
+  "unstable",
+  "unsteady"
+ ],
+ "supplement": [],
+ "surplus": [
+  "deficit",
+  "necessary"
+ ],
+ "energetic": [
+  "lethargic"
+ ],
+ "accord": [
+  "disagreement"
+ ],
+ "weakness": [
+  "strength"
+ ],
+ "favor": [],
+ "body": [],
+ "cause": [
+  "prevent"
+ ],
+ "condition": [],
+ "determined": [
+  "undetermined"
+ ],
+ "distinguished": [],
+ "familiar": [
+  "unknown",
+  "unfamiliar"
+ ],
+ "following": [
+  "precede",
+  "leading"
+ ],
+ "forget": [
+  "mind",
+  "recollect"
+ ],
+ "healthy": [
+  "unhealthy"
+ ],
+ "honest": [
+  "dishonest"
+ ],
+ "idle": [
+  "work",
+  "active"
+ ],
+ "key": [
+  "atonality"
+ ],
+ "pick": [],
+ "picture": [],
+ "pioneer": [],
+ "play": [
+  "tightness"
+ ],
+ "rap": [],
+ "shift": [],
+ "strange": [
+  "familiar",
+  "native"
+ ],
+ "sure": [
+  "false",
+  "unsure"
+ ],
+ "trim": [],
+ "warrant": [],
+ "wicked": [
+  "virtuous",
+  "righteous"
+ ],
+ "halt": [
+  "start"
+ ],
+ "restrained": [
+  "unrestrained"
+ ],
+ "withdraw": [
+  "lock",
+  "operate"
+ ],
+ "restrain": [],
+ "actual": [
+  "imaginary",
+  "fictitious"
+ ],
+ "associate": [
+  "disassociate",
+  "dissociate"
+ ],
+ "authority": [],
+ "bound": [
+  "free",
+  "unbound"
+ ],
+ "bundle": [],
+ "call": [
+  "put"
+ ],
+ "completely": [
+  "partly"
+ ],
+ "compound": [
+  "simple"
+ ],
+ "constant": [
+  "variable",
+  "inconstant"
+ ],
+ "drag": [],
+ "early": [
+  "old",
+  "late"
+ ],
+ "empty": [
+  "full",
+  "fill"
+ ],
+ "excess": [
+  "necessary"
+ ],
+ "extensive": [
+  "small",
+  "intensive"
+ ],
+ "extreme": [
+  "close",
+  "moderate"
+ ],
+ "famous": [
+  "unknown",
+  "obscure"
+ ],
+ "friendly": [
+  "hostile",
+  "unfriendly"
+ ],
+ "loose": [
+  "tight",
+  "responsible"
+ ],
+ "most": [
+  "fewest",
+  "least"
+ ],
+ "outstanding": [],
+ "parallel": [
+  "asynchronous",
+  "perpendicular"
+ ],
+ "passing": [
+  "fail",
+  "failing"
+ ],
+ "private": [
+  "public"
+ ],
+ "ready": [
+  "unwilling",
+  "unready"
+ ],
+ "regard": [
+  "inattentiveness",
+  "disrespect"
+ ],
+ "reveal": [],
+ "safe": [
+  "out",
+  "unsafe"
+ ],
+ "suitable": [
+  "unfit",
+  "unsuitable"
+ ],
+ "super": [
+  "little",
+  "small"
+ ],
+ "tie": [
+  "disconnect",
+  "untie"
+ ],
+ "value": [
+  "disrespect",
+  "disesteem"
+ ],
+ "want": [],
+ "waste": [
+  "conserve"
+ ],
+ "working": [
+  "idle",
+  "malfunction"
+ ],
+ "center": [
+  "right",
+  "left"
+ ],
+ "unqualified": [
+  "competent",
+  "qualified"
+ ],
+ "useless": [
+  "useful"
+ ],
+ "yielding": [
+  "survive",
+  "stand"
+ ],
+ "altogether": [
+  "partly"
+ ],
+ "bomb": [
+  "pass"
+ ],
+ "brief": [
+  "long"
+ ],
+ "destroy": [
+  "make",
+  "restore"
+ ],
+ "dispute": [
+  "confirm"
+ ],
+ "engage": [
+  "dismiss",
+  "disengage"
+ ],
+ "express": [
+  "local",
+  "slow"
+ ],
+ "fire": [
+  "employ",
+  "hire"
+ ],
+ "frame": [],
+ "guard": [],
+ "happy": [
+  "unwilling",
+  "unhappy"
+ ],
+ "likely": [
+  "improbable",
+  "unlikely"
+ ],
+ "link": [
+  "dissociate",
+  "disconnect"
+ ],
+ "match": [
+  "disagree"
+ ],
+ "mild": [
+  "strong",
+  "violent"
+ ],
+ "notice": [
+  "ignore"
+ ],
+ "other": [
+  "familiar",
+  "same"
+ ],
+ "party": [],
+ "prize": [
+  "disesteem",
+  "disrespect"
+ ],
+ "rest": [
+  "change",
+  "move"
+ ],
+ "running": [
+  "idle",
+  "passing"
+ ],
+ "same": [
+  "different",
+  "other"
+ ],
+ "somewhat": [
+  "unreasonably",
+  "immoderately"
+ ],
+ "tender": [
+  "tough",
+  "demand"
+ ],
+ "useful": [
+  "harmful",
+  "useless"
+ ],
+ "antecedent": [
+  "anaphor",
+  "descendant"
+ ],
+ "rude": [
+  "civil",
+  "late"
+ ],
+ "bore": [
+  "interest"
+ ],
+ "lash": [
+  "unlash"
+ ],
+ "absolutely": [],
+ "account": [],
+ "aggregate": [
+  "compound",
+  "single"
+ ],
+ "bag": [],
+ "challenge": [],
+ "development": [
+  "degeneration",
+  "nondevelopment"
+ ],
+ "disorder": [
+  "order",
+  "orderliness"
+ ],
+ "extraordinary": [
+  "usual",
+  "ordinary"
+ ],
+ "force": [
+  "push",
+  "draw"
+ ],
+ "gentle": [
+  "wild",
+  "intense"
+ ],
+ "greatly": [],
+ "hardly": [],
+ "inside": [
+  "outwardly",
+  "outside"
+ ],
+ "intimate": [
+  "formal",
+  "distant"
+ ],
+ "land": [],
+ "legitimate": [
+  "invalid",
+  "illegitimate"
+ ],
+ "lodge": [
+  "free",
+  "dislodge"
+ ],
+ "mature": [
+  "childish",
+  "immature"
+ ],
+ "pot": [],
+ "premium": [
+  "discount"
+ ],
+ "produce": [],
+ "save": [],
+ "stick": [
+  "free",
+  "dislodge"
+ ],
+ "switch": [],
+ "taste": [],
+ "tough": [
+  "easy",
+  "good"
+ ],
+ "united": [
+  "single",
+  "disunify"
+ ],
+ "wane": [
+  "rise",
+  "wax"
+ ],
+ "word": [],
+ "worry": [
+  "reassure",
+  "assure"
+ ],
+ "deficient": [
+  "excessive",
+  "sufficient"
+ ],
+ "uncertain": [
+  "sealed",
+  "certain"
+ ],
+ "agitate": [
+  "calm"
+ ],
+ "embrace": [],
+ "bash": [],
+ "approach": [
+  "avoid"
+ ],
+ "bare": [
+  "full",
+  "covered"
+ ],
+ "base": [
+  "noble",
+  "apex"
+ ],
+ "cheer": [
+  "complain",
+  "uncheerfulness"
+ ],
+ "compact": [
+  "loose",
+  "decompress"
+ ],
+ "deadly": [],
+ "declaration": [],
+ "dynamic": [
+  "stative",
+  "undynamic"
+ ],
+ "ease": [
+  "difficulty"
+ ],
+ "ever": [
+  "never"
+ ],
+ "fabulous": [],
+ "fantastic": [
+  "real",
+  "realistic"
+ ],
+ "firm": [
+  "soft"
+ ],
+ "fold": [
+  "spread",
+  "unfold"
+ ],
+ "former": [
+  "subsequent",
+  "latter"
+ ],
+ "kill": [],
+ "knock": [
+  "praise"
+ ],
+ "leading": [
+  "follow",
+  "following"
+ ],
+ "lost": [
+  "keep",
+  "profit"
+ ],
+ "meet": [
+  "avoid",
+  "diverge"
+ ],
+ "occasion": [],
+ "particle": [],
+ "range": [],
+ "routine": [
+  "extraordinary"
+ ],
+ "shake": [],
+ "sort": [],
+ "spare": [
+  "ample",
+  "necessary"
+ ],
+ "stable": [
+  "reactive",
+  "unstable"
+ ],
+ "tell": [],
+ "theoretical": [
+  "applied",
+  "empirical"
+ ],
+ "valid": [
+  "expired",
+  "invalid"
+ ],
+ "wonderful": [
+  "ordinary"
+ ],
+ "agreeable": [
+  "disagreeable"
+ ],
+ "inexperienced": [
+  "experienced"
+ ],
+ "jolly": [
+  "unreasonably",
+  "immoderately"
+ ],
+ "wholly": [
+  "partly"
+ ],
+ "expose": [
+  "cover"
+ ],
+ "honor": [
+  "disrespect",
+  "dishonor"
+ ],
+ "knot": [
+  "unravel",
+  "unknot"
+ ],
+ "restraint": [
+  "unrestraint"
+ ],
+ "impede": [
+  "assist",
+  "help"
+ ],
+ "distinctive": [],
+ "obsolete": [
+  "new",
+  "recent"
+ ],
+ "wretched": [
+  "happy"
+ ],
+ "heap": [],
+ "whip": [],
+ "harass": [
+  "protect"
+ ],
+ "spoil": [],
+ "nip": [],
+ "adequate": [
+  "insufficient",
+  "inadequate"
+ ],
+ "arrest": [],
+ "band": [],
+ "basic": [
+  "last",
+  "acidic"
+ ],
+ "begin": [
+  "stop",
+  "end"
+ ],
+ "blow": [
+  "conserve"
+ ],
+ "can": [
+  "employ",
+  "hire"
+ ],
+ "claim": [
+  "forgo",
+  "disclaim"
+ ],
+ "clip": [
+  "unclip"
+ ],
+ "content": [
+  "discontented",
+  "discontent"
+ ],
+ "digest": [],
+ "divine": [
+  "earthly"
+ ],
+ "fight": [],
+ "finished": [
+  "begin",
+  "unfinished"
+ ],
+ "fool": [],
+ "fully": [
+  "meagerly"
+ ],
+ "gather": [
+  "distribute",
+  "spread"
+ ],
+ "hollow": [
+  "elevation",
+  "hill"
+ ],
+ "ignored": [
+  "know",
+  "notice"
+ ],
+ "judgment": [],
+ "kind": [
+  "cruel",
+  "unkind"
+ ],
+ "lace": [
+  "untwine"
+ ],
+ "limited": [
+  "local",
+  "unlimited"
+ ],
+ "negative": [
+  "good",
+  "nonnegative"
+ ],
+ "organize": [
+  "disorganise",
+  "disorganize"
+ ],
+ "permit": [
+  "disallow",
+  "prevent"
+ ],
+ "polished": [
+  "unpolished"
+ ],
+ "praise": [
+  "knock",
+  "disparage"
+ ],
+ "prepared": [
+  "unwilling",
+  "unprepared"
+ ],
+ "relief": [],
+ "render": [],
+ "score": [],
+ "shade": [],
+ "slip": [],
+ "stack": [
+  "pile"
+ ],
+ "standing": [
+  "yield",
+  "seated"
+ ],
+ "star": [],
+ "still": [
+  "moving",
+  "sparkling"
+ ],
+ "stretch": [
+  "contract",
+  "shrink"
+ ],
+ "sum": [],
+ "sweet": [
+  "dry",
+  "salty"
+ ],
+ "thoroughly": [],
+ "totally": [
+  "partly"
+ ],
+ "treasure": [],
+ "typical": [
+  "abnormal",
+  "atypical"
+ ],
+ "warm": [
+  "dull",
+  "far"
+ ],
+ "watch": [
+  "ignore"
+ ],
+ "unacceptable": [
+  "acceptable"
+ ],
+ "uncommon": [
+  "ordinary",
+  "common"
+ ],
+ "clap": [
+  "hiss",
+  "boo"
+ ],
+ "descent": [
+  "climb",
+  "ascent"
+ ],
+ "disengage": [
+  "block",
+  "engage"
+ ],
+ "handsome": [
+  "ugly"
+ ],
+ "trivial": [
+  "serious",
+  "important"
+ ],
+ "splendid": [],
+ "deliberate": [
+  "unintended"
+ ],
+ "undersized": [
+  "large"
+ ],
+ "nurture": [],
+ "accepted": [
+  "refuse",
+  "reject"
+ ],
+ "alert": [
+  "unaware",
+  "unalert"
+ ],
+ "attend": [
+  "miss"
+ ],
+ "authorized": [
+  "unauthorized"
+ ],
+ "bang": [],
+ "bulletin": [],
+ "bunch": [],
+ "carry": [],
+ "case": [],
+ "certified": [
+  "uncertified",
+  "decertify"
+ ],
+ "collapse": [],
+ "connected": [
+  "wireless",
+  "unconnected"
+ ],
+ "consideration": [
+  "thoughtlessness",
+  "inconsideration"
+ ],
+ "counsel": [],
+ "crowd": [],
+ "debate": [],
+ "element": [],
+ "failing": [
+  "succeed",
+  "passing"
+ ],
+ "fashion": [],
+ "fill": [
+  "empty",
+  "discharge"
+ ],
+ "flood": [
+  "ebb",
+  "ebbtide"
+ ],
+ "future": [
+  "past",
+  "present"
+ ],
+ "grant": [
+  "refuse",
+  "deny"
+ ],
+ "guess": [],
+ "harm": [],
+ "inform": [],
+ "institute": [],
+ "launch": [
+  "abolish"
+ ],
+ "model": [],
+ "pitch": [],
+ "pocket": [],
+ "precise": [
+  "wrong",
+  "imprecise"
+ ],
+ "race": [
+  "linger"
+ ],
+ "rally": [
+  "demobilize"
+ ],
+ "rank": [],
+ "recent": [
+  "old",
+  "ancient"
+ ],
+ "review": [],
+ "side": [
+  "top"
+ ],
+ "sight": [],
+ "skin": [],
+ "substantially": [],
+ "tip": [],
+ "trained": [
+  "untrained"
+ ],
+ "trust": [
+  "suspect",
+  "distrust"
+ ],
+ "turn": [
+  "unbend"
+ ],
+ "understanding": [],
+ "counterfeit": [
+  "genuine"
+ ],
+ "cultivated": [
+  "uncultivated"
+ ],
+ "neglected": [],
+ "singular": [
+  "common",
+  "plural"
+ ],
+ "validated": [
+  "invalidate"
+ ],
+ "oppose": [
+  "support"
+ ],
+ "hinder": [],
+ "abstract": [
+  "whole",
+  "concrete"
+ ],
+ "agree": [
+  "dissent",
+  "disagree"
+ ],
+ "allowed": [],
+ "appearance": [
+  "disappearance"
+ ],
+ "appropriate": [
+  "inappropriate"
+ ],
+ "assistance": [],
+ "badly": [
+  "well",
+  "advantageously"
+ ],
+ "ban": [],
+ "change": [
+  "stay",
+  "remain"
+ ],
+ "character": [],
+ "coming": [
+  "leave"
+ ],
+ "damage": [],
+ "dash": [],
+ "declare": [],
+ "decrease": [
+  "growth",
+  "increase"
+ ],
+ "deep": [
+  "shallow",
+  "superficial"
+ ],
+ "developed": [
+  "undeveloped"
+ ],
+ "effect": [],
+ "effective": [
+  "possible",
+  "ineffective"
+ ],
+ "eliminate": [
+  "ask",
+  "necessitate"
+ ],
+ "encourage": [
+  "discourage"
+ ],
+ "entirely": [
+  "partly"
+ ],
+ "even": [
+  "odd",
+  "uneven"
+ ],
+ "evil": [
+  "good",
+  "virtuous"
+ ],
+ "formal": [
+  "representational",
+  "informal"
+ ],
+ "found": [
+  "abolish",
+  "lost"
+ ],
+ "hook": [
+  "undercharge",
+  "unhook"
+ ],
+ "incorrect": [
+  "right",
+  "correct"
+ ],
+ "limit": [],
+ "local": [
+  "express",
+  "global"
+ ],
+ "love": [
+  "angst",
+  "malice"
+ ],
+ "modern": [
+  "classical",
+  "nonmodern"
+ ],
+ "moment": [
+  "inconsequence"
+ ],
+ "permanent": [
+  "reversible",
+  "impermanent"
+ ],
+ "please": [
+  "offend",
+  "displease"
+ ],
+ "practice": [],
+ "promoted": [],
+ "prompt": [],
+ "put": [
+  "call",
+  "divest"
+ ],
+ "reserved": [
+  "unreserved"
+ ],
+ "restricted": [
+  "unrestricted",
+  "derestrict"
+ ],
+ "scheme": [],
+ "screen": [],
+ "secret": [
+  "public",
+  "overt"
+ ],
+ "see": [],
+ "setting": [
+  "rise"
+ ],
+ "slightly": [],
+ "solid": [
+  "broken",
+  "liquid"
+ ],
+ "stock": [],
+ "subject": [],
+ "suggestion": [],
+ "terrible": [
+  "good",
+  "ordinary"
+ ],
+ "trap": [],
+ "twist": [
+  "unbend",
+  "untwist"
+ ],
+ "ultimate": [
+  "first",
+  "proximate"
+ ],
+ "union": [
+  "separation",
+  "nonunion"
+ ],
+ "universal": [
+  "specific",
+  "particular"
+ ],
+ "coarse": [
+  "fine",
+  "refined"
+ ],
+ "irregular": [
+  "perfect",
+  "regular"
+ ],
+ "worthless": [
+  "good",
+  "valuable"
+ ],
+ "bump": [
+  "advance",
+  "promote"
+ ],
+ "assemble": [
+  "dismantle",
+  "disassemble"
+ ],
+ "detach": [
+  "attach"
+ ],
+ "weaken": [
+  "strengthen",
+  "escalate"
+ ],
+ "commonplace": [
+  "odd",
+  "original"
+ ],
+ "vigorous": [],
+ "sovereign": [
+  "subordinate"
+ ],
+ "mediocre": [
+  "good",
+  "superior"
+ ],
+ "extravagant": [],
+ "peculiar": [
+  "familiar"
+ ],
+ "marvelous": [
+  "natural"
+ ],
+ "torment": [],
+ "labor": [],
+ "aged": [
+  "fresh",
+  "green"
+ ],
+ "answer": [
+  "inquiry",
+  "interrogation"
+ ],
+ "baby": [],
+ "bumper": [],
+ "burden": [
+  "unburden"
+ ],
+ "busy": [
+  "inactive",
+  "idle"
+ ],
+ "canon": [],
+ "club": [],
+ "combine": [],
+ "comprehensive": [
+  "exclusive",
+  "noncomprehensive"
+ ],
+ "conflict": [],
+ "defend": [
+  "attack",
+  "prosecute"
+ ],
+ "deliver": [],
+ "determine": [],
+ "divided": [
+  "multiply",
+  "united"
+ ],
+ "down": [
+  "upwardly",
+  "upward"
+ ],
+ "expert": [],
+ "extension": [
+  "curl",
+  "intension"
+ ],
+ "factor": [],
+ "feeling": [],
+ "front": [
+  "backside",
+  "rear"
+ ],
+ "functional": [
+  "organic",
+  "nonfunctional"
+ ],
+ "hack": [],
+ "have": [
+  "miss",
+  "refrain"
+ ],
+ "hire": [
+  "sack",
+  "fire"
+ ],
+ "interior": [
+  "coastal",
+  "exterior"
+ ],
+ "latest": [
+  "early"
+ ],
+ "living": [
+  "dead"
+ ],
+ "loss": [
+  "gain",
+  "profit"
+ ],
+ "main": [
+  "dependent"
+ ],
+ "matter": [
+  "form"
+ ],
+ "outline": [],
+ "peaceful": [
+  "violent",
+  "unpeaceful"
+ ],
+ "piece": [
+  "disassemble"
+ ],
+ "plague": [],
+ "plot": [],
+ "post": [],
+ "raised": [
+  "level",
+  "lowered"
+ ],
+ "rare": [
+  "common",
+  "frequent"
+ ],
+ "reach": [],
+ "reduce": [
+  "magnify",
+  "dilate"
+ ],
+ "required": [
+  "optional",
+  "obviate"
+ ],
+ "reserve": [],
+ "retreat": [
+  "progress",
+  "advance"
+ ],
+ "sap": [],
+ "satisfy": [
+  "disappoint",
+  "dissatisfy"
+ ],
+ "service": [
+  "good",
+  "disservice"
+ ],
+ "settled": [
+  "float",
+  "unsettled"
+ ],
+ "smart": [
+  "slow",
+  "stupid"
+ ],
+ "stand": [
+  "lie",
+  "soften"
+ ],
+ "tag": [],
+ "color": [
+  "colorlessness",
+  "discolor"
+ ],
+ "concealed": [
+  "show",
+  "unconcealed"
+ ],
+ "inhibited": [
+  "uninhibited"
+ ],
+ "overlooked": [],
+ "respectable": [
+  "unrespectable"
+ ],
+ "stifle": [
+  "stimulate"
+ ],
+ "confine": [
+  "release",
+  "free"
+ ],
+ "discontinue": [
+  "keep",
+  "continue"
+ ],
+ "disentangle": [
+  "snarl",
+  "entangle"
+ ],
+ "linger": [
+  "rush"
+ ],
+ "obstruct": [
+  "free"
+ ],
+ "terminate": [
+  "employ",
+  "hire"
+ ],
+ "validate": [
+  "avoid",
+  "invalidate"
+ ],
+ "manifest": [],
+ "eminent": [],
+ "cracking": [],
+ "speck": [],
+ "abandon": [
+  "keep",
+  "accompany"
+ ],
+ "practise": [],
+ "subdue": [],
+ "arrangement": [],
+ "assumed": [],
+ "bearing": [
+  "nonbearing"
+ ],
+ "boss": [],
+ "bowl": [],
+ "cast": [],
+ "chain": [
+  "unchain"
+ ],
+ "combined": [
+  "uncombined"
+ ],
+ "contemporary": [
+  "archaic",
+  "anachronistic"
+ ],
+ "cross": [
+  "uncross"
+ ],
+ "declared": [
+  "undeclared"
+ ],
+ "deposit": [
+  "draw",
+  "dislodge"
+ ],
+ "different": [
+  "usual",
+  "identical"
+ ],
+ "dirty": [
+  "clean",
+  "nice"
+ ],
+ "ending": [
+  "middle",
+  "begin"
+ ],
+ "extend": [
+  "withdraw",
+  "shorten"
+ ],
+ "eye": [],
+ "feature": [
+  "miss",
+  "lack"
+ ],
+ "find": [
+  "lose"
+ ],
+ "foreign": [
+  "domestic",
+  "native"
+ ],
+ "functioning": [
+  "malfunction",
+  "malfunctioning"
+ ],
+ "gone": [
+  "stop",
+  "come"
+ ],
+ "jam": [
+  "free"
+ ],
+ "kid": [
+  "parent"
+ ],
+ "load": [],
+ "moving": [
+  "stay",
+  "nonmoving"
+ ],
+ "nail": [],
+ "narrow": [
+  "diversify",
+  "broaden"
+ ],
+ "native": [
+  "foreigner",
+  "nonnative"
+ ],
+ "nice": [
+  "awful",
+  "nasty"
+ ],
+ "opening": [
+  "fold",
+  "closing"
+ ],
+ "organized": [
+  "disorganise",
+  "unorganized"
+ ],
+ "pound": [],
+ "progress": [
+  "withdraw",
+  "regress"
+ ],
+ "pull": [
+  "drive",
+  "repulse"
+ ],
+ "restrict": [
+  "derestrict"
+ ],
+ "secondary": [
+  "primary",
+  "senior"
+ ],
+ "signal": [
+  "noise"
+ ],
+ "step": [],
+ "stopped": [
+  "begin",
+  "continue"
+ ],
+ "striking": [
+  "miss"
+ ],
+ "struggle": [],
+ "swing": [],
+ "trick": [],
+ "vital": [
+  "dead"
+ ],
+ "void": [
+  "full",
+  "valid"
+ ],
+ "wide": [
+  "small",
+  "little"
+ ],
+ "immature": [
+  "old",
+  "mature"
+ ],
+ "modest": [
+  "immodest"
+ ],
+ "sensational": [
+  "unsensational"
+ ],
+ "unsatisfactory": [
+  "satisfactory"
+ ],
+ "weighty": [
+  "light",
+  "weightless"
+ ],
+ "assent": [
+  "dissent"
+ ],
+ "deficiency": [
+  "excess",
+  "sufficiency"
+ ],
+ "inadequacy": [
+  "sufficiency",
+  "adequacy"
+ ],
+ "mistrust": [
+  "trust"
+ ],
+ "surrender": [
+  "withstand",
+  "resist"
+ ],
+ "disallow": [
+  "permit",
+  "allow"
+ ],
+ "dismiss": [
+  "engage",
+  "hire"
+ ],
+ "worsen": [
+  "better",
+  "improve"
+ ],
+ "bulky": [
+  "little",
+  "small"
+ ],
+ "heroic": [
+  "small",
+  "little"
+ ],
+ "inconsequential": [
+  "important"
+ ],
+ "foremost": [],
+ "hefty": [],
+ "distress": [
+  "comfort",
+  "relief"
+ ],
+ "lumber": [],
+ "absolute": [
+  "comparative",
+  "relative"
+ ],
+ "advancement": [
+  "retreat"
+ ],
+ "after": [],
+ "announce": [
+  "hide"
+ ],
+ "arm": [
+  "disarm"
+ ],
+ "attractive": [
+  "repulsive",
+  "unattractive"
+ ],
+ "authentic": [
+  "counterfeit"
+ ],
+ "barely": [],
+ "belief": [
+  "disbelief",
+  "unbelief"
+ ],
+ "bend": [
+  "straighten",
+  "unbend"
+ ],
+ "boring": [
+  "interest",
+  "interesting"
+ ],
+ "bottom": [
+  "side",
+  "top"
+ ],
+ "business": [],
+ "care": [],
+ "casual": [
+  "heavy",
+  "regular"
+ ],
+ "chance": [],
+ "cheap": [
+  "generous",
+  "superior"
+ ],
+ "collected": [
+  "spread",
+  "uncollected"
+ ],
+ "commission": [],
+ "continue": [
+  "cease",
+  "discontinue"
+ ],
+ "convention": [
+  "unconventionality"
+ ],
+ "custom": [],
+ "distribute": [
+  "collect",
+  "gather"
+ ],
+ "edge": [],
+ "educated": [
+  "uneducated"
+ ],
+ "external": [
+  "domestic",
+  "internal"
+ ],
+ "fence": [],
+ "foul": [
+  "fair",
+  "unclog"
+ ],
+ "fundamental": [],
+ "game": [],
+ "grave": [],
+ "handle": [],
+ "hang": [],
+ "heart": [],
+ "image": [],
+ "immediate": [
+  "slow",
+  "mediate"
+ ],
+ "improve": [
+  "exacerbate",
+  "impair"
+ ],
+ "incomplete": [
+  "complete"
+ ],
+ "interest": [
+  "bore",
+  "disinterest"
+ ],
+ "introduce": [],
+ "lack": [
+  "feature",
+  "have"
+ ],
+ "lay": [
+  "sit",
+  "professional"
+ ],
+ "league": [],
+ "man": [
+  "beast",
+  "woman"
+ ],
+ "more": [
+  "less",
+  "fewer"
+ ],
+ "need": [
+  "obviate",
+  "eliminate"
+ ],
+ "pale": [
+  "strong",
+  "red"
+ ],
+ "prevent": [
+  "allow",
+  "permit"
+ ],
+ "repair": [
+  "break"
+ ],
+ "reverse": [
+  "forward",
+  "obverse"
+ ],
+ "second": [
+  "first",
+  "cardinal"
+ ],
+ "snap": [
+  "inelasticity"
+ ],
+ "spring": [],
+ "supported": [
+  "negate",
+  "unsupported"
+ ],
+ "termination": [],
+ "uniform": [
+  "varied",
+  "multiform"
+ ],
+ "unique": [
+  "comparable",
+  "multiple"
+ ],
+ "volume": [
+  "softness"
+ ],
+ "witness": [],
+ "civilized": [
+  "noncivilized",
+  "uncivilized"
+ ],
+ "inadequate": [
+  "sufficient",
+  "adequate"
+ ],
+ "sanctioned": [
+  "disapprove"
+ ],
+ "unfit": [
+  "qualify",
+  "fit"
+ ],
+ "unreasonable": [
+  "reasonable"
+ ],
+ "weary": [
+  "refresh"
+ ],
+ "minimally": [
+  "maximally"
+ ],
+ "discomfort": [
+  "comfort"
+ ],
+ "abolish": [
+  "found",
+  "establish"
+ ],
+ "disjoin": [
+  "join"
+ ],
+ "enrich": [
+  "deplete",
+  "impoverish"
+ ],
+ "negate": [
+  "confirm",
+  "affirm"
+ ],
+ "unite": [
+  "separate",
+  "disunify"
+ ],
+ "neat": [],
+ "antiquated": [
+  "new"
+ ],
+ "terrific": [],
+ "oversize": [
+  "small"
+ ],
+ "oversized": [
+  "small",
+  "little"
+ ],
+ "sham": [
+  "real"
+ ],
+ "smack": [],
+ "scatter": [
+  "crowd",
+  "concentrate"
+ ],
+ "fleck": [],
+ "abide": [],
+ "repress": [],
+ "annihilate": [
+  "create"
+ ],
+ "mock": [],
+ "abandoned": [],
+ "addition": [
+  "subtraction",
+  "deduction"
+ ],
+ "animated": [
+  "deaden",
+  "unanimated"
+ ],
+ "approval": [
+  "disapproval"
+ ],
+ "beast": [
+  "man"
+ ],
+ "beautiful": [
+  "ugly"
+ ],
+ "birth": [
+  "demise",
+  "death"
+ ],
+ "black": [
+  "whiten",
+  "clean"
+ ],
+ "breed": [],
+ "cap": [],
+ "company": [],
+ "composite": [
+  "simple"
+ ],
+ "confirm": [
+  "dispute",
+  "disconfirm"
+ ],
+ "cream": [],
+ "damn": [
+  "bless"
+ ],
+ "dear": [],
+ "divorce": [
+  "marry",
+  "marriage"
+ ],
+ "doctor": [
+  "break"
+ ],
+ "document": [],
+ "encouraged": [
+  "discourage"
+ ],
+ "enlarge": [
+  "cut",
+  "contract"
+ ],
+ "extremely": [],
+ "fell": [
+  "increase",
+  "rise"
+ ],
+ "generally": [
+  "specifically",
+  "narrowly"
+ ],
+ "innocent": [
+  "harmful",
+  "sophisticated"
+ ],
+ "interesting": [
+  "bore",
+  "uninteresting"
+ ],
+ "joined": [
+  "disjoin"
+ ],
+ "linked": [
+  "dissociate",
+  "disconnect"
+ ],
+ "mask": [
+  "unmask"
+ ],
+ "mix": [
+  "segregate"
+ ],
+ "name": [],
+ "necessary": [
+  "inessential",
+  "unnecessary"
+ ],
+ "odd": [
+  "familiar",
+  "even"
+ ],
+ "out": [
+  "inner",
+  "safe"
+ ],
+ "peak": [],
+ "pleasure": [
+  "pain",
+  "displeasure"
+ ],
+ "recall": [
+  "supply",
+  "block"
+ ],
+ "rendering": [],
+ "root": [
+  "descendant",
+  "descendent"
+ ],
+ "row": [
+  "column"
+ ],
+ "seal": [
+  "unseal"
+ ],
+ "separated": [
+  "unite"
+ ],
+ "situation": [],
+ "square": [
+  "crooked",
+  "circular"
+ ],
+ "storm": [],
+ "such": [],
+ "supply": [
+  "demand",
+  "recall"
+ ],
+ "supreme": [
+  "inferior",
+  "subordinate"
+ ],
+ "train": [],
+ "trial": [],
+ "valuable": [
+  "worthless"
+ ],
+ "widespread": [
+  "local",
+  "specific"
+ ],
+ "young": [
+  "late",
+  "grown"
+ ],
+ "barred": [
+  "unbar"
+ ],
+ "delicate": [
+  "tough",
+  "easy"
+ ],
+ "disagreeable": [
+  "agreeable"
+ ],
+ "heavenly": [
+  "earthly"
+ ],
+ "improper": [
+  "regular",
+  "proper"
+ ],
+ "inactive": [
+  "operational",
+  "active"
+ ],
+ "righteous": [
+  "unrighteous"
+ ],
+ "sober": [
+  "playful",
+  "intoxicated"
+ ],
+ "tense": [
+  "lax",
+  "unstrain"
+ ],
+ "initiate": [
+  "uninitiate"
+ ],
+ "sack": [
+  "employ",
+  "engage"
+ ],
+ "undress": [
+  "dress"
+ ],
+ "extinguish": [
+  "create",
+  "ignite"
+ ],
+ "sizeable": [
+  "small"
+ ],
+ "primitive": [
+  "late",
+  "civilized"
+ ],
+ "indifferent": [
+  "superior",
+  "interested"
+ ],
+ "majestic": [],
+ "sizable": [
+  "small"
+ ],
+ "lapse": [],
+ "overflow": [],
+ "confuse": [],
+ "stab": [],
+ "disturb": [],
+ "accurate": [
+  "wrong",
+  "inaccurate"
+ ],
+ "advertise": [],
+ "arrange": [
+  "disarrange"
+ ],
+ "arrested": [],
+ "banner": [],
+ "barrel": [
+  "drum"
+ ],
+ "battle": [],
+ "branch": [],
+ "bulk": [
+  "minority"
+ ],
+ "caution": [
+  "incaution"
+ ],
+ "central": [
+  "peripheral"
+ ],
+ "characteristic": [
+  "uncharacteristic"
+ ],
+ "competent": [
+  "inadequate",
+  "incompetent"
+ ],
+ "component": [],
+ "concern": [
+  "unconcern"
+ ],
+ "conduct": [],
+ "considerable": [
+  "small",
+  "inconsiderable"
+ ],
+ "constraint": [],
+ "conventional": [
+  "atypical",
+  "unconventional"
+ ],
+ "counter": [],
+ "course": [
+  "unnaturally"
+ ],
+ "cram": [],
+ "crash": [],
+ "create": [],
+ "delivered": [],
+ "destroyed": [
+  "preserved"
+ ],
+ "disagree": [
+  "concur",
+  "agree"
+ ],
+ "discount": [
+  "surcharge"
+ ],
+ "ended": [
+  "begin"
+ ],
+ "endorsed": [],
+ "entire": [
+  "rough"
+ ],
+ "especially": [],
+ "expansion": [
+  "contraction"
+ ],
+ "fellow": [],
+ "focus": [
+  "blur",
+  "scatter"
+ ],
+ "grain": [],
+ "highly": [],
+ "hypothetical": [
+  "actual",
+  "empirical"
+ ],
+ "intellectual": [
+  "physical",
+  "nonintellectual"
+ ],
+ "live": [
+  "dummy",
+  "animated"
+ ],
+ "manage": [
+  "fail"
+ ],
+ "measure": [],
+ "mixed": [
+  "segregate",
+  "segregated"
+ ],
+ "mount": [
+  "wane",
+  "unmount"
+ ],
+ "nasty": [
+  "nice"
+ ],
+ "net": [
+  "gross"
+ ],
+ "number": [],
+ "particularly": [],
+ "plant": [],
+ "pledge": [],
+ "premier": [
+  "last"
+ ],
+ "principal": [
+  "subordinate",
+  "assistant"
+ ],
+ "really": [],
+ "reduced": [
+  "high",
+  "increased"
+ ],
+ "refused": [],
+ "relate": [
+  "dissociate"
+ ],
+ "remedy": [],
+ "retain": [],
+ "return": [],
+ "separation": [
+  "union",
+  "unification"
+ ],
+ "sequence": [],
+ "sheet": [],
+ "sink": [
+  "float",
+  "swim"
+ ],
+ "state": [],
+ "stress": [],
+ "style": [],
+ "tight": [
+  "loose",
+  "easy"
+ ],
+ "try": [],
+ "unknown": [
+  "acquaintance",
+  "known"
+ ],
+ "variety": [],
+ "verified": [],
+ "weight": [
+  "unburden"
+ ],
+ "decisive": [
+  "indecisive"
+ ],
+ "decorous": [
+  "indecorous"
+ ],
+ "epidemic": [
+  "endemic"
+ ],
+ "harsh": [
+  "fine",
+  "pleasant"
+ ],
+ "inflexible": [
+  "compromising",
+  "flexible"
+ ],
+ "meagerly": [
+  "ample",
+  "amply"
+ ],
+ "outlaw": [
+  "decriminalize",
+  "legalise"
+ ],
+ "pleasing": [
+  "displease",
+  "displeasing"
+ ],
+ "theoretic": [
+  "empirical"
+ ],
+ "unhealthy": [
+  "healthy"
+ ],
+ "wholesome": [
+  "unwholesome"
+ ],
+ "loser": [
+  "achiever",
+  "success"
+ ],
+ "persuasion": [
+  "dissuasion"
+ ],
+ "conceal": [
+  "admit",
+  "uncover"
+ ],
+ "endure": [
+  "enjoy"
+ ],
+ "gratify": [
+  "dissatisfy"
+ ],
+ "lessen": [
+  "increase"
+ ],
+ "soothe": [
+  "irritate"
+ ],
+ "miserable": [
+  "happy"
+ ],
+ "plump": [
+  "thin",
+  "lean"
+ ],
+ "monumental": [
+  "little",
+  "small"
+ ],
+ "renowned": [
+  "unknown"
+ ],
+ "thriving": [],
+ "subdued": [
+  "light",
+  "loud"
+ ],
+ "accumulation": [],
+ "outrage": [],
+ "injure": [
+  "help",
+  "praise"
+ ],
+ "grasp": [],
+ "overthrow": [],
+ "alike": [
+  "unalike"
+ ],
+ "assault": [],
+ "association": [
+  "disassociation"
+ ],
+ "away": [
+  "home"
+ ],
+ "basin": [],
+ "bat": [],
+ "blast": [],
+ "blend": [
+  "separate"
+ ],
+ "burn": [],
+ "capture": [],
+ "commercial": [
+  "superior",
+  "noncommercial"
+ ],
+ "confident": [
+  "shy",
+  "diffident"
+ ],
+ "connect": [
+  "unplug",
+  "disconnect"
+ ],
+ "connection": [
+  "unconnectedness",
+  "disconnection"
+ ],
+ "consent": [
+  "refuse",
+  "decline"
+ ],
+ "consider": [],
+ "count": [],
+ "court": [],
+ "covering": [
+  "uncover"
+ ],
+ "crude": [
+  "late",
+  "refined"
+ ],
+ "cure": [],
+ "demand": [
+  "supply",
+  "eliminate"
+ ],
+ "denied": [],
+ "disclose": [],
+ "duty": [],
+ "employ": [
+  "sack",
+  "unemployment"
+ ],
+ "enhance": [],
+ "excellent": [
+  "fair",
+  "inferior"
+ ],
+ "exciting": [
+  "calm",
+  "unexciting"
+ ],
+ "extended": [
+  "small",
+  "unextended"
+ ],
+ "failure": [
+  "success",
+  "achiever"
+ ],
+ "funny": [
+  "familiar"
+ ],
+ "hammer": [],
+ "identical": [
+  "other",
+  "distinct"
+ ],
+ "incentive": [
+  "disincentive"
+ ],
+ "infinite": [
+  "relative",
+  "finite"
+ ],
+ "leader": [
+  "follower"
+ ],
+ "left": [
+  "arrive",
+  "enter"
+ ],
+ "made": [
+  "break",
+  "unmade"
+ ],
+ "mob": [],
+ "never": [
+  "ever"
+ ],
+ "ordered": [
+  "disarranged",
+  "disorder"
+ ],
+ "partly": [
+  "wholly"
+ ],
+ "paste": [
+  "present"
+ ],
+ "plate": [],
+ "powerful": [
+  "weak",
+  "powerless"
+ ],
+ "prepare": [],
+ "prohibited": [
+  "allow",
+  "permit"
+ ],
+ "project": [],
+ "prominent": [
+  "invisible",
+  "inconspicuous"
+ ],
+ "protect": [
+  "harass",
+  "destroy"
+ ],
+ "qualify": [
+  "disqualify"
+ ],
+ "refresh": [
+  "tire"
+ ],
+ "register": [],
+ "relax": [
+  "stiffen",
+  "stress"
+ ],
+ "resist": [
+  "apply",
+  "surrender"
+ ],
+ "seeing": [],
+ "shared": [
+  "unshared"
+ ],
+ "sock": [
+  "buskin"
+ ],
+ "strip": [
+  "dress"
+ ],
+ "subsequent": [
+  "antecedent"
+ ],
+ "success": [
+  "failure",
+  "loser"
+ ],
+ "superb": [],
+ "table": [],
+ "tail": [
+  "head"
+ ],
+ "talk": [],
+ "terminal": [
+  "intermediate"
+ ],
+ "tiny": [
+  "large",
+  "big"
+ ],
+ "use": [],
+ "walk": [
+  "ride"
+ ],
+ "ward": [],
+ "white": [
+  "colourful",
+  "integrated"
+ ],
+ "corrupt": [
+  "straight",
+  "incorrupt"
+ ],
+ "definite": [
+  "uncertain",
+  "indefinite"
+ ],
+ "elevated": [
+  "lower",
+  "demote"
+ ],
+ "extinct": [
+  "active",
+  "extant"
+ ],
+ "impeded": [
+  "free"
+ ],
+ "lawful": [
+  "criminal",
+  "unlawful"
+ ],
+ "nigh": [
+  "far"
+ ],
+ "rigid": [
+  "flexible",
+  "nonrigid"
+ ],
+ "sensible": [
+  "unreasonable",
+  "insensible"
+ ],
+ "unpleasant": [
+  "pleasant"
+ ],
+ "unsound": [
+  "valid",
+  "sound"
+ ],
+ "incredibly": [
+  "believably",
+  "credibly"
+ ],
+ "rejection": [
+  "acceptance"
+ ],
+ "snarl": [
+  "disentangle",
+  "unsnarl"
+ ],
+ "tangle": [
+  "unknot",
+  "disentangle"
+ ],
+ "aggravate": [
+  "improve",
+  "better"
+ ],
+ "brighten": [
+  "overcast",
+  "darken"
+ ],
+ "diminish": [
+  "enlarge",
+  "increase"
+ ],
+ "forbid": [
+  "let",
+  "permit"
+ ],
+ "lighten": [
+  "darken"
+ ],
+ "prohibit": [
+  "allow",
+  "permit"
+ ],
+ "stimulate": [
+  "calm",
+  "stifle"
+ ],
+ "uncover": [
+  "cover"
+ ],
+ "unfasten": [
+  "fasten"
+ ],
+ "dreary": [],
+ "voluminous": [
+  "small"
+ ],
+ "earnest": [],
+ "unmistakable": [],
+ "sore": [],
+ "luxurious": [
+  "poor"
+ ],
+ "drift": [],
+ "annoy": [
+  "please"
+ ],
+ "accessory": [],
+ "accomplished": [],
+ "admit": [
+  "refuse",
+  "shut"
+ ],
+ "advocate": [],
+ "amateur": [
+  "pro",
+  "professional"
+ ],
+ "announced": [],
+ "appreciate": [
+  "undervalue",
+  "depreciate"
+ ],
+ "approve": [
+  "reject",
+  "disapprove"
+ ],
+ "argument": [],
+ "assume": [],
+ "atom": [],
+ "banned": [],
+ "benefit": [
+  "injure",
+  "detriment"
+ ],
+ "best": [
+  "ill",
+  "worst"
+ ],
+ "bind": [
+  "untie",
+  "unbind"
+ ],
+ "bug": [],
+ "camp": [],
+ "capable": [
+  "incapable"
+ ],
+ "catalogue": [],
+ "celebrity": [
+  "infamy"
+ ],
+ "charming": [
+  "natural"
+ ],
+ "checked": [
+  "disagree"
+ ],
+ "closing": [
+  "open",
+  "opening"
+ ],
+ "coach": [],
+ "communicate": [
+  "excommunicate"
+ ],
+ "conclude": [],
+ "consequence": [
+  "inconsequence"
+ ],
+ "continuing": [
+  "discontinue"
+ ],
+ "controlled": [
+  "uncontrolled"
+ ],
+ "core": [
+  "rom"
+ ],
+ "dated": [],
+ "develop": [],
+ "discipline": [
+  "indiscipline"
+ ],
+ "domestic": [
+  "wild",
+  "undomestic"
+ ],
+ "dump": [],
+ "equivalent": [],
+ "escape": [],
+ "expensive": [
+  "cheap",
+  "inexpensive"
+ ],
+ "fitted": [
+  "disagree"
+ ],
+ "gathering": [
+  "disassembly",
+  "spread"
+ ],
+ "half": [
+  "whole"
+ ],
+ "heat": [
+  "cool",
+  "anestrus"
+ ],
+ "held": [
+  "disagree"
+ ],
+ "informed": [
+  "uninformed"
+ ],
+ "inner": [
+  "outward",
+  "external"
+ ],
+ "inspiration": [
+  "expiration"
+ ],
+ "instruction": [],
+ "introduced": [],
+ "juvenile": [
+  "mature",
+  "adult"
+ ],
+ "least": [
+  "most"
+ ],
+ "lesser": [
+  "greater",
+  "more"
+ ],
+ "lift": [
+  "descend",
+  "fall"
+ ],
+ "list": [],
+ "minimum": [
+  "maximal",
+  "maximum"
+ ],
+ "notion": [],
+ "objective": [
+  "abstract",
+  "subjective"
+ ],
+ "office": [],
+ "operating": [
+  "malfunction",
+  "disengage"
+ ],
+ "paper": [],
+ "parcel": [],
+ "partial": [
+  "complete",
+  "impartial"
+ ],
+ "passion": [],
+ "pattern": [],
+ "pay": [
+  "default"
+ ],
+ "persistent": [
+  "caducous",
+  "sporadic"
+ ],
+ "personality": [],
+ "possible": [
+  "actual",
+  "impossible"
+ ],
+ "preserve": [
+  "quit",
+  "stop"
+ ],
+ "prior": [],
+ "professional": [
+  "lay",
+  "nonprofessional"
+ ],
+ "proven": [
+  "disprove",
+  "unproved"
+ ],
+ "quantity": [],
+ "regulation": [],
+ "remarkable": [
+  "ordinary"
+ ],
+ "satisfactory": [
+  "bad",
+  "unsatisfactory"
+ ],
+ "saved": [
+  "lost"
+ ],
+ "sense": [],
+ "shelter": [],
+ "significantly": [
+  "insignificantly"
+ ],
+ "similar": [
+  "different",
+  "dissimilar"
+ ],
+ "spirit": [],
+ "story": [],
+ "stream": [],
+ "strict": [
+  "lax",
+  "permissive"
+ ],
+ "stroke": [],
+ "subsidiary": [],
+ "suit": [],
+ "summit": [],
+ "suspect": [
+  "rely",
+  "trust"
+ ],
+ "torture": [
+  "pleasure"
+ ],
+ "tried": [],
+ "trip": [],
+ "visible": [
+  "invisible"
+ ],
+ "wind": [
+  "unwind"
+ ],
+ "advancing": [
+  "demote",
+  "back"
+ ],
+ "collateral": [
+  "lineal",
+  "direct"
+ ],
+ "corking": [
+  "uncork"
+ ],
+ "covert": [
+  "open",
+  "overt"
+ ],
+ "departed": [
+  "conform",
+  "stay"
+ ],
+ "dishonest": [
+  "honest"
+ ],
+ "honorable": [
+  "dishonest",
+  "dishonorable"
+ ],
+ "ineffective": [
+  "strong",
+  "effective"
+ ],
+ "reprobate": [
+  "approbate"
+ ],
+ "satisfying": [
+  "dissatisfy"
+ ],
+ "sedate": [
+  "stimulate"
+ ],
+ "sincere": [
+  "insincere"
+ ],
+ "steep": [
+  "gradual",
+  "moderate"
+ ],
+ "terminated": [
+  "begin",
+  "hire"
+ ],
+ "unfriendly": [
+  "friendly"
+ ],
+ "unreal": [
+  "substantial",
+  "natural"
+ ],
+ "upright": [
+  "unerect",
+  "horizontal"
+ ],
+ "bounce": [
+  "clear"
+ ],
+ "conserve": [
+  "waste"
+ ],
+ "dishonor": [
+  "honor"
+ ],
+ "disrespect": [
+  "observe",
+  "respect"
+ ],
+ "dissent": [
+  "follow",
+  "assent"
+ ],
+ "encouragement": [
+  "discouragement"
+ ],
+ "insufficiency": [
+  "adequacy",
+  "sufficiency"
+ ],
+ "veil": [
+  "unveil"
+ ],
+ "classify": [
+  "mix",
+  "declassify"
+ ],
+ "depart": [
+  "conform",
+  "stay"
+ ],
+ "divest": [
+  "place",
+  "invest"
+ ],
+ "unveil": [
+  "veil"
+ ],
+ "flawed": [
+  "perfect"
+ ],
+ "desolate": [],
+ "genial": [],
+ "habitual": [],
+ "cordial": [],
+ "immense": [
+  "little",
+  "small"
+ ],
+ "delightful": [],
+ "diminutive": [
+  "large",
+  "augmentative"
+ ],
+ "smallish": [
+  "large"
+ ],
+ "filthy": [],
+ "elongate": [
+  "short"
+ ],
+ "knockout": [
+  "decision"
+ ],
+ "raft": [],
+ "divulge": [],
+ "accumulate": [
+  "scatter"
+ ],
+ "disperse": [
+  "convene",
+  "gather"
+ ],
+ "sweat": [],
+ "tutor": [],
+ "chop": [],
+ "advantage": [
+  "penalty",
+  "disadvantage"
+ ],
+ "advertising": [],
+ "announcement": [],
+ "assumption": [],
+ "award": [],
+ "awesome": [],
+ "backing": [
+  "veer",
+  "advance"
+ ],
+ "border": [],
+ "brave": [
+  "timid",
+  "weak"
+ ],
+ "brilliant": [
+  "dull",
+  "stupid"
+ ],
+ "bring": [],
+ "broken": [
+  "smooth",
+  "unbroken"
+ ],
+ "champion": [],
+ "circular": [
+  "square"
+ ],
+ "combination": [],
+ "concrete": [
+  "abstract"
+ ],
+ "conviction": [
+  "acquittal"
+ ],
+ "couple": [
+  "uncouple",
+  "decouple"
+ ],
+ "depression": [
+  "elevation",
+  "elation"
+ ],
+ "devil": [
+  "saint",
+  "angel"
+ ],
+ "difficult": [
+  "easy",
+  "manageable"
+ ],
+ "drove": [
+  "attract"
+ ],
+ "duplicate": [],
+ "engagement": [
+  "nonparticipation"
+ ],
+ "examine": [],
+ "exercise": [],
+ "exhibit": [],
+ "extent": [],
+ "fault": [
+  "merit",
+  "virtue"
+ ],
+ "field": [
+  "bat"
+ ],
+ "file": [
+  "rank"
+ ],
+ "fitness": [
+  "unfitness"
+ ],
+ "foster": [
+  "biological"
+ ],
+ "gazette": [],
+ "guidance": [],
+ "habit": [],
+ "heavily": [
+  "lightly"
+ ],
+ "host": [
+  "parasite"
+ ],
+ "illegal": [
+  "legal"
+ ],
+ "influence": [],
+ "instant": [],
+ "kept": [
+  "lose",
+  "let"
+ ],
+ "licking": [
+  "victory"
+ ],
+ "long": [
+  "scarce",
+  "sound"
+ ],
+ "look": [
+  "back"
+ ],
+ "maiden": [],
+ "massive": [
+  "hollow",
+  "small"
+ ],
+ "maximum": [
+  "minimal",
+  "minimum"
+ ],
+ "meeting": [
+  "diverge"
+ ],
+ "missing": [
+  "have",
+  "hit"
+ ],
+ "mother": [
+  "child",
+  "father"
+ ],
+ "moved": [
+  "stay",
+  "unmoved"
+ ],
+ "off": [
+  "active",
+  "fresh"
+ ],
+ "offer": [],
+ "offering": [],
+ "over": [],
+ "package": [
+  "unbox",
+  "hardware"
+ ],
+ "patch": [],
+ "plenty": [],
+ "positive": [
+  "informal",
+  "negative"
+ ],
+ "productive": [
+  "consumptive",
+  "unproductive"
+ ],
+ "publish": [],
+ "quality": [],
+ "related": [
+  "dissociate",
+  "unrelated"
+ ],
+ "removed": [],
+ "rendered": [],
+ "ripe": [
+  "green",
+  "unripe"
+ ],
+ "robust": [
+  "weak",
+  "frail"
+ ],
+ "sad": [
+  "joyful",
+  "glad"
+ ],
+ "saw": [],
+ "seat": [],
+ "sensitive": [
+  "unclassified",
+  "insensitive"
+ ],
+ "society": [],
+ "soul": [],
+ "specified": [
+  "generalize",
+  "unspecified"
+ ],
+ "strengthen": [
+  "weaken"
+ ],
+ "thing": [],
+ "too": [],
+ "took": [],
+ "tract": [],
+ "upgrade": [
+  "fall",
+  "downgrade"
+ ],
+ "various": [
+  "same"
+ ],
+ "veteran": [],
+ "wanting": [],
+ "wash": [],
+ "wet": [
+  "dry"
+ ],
+ "wholesale": [
+  "retail"
+ ],
+ "yard": [],
+ "damned": [
+  "bless",
+  "blessed"
+ ],
+ "depressed": [
+  "thick",
+  "elated"
+ ],
+ "disconnected": [
+  "legato",
+  "connected"
+ ],
+ "discouraged": [
+  "encourage"
+ ],
+ "hostile": [
+  "friendly",
+  "amicable"
+ ],
+ "humble": [
+  "proud",
+  "noble"
+ ],
+ "incompetent": [
+  "good",
+  "competent"
+ ],
+ "spirited": [
+  "spiritless"
+ ],
+ "tidy": [
+  "untidy"
+ ],
+ "unhappy": [
+  "glad",
+  "happy"
+ ],
+ "unstable": [
+  "easy",
+  "stable"
+ ],
+ "untrained": [
+  "trained"
+ ],
+ "multiply": [
+  "divide",
+  "singly"
+ ],
+ "remarkably": [
+  "unremarkably"
+ ],
+ "clog": [
+  "unclog"
+ ],
+ "curse": [
+  "communicate",
+  "bless"
+ ],
+ "deduction": [
+  "addition"
+ ],
+ "embarrassment": [
+  "disembarrassment"
+ ],
+ "hitch": [
+  "unhitch"
+ ],
+ "slug": [
+  "work"
+ ],
+ "veto": [
+  "allow",
+  "let"
+ ],
+ "disenchant": [
+  "enchant"
+ ],
+ "dispose": [
+  "disqualify",
+  "indispose"
+ ],
+ "disprove": [
+  "show",
+  "prove"
+ ],
+ "dissociate": [
+  "link",
+  "associate"
+ ],
+ "entangle": [
+  "unsnarl",
+  "disentangle"
+ ],
+ "intensify": [
+  "relax",
+  "fade"
+ ],
+ "obviate": [
+  "need",
+  "involve"
+ ],
+ "sustain": [
+  "negate",
+  "contradict"
+ ],
+ "unbind": [
+  "bind"
+ ],
+ "unwind": [
+  "roll",
+  "wind"
+ ],
+ "uphold": [
+  "cease",
+  "stop"
+ ],
+ "barren": [
+  "fruitful",
+  "fertile"
+ ],
+ "deceptive": [],
+ "vulgar": [
+  "refined"
+ ],
+ "leaden": [
+  "light"
+ ],
+ "gallant": [],
+ "tranquil": [],
+ "abominable": [],
+ "constituent": [],
+ "pronouncement": [],
+ "dissolve": [],
+ "magnate": [],
+ "constrain": [],
+ "blaze": [],
+ "fizzle": [],
+ "able": [
+  "unfit",
+  "unable"
+ ],
+ "acceptance": [
+  "refusal",
+  "rejection"
+ ],
+ "act": [
+  "refrain",
+  "forbear"
+ ],
+ "adult": [
+  "juvenile",
+  "immature"
+ ],
+ "advise": [],
+ "air": [],
+ "alliance": [
+  "nonalignment"
+ ],
+ "appointment": [],
+ "approved": [
+  "disapprove"
+ ],
+ "apt": [],
+ "assist": [],
+ "associated": [],
+ "attached": [
+  "unattached",
+  "detach"
+ ],
+ "bargain": [],
+ "careful": [
+  "careless"
+ ],
+ "chamber": [],
+ "class": [],
+ "collection": [],
+ "collective": [
+  "separate",
+  "capitalist"
+ ],
+ "comparable": [
+  "different",
+  "incomparable"
+ ],
+ "concentrate": [
+  "decentralize",
+  "deconcentrate"
+ ],
+ "concluded": [],
+ "copy": [
+  "original"
+ ],
+ "critical": [
+  "dispensable",
+  "uncritical"
+ ],
+ "decide": [],
+ "deck": [],
+ "delay": [
+  "rush",
+  "hasten"
+ ],
+ "desert": [],
+ "dip": [],
+ "display": [],
+ "dog": [],
+ "dot": [],
+ "doubt": [
+  "certainty",
+  "trust"
+ ],
+ "enterprise": [],
+ "exactly": [
+  "imprecisely",
+  "inexactly"
+ ],
+ "expected": [
+  "unexpected"
+ ],
+ "experienced": [
+  "green",
+  "inexperienced"
+ ],
+ "explicit": [
+  "implicit"
+ ],
+ "fascinating": [],
+ "float": [
+  "sink",
+  "settle"
+ ],
+ "foundation": [],
+ "frequent": [
+  "boycott",
+  "infrequent"
+ ],
+ "function": [
+  "malfunction"
+ ],
+ "generic": [
+  "proprietary",
+  "specific"
+ ],
+ "generous": [
+  "stingy",
+  "ungenerous"
+ ],
+ "glory": [],
+ "grace": [
+  "unseemliness"
+ ],
+ "grade": [],
+ "harmful": [
+  "beneficial",
+  "harmless"
+ ],
+ "horrible": [],
+ "identify": [],
+ "impression": [],
+ "independent": [
+  "subordinate",
+  "dependent"
+ ],
+ "index": [],
+ "intent": [],
+ "interested": [
+  "bore",
+  "uninterested"
+ ],
+ "law": [
+  "gospel"
+ ],
+ "lean": [
+  "rich",
+  "fat"
+ ],
+ "license": [
+  "decertify"
+ ],
+ "life": [],
+ "loop": [
+  "uncoil"
+ ],
+ "manufactured": [],
+ "mate": [],
+ "medium": [
+  "raw"
+ ],
+ "message": [],
+ "missed": [
+  "have",
+  "attend"
+ ],
+ "mode": [
+  "matter"
+ ],
+ "molecule": [],
+ "moral": [
+  "physical",
+  "immoral"
+ ],
+ "national": [
+  "private",
+  "international"
+ ],
+ "object": [
+  "agree",
+  "relations"
+ ],
+ "obviously": [],
+ "overall": [
+  "specific",
+  "net"
+ ],
+ "personal": [
+  "objective",
+  "impersonal"
+ ],
+ "plus": [
+  "liability",
+  "minus"
+ ],
+ "practical": [
+  "ideal",
+  "impractical"
+ ],
+ "precious": [],
+ "ray": [],
+ "realistic": [
+  "utopian",
+  "unrealistic"
+ ],
+ "rear": [
+  "front",
+  "head"
+ ],
+ "record": [
+  "delete",
+  "erase"
+ ],
+ "reduction": [
+  "expansion",
+  "increase"
+ ],
+ "released": [],
+ "removal": [],
+ "savage": [
+  "civilized",
+  "civilised"
+ ],
+ "setup": [],
+ "spell": [
+  "unspell"
+ ],
+ "store": [],
+ "studied": [
+  "unstudied"
+ ],
+ "stupid": [
+  "clever",
+  "smart"
+ ],
+ "substance": [],
+ "supposed": [],
+ "survey": [],
+ "testimonial": [],
+ "tire": [
+  "refresh",
+  "interest"
+ ],
+ "tired": [
+  "original",
+  "rested"
+ ],
+ "varied": [
+  "conform",
+  "unvaried"
+ ],
+ "violent": [
+  "peaceful",
+  "nonviolent"
+ ],
+ "wall": [],
+ "welcome": [
+  "unwelcome"
+ ],
+ "whale": [],
+ "win": [
+  "recede",
+  "losings"
+ ],
+ "worthy": [
+  "unworthy"
+ ],
+ "concentrated": [
+  "soft",
+  "deconcentrate"
+ ],
+ "diminished": [
+  "hypertrophied",
+  "increase"
+ ],
+ "erect": [
+  "soft",
+  "unerect"
+ ],
+ "existent": [
+  "unreal",
+  "nonexistent"
+ ],
+ "insufficient": [
+  "sufficient"
+ ],
+ "noxious": [
+  "innocuous"
+ ],
+ "passable": [
+  "impassable"
+ ],
+ "requisite": [
+  "inessential"
+ ],
+ "retarded": [
+  "precocious",
+  "accelerate"
+ ],
+ "sour": [
+  "sweeten",
+  "sweet"
+ ],
+ "vague": [
+  "distinct",
+  "clear"
+ ],
+ "weakened": [
+  "strong",
+  "escalate"
+ ],
+ "cease": [
+  "uphold",
+  "start"
+ ],
+ "certainty": [
+  "doubt",
+  "uncertainty"
+ ],
+ "continuation": [
+  "discontinuance",
+  "discontinuation"
+ ],
+ "disconnect": [
+  "link",
+  "connect"
+ ],
+ "dislike": [
+  "enjoy",
+  "like"
+ ],
+ "goodness": [
+  "evil",
+  "badness"
+ ],
+ "lessening": [
+  "increase"
+ ],
+ "likeness": [
+  "dissimilitude",
+  "unlikeness"
+ ],
+ "scarcity": [
+  "abundance"
+ ],
+ "unsoundness": [
+  "soundness"
+ ],
+ "assail": [
+  "defend"
+ ],
+ "enchant": [
+  "disenchant"
+ ],
+ "flatten": [
+  "sharpen"
+ ],
+ "irritate": [
+  "please",
+  "soothe"
+ ],
+ "liberate": [
+  "confine",
+  "detain"
+ ],
+ "shorten": [
+  "expand",
+  "lengthen"
+ ],
+ "untie": [
+  "bind",
+  "tie"
+ ],
+ "sluggish": [
+  "active"
+ ],
+ "bitter": [
+  "pleasant",
+  "tasteless"
+ ],
+ "defunct": [
+  "alive",
+  "operative"
+ ],
+ "tedious": [
+  "interesting"
+ ],
+ "muddy": [
+  "clear",
+  "dry"
+ ],
+ "prevalent": [],
+ "grim": [],
+ "substandard": [],
+ "famed": [],
+ "communal": [
+  "single",
+  "individual"
+ ],
+ "factual": [],
+ "jumbo": [
+  "small"
+ ],
+ "hindrance": [
+  "aid"
+ ],
+ "dwarf": [
+  "giant"
+ ],
+ "parting": [],
+ "overwhelm": [],
+ "shun": [],
+ "distinguish": [],
+ "flourish": [],
+ "absence": [
+  "presence"
+ ],
+ "affected": [
+  "unmoved",
+  "unaffected"
+ ],
+ "angle": [],
+ "arch": [],
+ "arrival": [
+  "departure"
+ ],
+ "assure": [
+  "worry"
+ ],
+ "attach": [
+  "detach"
+ ],
+ "bless": [
+  "damn",
+  "curse"
+ ],
+ "bond": [],
+ "book": [],
+ "captain": [],
+ "comfortable": [
+  "poor",
+  "uncomfortable"
+ ],
+ "communication": [],
+ "community": [],
+ "companion": [],
+ "corner": [],
+ "council": [],
+ "damaged": [
+  "undamaged"
+ ],
+ "declined": [],
+ "deficit": [
+  "lead"
+ ],
+ "demonstration": [],
+ "describe": [],
+ "discover": [],
+ "dominant": [
+  "recessive",
+  "subordinate"
+ ],
+ "duck": [],
+ "engaging": [
+  "fire",
+  "disengage"
+ ],
+ "enter": [
+  "leave",
+  "exit"
+ ],
+ "essence": [],
+ "everyday": [
+  "unusual",
+  "extraordinary"
+ ],
+ "exclude": [
+  "admit",
+  "include"
+ ],
+ "exclusive": [
+  "inclusive"
+ ],
+ "expired": [
+  "inhale",
+  "unexpired"
+ ],
+ "feed": [
+  "starve"
+ ],
+ "flexible": [
+  "sturdy",
+  "inflexible"
+ ],
+ "frank": [
+  "secret"
+ ],
+ "gang": [],
+ "gave": [],
+ "generate": [
+  "die"
+ ],
+ "grey": [
+  "terminal",
+  "young"
+ ],
+ "illustration": [],
+ "impressive": [
+  "unimpressive"
+ ],
+ "inappropriate": [
+  "appropriate"
+ ],
+ "initiated": [],
+ "involved": [
+  "simple",
+  "uninvolved"
+ ],
+ "jump": [],
+ "killer": [],
+ "killing": [],
+ "licence": [
+  "decertify"
+ ],
+ "logical": [
+  "absurd",
+  "illogical"
+ ],
+ "mar": [],
+ "marshal": [],
+ "measured": [],
+ "mod": [],
+ "nature": [],
+ "neutral": [
+  "positive",
+  "aligned"
+ ],
+ "nobody": [
+  "someone",
+  "anybody"
+ ],
+ "noted": [
+  "ignore"
+ ],
+ "observed": [
+  "break",
+  "disrespect"
+ ],
+ "obvious": [
+  "unobvious"
+ ],
+ "opposite": [
+  "analogous",
+  "same"
+ ],
+ "pad": [],
+ "performance": [],
+ "permitted": [],
+ "pilot": [],
+ "poverty": [
+  "wealth"
+ ],
+ "producing": [],
+ "program": [],
+ "quite": [],
+ "radical": [
+  "old",
+  "cauline"
+ ],
+ "representative": [
+  "nonrepresentative"
+ ],
+ "requirement": [
+  "inessential"
+ ],
+ "restore": [
+  "break"
+ ],
+ "shame": [
+  "honor"
+ ],
+ "shell": [],
+ "shoot": [],
+ "skilled": [
+  "unskilled"
+ ],
+ "somebody": [],
+ "soon": [],
+ "submit": [],
+ "swift": [
+  "slow"
+ ],
+ "tap": [],
+ "treat": [],
+ "ugly": [
+  "good",
+  "beautiful"
+ ],
+ "undo": [
+  "make",
+  "wrap"
+ ],
+ "unlike": [
+  "similar",
+  "like"
+ ],
+ "vast": [
+  "narrow",
+  "small"
+ ],
+ "analogous": [
+  "opposite",
+  "homologous"
+ ],
+ "discharged": [
+  "fill",
+  "charge"
+ ],
+ "disjoined": [
+  "join"
+ ],
+ "fused": [
+  "defuse"
+ ],
+ "imitation": [
+  "formalism"
+ ],
+ "imperative": [
+  "beseeching"
+ ],
+ "inaccurate": [
+  "accurate"
+ ],
+ "inflated": [
+  "deflate"
+ ],
+ "inoperative": [
+  "operative"
+ ],
+ "insecure": [
+  "confident",
+  "secure"
+ ],
+ "intolerable": [
+  "tolerable"
+ ],
+ "less": [
+  "more",
+  "superior"
+ ],
+ "repulsive": [
+  "attractive"
+ ],
+ "stifled": [
+  "stimulate"
+ ],
+ "submissive": [
+  "domineering"
+ ],
+ "sympathetic": [
+  "unsympathetic"
+ ],
+ "undeniable": [
+  "deniable"
+ ],
+ "unproductive": [
+  "productive"
+ ],
+ "unquestionable": [
+  "questionable"
+ ],
+ "unsettled": [
+  "settled"
+ ],
+ "unskilled": [
+  "good",
+  "skilled"
+ ],
+ "virtuous": [
+  "wicked"
+ ],
+ "barring": [
+  "unbar"
+ ],
+ "coil": [
+  "uncoil"
+ ],
+ "convict": [
+  "clear",
+  "acquit"
+ ],
+ "coupling": [
+  "uncouple"
+ ],
+ "fuse": [
+  "defuse"
+ ],
+ "impotence": [
+  "power",
+  "potence"
+ ],
+ "mend": [
+  "break"
+ ],
+ "obscurity": [
+  "fame",
+  "clarity"
+ ],
+ "contradict": [
+  "support",
+  "confirm"
+ ],
+ "disarrange": [
+  "arrange"
+ ],
+ "discourage": [
+  "encourage"
+ ],
+ "elate": [
+  "depress"
+ ],
+ "loosen": [
+  "tighten",
+  "stiffen"
+ ],
+ "reassure": [
+  "worry"
+ ],
+ "relieve": [
+  "apply",
+  "implement"
+ ],
+ "relinquish": [
+  "keep",
+  "hold"
+ ],
+ "straighten": [
+  "flex",
+  "bend"
+ ],
+ "vex": [
+  "reassure"
+ ],
+ "untested": [
+  "old"
+ ],
+ "indisputable": [],
+ "solitary": [
+  "gregarious",
+  "social"
+ ],
+ "paramount": [],
+ "rigorous": [],
+ "amiable": [],
+ "skillful": [
+  "unskillful"
+ ],
+ "illustrious": [
+  "unknown"
+ ],
+ "gray": [
+  "northern",
+  "young"
+ ],
+ "pictorial": [],
+ "candid": [],
+ "tiresome": [
+  "interesting"
+ ],
+ "repugnant": [],
+ "cosmic": [
+  "small"
+ ],
+ "apathetic": [
+  "interested"
+ ],
+ "lavish": [
+  "poor"
+ ],
+ "affable": [],
+ "venerable": [
+  "young"
+ ],
+ "feeble": [],
+ "spoiled": [],
+ "serene": [],
+ "workable": [
+  "impossible"
+ ],
+ "lousy": [
+  "good"
+ ],
+ "noteworthy": [],
+ "dissolution": [],
+ "skunk": [],
+ "prohibition": [
+  "permission"
+ ],
+ "loot": [],
+ "sway": [],
+ "ruin": [
+  "save",
+  "protect"
+ ],
+ "creep": [],
+ "besiege": [],
+ "authorize": [
+  "forbid"
+ ],
+ "impair": [
+  "improve"
+ ],
+ "contend": [],
+ "harbor": [],
+ "provoke": [],
+ "advertisement": [],
+ "advice": [],
+ "age": [
+  "rejuvenate"
+ ],
+ "agency": [],
+ "alien": [
+  "citizen",
+  "native"
+ ],
+ "alternate": [
+  "opposite",
+  "primary"
+ ],
+ "always": [
+  "never"
+ ],
+ "anger": [
+  "please",
+  "pleasure"
+ ],
+ "antique": [
+  "new"
+ ],
+ "apply": [
+  "refuse",
+  "defy"
+ ],
+ "army": [],
+ "artificial": [
+  "genuine",
+  "natural"
+ ],
+ "ask": [
+  "eliminate",
+  "obviate"
+ ],
+ "assembled": [],
+ "assurance": [],
+ "attention": [
+  "inattention"
+ ],
+ "basis": [],
+ "being": [
+  "differ",
+  "nonbeing"
+ ],
+ "beneficial": [
+  "harmful",
+  "unfavourable"
+ ],
+ "blame": [
+  "justify",
+  "absolve"
+ ],
+ "bold": [
+  "timid"
+ ],
+ "charm": [],
+ "child": [
+  "parent"
+ ],
+ "classical": [
+  "nonclassical"
+ ],
+ "collar": [],
+ "collect": [
+  "spread",
+  "distribute"
+ ],
+ "come": [
+  "depart",
+  "leave"
+ ],
+ "confidence": [
+  "diffidence"
+ ],
+ "covered": [
+  "bare",
+  "uncovered"
+ ],
+ "creation": [],
+ "cycle": [],
+ "decided": [],
+ "drill": [],
+ "enhanced": [],
+ "entrance": [],
+ "escort": [],
+ "estate": [],
+ "evidence": [],
+ "except": [
+  "include"
+ ],
+ "exit": [
+  "enter"
+ ],
+ "exposed": [
+  "cover"
+ ],
+ "floor": [
+  "ceiling"
+ ],
+ "flower": [],
+ "fund": [],
+ "gap": [],
+ "gathered": [
+  "uncollected",
+  "ungathered"
+ ],
+ "got": [],
+ "happening": [
+  "dematerialize",
+  "dematerialise"
+ ],
+ "hate": [
+  "love"
+ ],
+ "historical": [
+  "future",
+  "ahistorical"
+ ],
+ "ideal": [
+  "concrete"
+ ],
+ "ingredient": [],
+ "intelligence": [
+  "stupidity"
+ ],
+ "interference": [
+  "nonintervention",
+  "noninterference"
+ ],
+ "internal": [
+  "outward",
+  "external"
+ ],
+ "invest": [
+  "divest",
+  "disinvest"
+ ],
+ "job": [],
+ "lightweight": [
+  "important",
+  "heavy"
+ ],
+ "margin": [],
+ "mental": [
+  "physical",
+  "material"
+ ],
+ "method": [
+  "confusion"
+ ],
+ "miniature": [
+  "large"
+ ],
+ "minimal": [
+  "maximum",
+  "maximal"
+ ],
+ "minimize": [
+  "overstate",
+  "maximize"
+ ],
+ "mission": [],
+ "mistress": [],
+ "mug": [],
+ "operation": [],
+ "origin": [
+  "insertion"
+ ],
+ "permission": [
+  "prohibition"
+ ],
+ "pool": [],
+ "previous": [
+  "subsequent",
+  "future"
+ ],
+ "produced": [],
+ "promise": [],
+ "publicity": [
+  "privacy"
+ ],
+ "rate": [],
+ "recommendation": [],
+ "religious": [
+  "profane",
+  "irreligious"
+ ],
+ "remark": [],
+ "reproduce": [],
+ "retained": [],
+ "serving": [],
+ "since": [],
+ "soil": [
+  "clean"
+ ],
+ "source": [
+  "sink"
+ ],
+ "specially": [],
+ "succeed": [
+  "fail",
+  "precede"
+ ],
+ "suggest": [
+  "contraindicate"
+ ],
+ "supporter": [
+  "detractor",
+  "opponent"
+ ],
+ "tab": [],
+ "tale": [],
+ "that": [],
+ "theory": [],
+ "through": [],
+ "transport": [
+  "disenchant"
+ ],
+ "tremendous": [
+  "little",
+  "small"
+ ],
+ "type": [
+  "antitype"
+ ],
+ "valley": [
+  "mountain",
+  "peak"
+ ],
+ "wizard": [],
+ "accustomed": [
+  "unusual",
+  "unaccustomed"
+ ],
+ "backward": [
+  "progressive",
+  "forward"
+ ],
+ "conspicuous": [
+  "obscure",
+  "inconspicuous"
+ ],
+ "contracted": [
+  "widen",
+  "expand"
+ ],
+ "convincing": [
+  "unconvincing"
+ ],
+ "dissimilar": [
+  "like",
+  "similar"
+ ],
+ "distinguishable": [
+  "same",
+  "indistinguishable"
+ ],
+ "enchanting": [
+  "disenchant"
+ ],
+ "gracious": [
+  "ungracious"
+ ],
+ "imperfect": [
+  "complete",
+  "perfect"
+ ],
+ "indefinite": [
+  "certain",
+  "definite"
+ ],
+ "kindly": [
+  "unkindly"
+ ],
+ "mortal": [
+  "immortal"
+ ],
+ "obliging": [
+  "disoblige"
+ ],
+ "observing": [
+  "break",
+  "disrespect"
+ ],
+ "obstructed": [
+  "free",
+  "unobstructed"
+ ],
+ "overlooking": [],
+ "permissible": [
+  "impermissible"
+ ],
+ "stimulating": [
+  "sedate",
+  "unstimulating"
+ ],
+ "underhanded": [
+  "overhand"
+ ],
+ "uninterested": [
+  "interested"
+ ],
+ "infrequently": [
+  "frequently"
+ ],
+ "visibly": [
+  "invisibly"
+ ],
+ "acclaim": [
+  "boo"
+ ],
+ "ally": [
+  "foe",
+  "enemy"
+ ],
+ "apex": [
+  "antapex"
+ ],
+ "assemblage": [
+  "disassembly"
+ ],
+ "bushel": [
+  "break"
+ ],
+ "clutter": [
+  "unclutter"
+ ],
+ "compress": [
+  "uncompress",
+  "decompress"
+ ],
+ "defense": [
+  "prosecution",
+  "offense"
+ ],
+ "distrust": [
+  "rely",
+  "trust"
+ ],
+ "disunion": [
+  "union"
+ ],
+ "inclination": [
+  "disinclination"
+ ],
+ "incline": [
+  "indispose"
+ ],
+ "offence": [
+  "defense",
+  "defence"
+ ],
+ "progression": [
+  "retreat"
+ ],
+ "retard": [
+  "accelerate"
+ ],
+ "undercharge": [
+  "overcharge"
+ ],
+ "accelerate": [
+  "slow",
+  "decelerate"
+ ],
+ "certify": [
+  "decertify"
+ ],
+ "conform": [
+  "deviate",
+  "vary"
+ ],
+ "decelerate": [
+  "accelerate"
+ ],
+ "discolor": [
+  "color"
+ ],
+ "disparage": [
+  "flatter"
+ ],
+ "fasten": [
+  "unfasten"
+ ],
+ "lengthen": [
+  "shorten"
+ ],
+ "offend": [
+  "please",
+  "observe"
+ ],
+ "regulate": [
+  "deregulate"
+ ],
+ "rehabilitate": [
+  "purge"
+ ],
+ "soften": [
+  "harden",
+  "stand"
+ ],
+ "doubtful": [
+  "certain",
+  "sure"
+ ],
+ "shabby": [
+  "new"
+ ],
+ "inept": [],
+ "costly": [
+  "inexpensive",
+  "cheap"
+ ],
+ "gloomy": [
+  "light"
+ ],
+ "uncivilized": [
+  "civilized"
+ ],
+ "dreadful": [
+  "good"
+ ],
+ "ardent": [],
+ "ridiculous": [
+  "serious"
+ ],
+ "erstwhile": [],
+ "untried": [],
+ "adept": [],
+ "favorite": [
+  "least"
+ ],
+ "disparate": [
+  "same"
+ ],
+ "hearty": [],
+ "proclamation": [],
+ "stain": [],
+ "mastery": [],
+ "bludgeon": [],
+ "lag": [],
+ "notch": [],
+ "decay": [],
+ "pygmy": [
+  "giant"
+ ],
+ "disguise": [],
+ "heighten": [],
+ "perceive": [
+  "miss"
+ ],
+ "thrust": [],
+ "smother": [],
+ "tolerate": [],
+ "liquidate": [],
+ "invent": [
+  "imitate"
+ ],
+ "conceive": [],
+ "enact": [],
+ "academic": [
+  "applied"
+ ],
+ "accessible": [
+  "unavailable",
+  "inaccessible"
+ ],
+ "adolescent": [
+  "old"
+ ],
+ "all": [
+  "some",
+  "partly"
+ ],
+ "arise": [
+  "fall",
+  "retire"
+ ],
+ "attachment": [],
+ "authorization": [],
+ "bid": [],
+ "bloom": [],
+ "bone": [],
+ "charged": [
+  "calm",
+  "uncharged"
+ ],
+ "chase": [],
+ "civil": [
+  "rude",
+  "uncivil"
+ ],
+ "classified": [
+  "unclassified",
+  "declassify"
+ ],
+ "cluster": [],
+ "completed": [],
+ "composed": [
+  "discomposed"
+ ],
+ "concerned": [
+  "unconcerned"
+ ],
+ "confused": [
+  "clearheaded",
+  "organized"
+ ],
+ "contest": [],
+ "controlling": [],
+ "cooperative": [
+  "separate",
+  "uncooperative"
+ ],
+ "daily": [
+  "formal"
+ ],
+ "detail": [],
+ "detailed": [],
+ "die": [],
+ "dim": [
+  "focus",
+  "undimmed"
+ ],
+ "diverse": [
+  "homogeneous",
+  "same"
+ ],
+ "doing": [],
+ "enormous": [
+  "little",
+  "small"
+ ],
+ "excited": [
+  "calm",
+  "unexcited"
+ ],
+ "fly": [],
+ "flyer": [],
+ "fortune": [
+  "misfortune"
+ ],
+ "freeze": [
+  "unblock",
+  "free"
+ ],
+ "friend": [
+  "enemy",
+  "stranger"
+ ],
+ "fun": [],
+ "gift": [],
+ "grip": [],
+ "hole": [
+  "projection"
+ ],
+ "huge": [
+  "small",
+  "little"
+ ],
+ "impaired": [
+  "unimpaired"
+ ],
+ "injured": [
+  "uninjured"
+ ],
+ "integrated": [
+  "segregate",
+  "disintegrate"
+ ],
+ "invalid": [
+  "valid"
+ ],
+ "isolated": [
+  "connected",
+  "integrated"
+ ],
+ "item": [],
+ "joining": [
+  "disjoin"
+ ],
+ "joint": [
+  "break",
+  "separate"
+ ],
+ "junior": [
+  "old",
+  "senior"
+ ],
+ "keeping": [
+  "lose",
+  "discontinue"
+ ],
+ "liberal": [
+  "narrow",
+  "conservative"
+ ],
+ "licensed": [
+  "decertify"
+ ],
+ "loud": [
+  "quiet",
+  "softly"
+ ],
+ "making": [
+  "break",
+  "unmake"
+ ],
+ "manager": [],
+ "mandatory": [
+  "optional"
+ ],
+ "manufacture": [],
+ "march": [],
+ "mini": [
+  "midi"
+ ],
+ "mixture": [
+  "solution"
+ ],
+ "nick": [],
+ "novel": [
+  "old"
+ ],
+ "nurse": [
+  "bottlefeed"
+ ],
+ "offense": [
+  "defence",
+  "defense"
+ ],
+ "organization": [],
+ "overcome": [],
+ "parade": [],
+ "peace": [
+  "war"
+ ],
+ "peer": [],
+ "perfectly": [
+  "imperfectly"
+ ],
+ "potential": [
+  "actual"
+ ],
+ "preceding": [
+  "follow",
+  "succeeding"
+ ],
+ "prescription": [
+  "nonprescription"
+ ],
+ "pressing": [],
+ "pretty": [
+  "good",
+  "immoderately"
+ ],
+ "pro": [
+  "anti",
+  "con"
+ ],
+ "promoting": [],
+ "protest": [],
+ "published": [
+  "unpublished"
+ ],
+ "rarely": [
+  "often"
+ ],
+ "receive": [],
+ "reported": [
+  "unreported"
+ ],
+ "resolved": [
+  "unsolved"
+ ],
+ "respect": [
+  "disesteem",
+  "disrespect"
+ ],
+ "rim": [
+  "body",
+  "middle"
+ ],
+ "route": [],
+ "sail": [],
+ "say": [],
+ "scout": [],
+ "security": [
+  "insecurity"
+ ],
+ "skirt": [],
+ "sphere": [],
+ "stage": [],
+ "station": [],
+ "status": [],
+ "sterling": [],
+ "stomach": [],
+ "stopping": [
+  "start",
+  "continue"
+ ],
+ "sufficient": [
+  "deficient",
+  "insufficient"
+ ],
+ "symposium": [],
+ "taking": [
+  "refuse",
+  "abstain"
+ ],
+ "trade": [],
+ "tribute": [],
+ "triumph": [
+  "defeat"
+ ],
+ "virtue": [
+  "fault",
+  "demerit"
+ ],
+ "warning": [],
+ "willing": [
+  "disinherit",
+  "unwilling"
+ ],
+ "absorbing": [
+  "emit"
+ ],
+ "agitated": [
+  "calm",
+  "unagitated"
+ ],
+ "appealing": [
+  "unsympathetic",
+  "unappealing"
+ ],
+ "canned": [
+  "fresh",
+  "hire"
+ ],
+ "crooked": [
+  "straight"
+ ],
+ "enduring": [
+  "enjoy"
+ ],
+ "fashionable": [
+  "styleless",
+  "unfashionable"
+ ],
+ "fore": [
+  "hind",
+  "aft"
+ ],
+ "illegitimate": [
+  "legal",
+  "legitimate"
+ ],
+ "immeasurable": [
+  "measurable"
+ ],
+ "immoral": [
+  "moral"
+ ],
+ "inaugural": [
+  "exaugural"
+ ],
+ "inclined": [
+  "horizontal",
+  "disinclined"
+ ],
+ "incomprehensible": [
+  "explicable",
+  "comprehensible"
+ ],
+ "incontestable": [
+  "contestable"
+ ],
+ "indecent": [
+  "decent"
+ ],
+ "ineffectual": [
+  "effective"
+ ],
+ "literal": [
+  "false",
+  "figurative"
+ ],
+ "lowered": [
+  "raise",
+  "raised"
+ ],
+ "lowering": [
+  "raise"
+ ],
+ "middling": [
+  "unreasonably",
+  "immoderately"
+ ],
+ "minded": [
+  "forget"
+ ],
+ "orderly": [
+  "disorderly"
+ ],
+ "relaxed": [
+  "stiffen",
+  "strain"
+ ],
+ "stubborn": [
+  "docile"
+ ],
+ "succeeding": [
+  "fail",
+  "preceding"
+ ],
+ "underhand": [
+  "overhand"
+ ],
+ "unfinished": [
+  "finished"
+ ],
+ "unseasoned": [
+  "seasoned"
+ ],
+ "noticeably": [
+  "imperceptibly"
+ ],
+ "ascent": [
+  "fall",
+  "descent"
+ ],
+ "beneficence": [
+  "maleficence"
+ ],
+ "disarray": [
+  "order"
+ ],
+ "discredit": [
+  "believe",
+  "repute"
+ ],
+ "esteem": [
+  "disrespect",
+  "disesteem"
+ ],
+ "firing": [
+  "hire"
+ ],
+ "garner": [
+  "distribute",
+  "spread"
+ ],
+ "perfection": [
+  "imperfection"
+ ],
+ "regress": [
+  "proceed",
+  "progress"
+ ],
+ "sinking": [
+  "float"
+ ],
+ "absorb": [
+  "emit"
+ ],
+ "applaud": [
+  "hiss",
+  "condemn"
+ ],
+ "depress": [
+  "elate"
+ ],
+ "disapprove": [
+  "approve"
+ ],
+ "disclaim": [
+  "take",
+  "claim"
+ ],
+ "magnify": [
+  "reduce",
+  "minimise"
+ ],
+ "oblige": [
+  "disoblige"
+ ],
+ "repel": [
+  "attract",
+  "appeal"
+ ],
+ "unbend": [
+  "tense",
+  "bend"
+ ],
+ "unfold": [
+  "fold"
+ ],
+ "clever": [
+  "stupid",
+  "dull"
+ ],
+ "unsuitable": [
+  "good",
+  "suitable"
+ ],
+ "bleak": [],
+ "outlandish": [],
+ "wee": [
+  "big"
+ ],
+ "customary": [
+  "unusual"
+ ],
+ "drab": [
+  "colorful"
+ ],
+ "lifeless": [
+  "full"
+ ],
+ "unchanging": [],
+ "dubious": [
+  "certain"
+ ],
+ "amusing": [
+  "dull",
+  "serious"
+ ],
+ "definitive": [],
+ "fantastical": [
+  "real"
+ ],
+ "colossal": [
+  "small"
+ ],
+ "limp": [
+  "stiff"
+ ],
+ "adjoining": [],
+ "inconceivable": [
+  "conceivable"
+ ],
+ "inert": [
+  "active",
+  "reactive"
+ ],
+ "clash": [],
+ "fiend": [],
+ "hamper": [],
+ "negotiate": [],
+ "bully": [
+  "cajole"
+ ],
+ "reckon": [],
+ "evade": [],
+ "adjust": [
+  "skew"
+ ],
+ "aggressive": [
+  "nonaggressive",
+  "unaggressive"
+ ],
+ "aspect": [],
+ "assignment": [],
+ "attending": [
+  "miss",
+  "inattention"
+ ],
+ "blessed": [
+  "damned",
+  "cursed"
+ ],
+ "board": [],
+ "bob": [],
+ "bolt": [
+  "unbolt"
+ ],
+ "calculate": [],
+ "clearance": [],
+ "cleared": [
+  "convict",
+  "uncleared"
+ ],
+ "combat": [],
+ "connecting": [],
+ "conscious": [
+  "unaware",
+  "unconscious"
+ ],
+ "conservative": [
+  "radical",
+  "unconventional"
+ ],
+ "console": [],
+ "contrary": [
+  "same",
+  "favorable"
+ ],
+ "crazy": [
+  "sane"
+ ],
+ "cutting": [
+  "expand"
+ ],
+ "defeat": [
+  "triumph",
+  "victory"
+ ],
+ "demonstrated": [
+  "disprove"
+ ],
+ "department": [],
+ "difficulty": [
+  "ease",
+  "simplicity"
+ ],
+ "distinction": [],
+ "double": [
+  "small",
+  "little"
+ ],
+ "drain": [],
+ "drawing": [
+  "push",
+  "deposit"
+ ],
+ "engaged": [
+  "fire",
+  "disengage"
+ ],
+ "enjoy": [
+  "suffer",
+  "endure"
+ ],
+ "exchange": [],
+ "expanded": [
+  "contract",
+  "contracted"
+ ],
+ "fact": [
+  "fiction"
+ ],
+ "fitting": [
+  "disagree"
+ ],
+ "forever": [],
+ "forwarding": [],
+ "fusion": [],
+ "grate": [],
+ "higher": [
+  "low"
+ ],
+ "hypothesis": [],
+ "impossible": [
+  "probable",
+  "possible"
+ ],
+ "improved": [
+  "worsen",
+  "unimproved"
+ ],
+ "increased": [
+  "reduced",
+  "decrease"
+ ],
+ "initial": [
+  "last",
+  "final"
+ ],
+ "integrate": [
+  "segregate",
+  "disintegrate"
+ ],
+ "involve": [
+  "eliminate",
+  "obviate"
+ ],
+ "irk": [],
+ "lasting": [
+  "caducous",
+  "impermanent"
+ ],
+ "launched": [],
+ "learned": [
+  "unconditioned"
+ ],
+ "liberty": [],
+ "manner": [],
+ "minus": [
+  "plus"
+ ],
+ "money": [],
+ "norm": [],
+ "nut": [],
+ "occupied": [
+  "unoccupied"
+ ],
+ "only": [
+  "inclusive"
+ ],
+ "packet": [],
+ "passage": [],
+ "patent": [],
+ "perception": [],
+ "peripheral": [
+  "central"
+ ],
+ "pink": [],
+ "presently": [],
+ "progressive": [
+  "backward",
+  "regressive"
+ ],
+ "property": [],
+ "protected": [
+  "unprotected"
+ ],
+ "protection": [],
+ "pursuit": [],
+ "refer": [],
+ "reliable": [
+  "undependable",
+  "unreliable"
+ ],
+ "remember": [
+  "block",
+  "bury"
+ ],
+ "require": [
+  "eliminate",
+  "obviate"
+ ],
+ "responsibility": [
+  "irresponsibleness",
+  "irresponsibility"
+ ],
+ "retired": [
+  "advance",
+  "active"
+ ],
+ "ruling": [],
+ "saving": [],
+ "scale": [],
+ "school": [],
+ "scratch": [],
+ "serial": [
+  "synchronous"
+ ],
+ "seriously": [],
+ "settlement": [],
+ "shed": [
+  "persistent"
+ ],
+ "sick": [
+  "well",
+  "strong"
+ ],
+ "space": [],
+ "spanking": [],
+ "sport": [],
+ "started": [],
+ "strength": [
+  "weakness",
+  "unpersuasiveness"
+ ],
+ "stripe": [],
+ "subtle": [
+  "palpable",
+  "tangible"
+ ],
+ "thesis": [],
+ "track": [],
+ "trail": [],
+ "veer": [
+  "back"
+ ],
+ "voluntary": [
+  "draftee",
+  "involuntary"
+ ],
+ "wax": [
+  "wane"
+ ],
+ "youth": [
+  "aged",
+  "elderly"
+ ],
+ "abbreviated": [
+  "expand"
+ ],
+ "abnormal": [
+  "normal"
+ ],
+ "abridged": [
+  "expand",
+  "unabridged"
+ ],
+ "absorbed": [
+  "emit"
+ ],
+ "abundant": [
+  "scarce",
+  "deficient"
+ ],
+ "ample": [
+  "little",
+  "small"
+ ],
+ "artless": [
+  "disingenuous",
+  "artful"
+ ],
+ "asleep": [
+  "awake"
+ ],
+ "cardinal": [
+  "ordinal"
+ ],
+ "compassionate": [
+  "cruel",
+  "uncompassionate"
+ ],
+ "conditioned": [
+  "unconditioned"
+ ],
+ "diurnal": [
+  "nocturnal"
+ ],
+ "dropping": [
+  "recuperate",
+  "sharpen"
+ ],
+ "eccentric": [
+  "conventional",
+  "concentric"
+ ],
+ "elaborate": [
+  "cut",
+  "contract"
+ ],
+ "fortified": [
+  "weaken",
+  "disarm"
+ ],
+ "frail": [
+  "robust"
+ ],
+ "homogeneous": [
+  "heterogeneous"
+ ],
+ "incomparable": [
+  "comparable"
+ ],
+ "influential": [
+  "uninfluential"
+ ],
+ "lessened": [
+  "increase"
+ ],
+ "meager": [
+  "ample"
+ ],
+ "merging": [
+  "disunify"
+ ],
+ "nonessential": [
+  "essential"
+ ],
+ "outlawed": [
+  "legalize",
+  "decriminalise"
+ ],
+ "partisan": [
+  "nonpartisan"
+ ],
+ "passionate": [
+  "passionless"
+ ],
+ "petty": [
+  "important"
+ ],
+ "polite": [
+  "rude",
+  "impolite"
+ ],
+ "proscribed": [
+  "allow",
+  "permit"
+ ],
+ "soothing": [
+  "irritate"
+ ],
+ "supernal": [
+  "infernal"
+ ],
+ "thoughtful": [
+  "heedless",
+  "thoughtless"
+ ],
+ "unalike": [
+  "alike"
+ ],
+ "unprepared": [
+  "prepared"
+ ],
+ "waning": [
+  "wax",
+  "waxing"
+ ],
+ "weakening": [
+  "escalate",
+  "strengthening"
+ ],
+ "wearying": [
+  "refresh"
+ ],
+ "abnormality": [
+  "normality"
+ ],
+ "commendation": [
+  "disapproval"
+ ],
+ "conformity": [
+  "noncompliance",
+  "nonconformity"
+ ],
+ "disagreement": [
+  "agreement"
+ ],
+ "ebb": [
+  "flood",
+  "tide"
+ ],
+ "follower": [
+  "leader"
+ ],
+ "layman": [
+  "expert",
+  "clergyman"
+ ],
+ "lingering": [
+  "rush"
+ ],
+ "orient": [
+  "disorient"
+ ],
+ "potency": [
+  "impotence",
+  "impotency"
+ ],
+ "shrink": [
+  "expand",
+  "stretch"
+ ],
+ "assimilate": [
+  "dissimilate"
+ ],
+ "convey": [],
+ "disarm": [
+  "fortify",
+  "arm"
+ ],
+ "exasperate": [
+  "better"
+ ],
+ "fortify": [
+  "weaken",
+  "disarm"
+ ],
+ "harden": [
+  "soften"
+ ],
+ "invalidate": [
+  "confirm",
+  "validate"
+ ],
+ "unclog": [
+  "clog"
+ ],
+ "proficient": [],
+ "planetary": [
+  "national"
+ ],
+ "cunning": [],
+ "abrupt": [
+  "smooth",
+  "gradual"
+ ],
+ "meridian": [],
+ "usable": [
+  "unusable"
+ ],
+ "faint": [
+  "strong",
+  "distinct"
+ ],
+ "cruel": [],
+ "stark": [],
+ "speculative": [
+  "empirical"
+ ],
+ "spiral": [
+  "straight"
+ ],
+ "farthest": [
+  "close",
+  "near"
+ ],
+ "willful": [],
+ "disgusting": [],
+ "exquisite": [],
+ "pathetic": [],
+ "matchless": [],
+ "rotten": [
+  "good",
+  "fresh"
+ ],
+ "teeny": [],
+ "disinterested": [],
+ "unskillful": [
+  "skillful"
+ ],
+ "extraneous": [
+  "intrinsic"
+ ],
+ "racket": [],
+ "shortage": [
+  "glut"
+ ],
+ "accomplishment": [],
+ "intrigue": [],
+ "misery": [],
+ "buff": [
+  "debuff"
+ ],
+ "advent": [],
+ "insult": [
+  "consider"
+ ],
+ "devise": [],
+ "contrive": [],
+ "occupy": [],
+ "groom": [],
+ "absent": [
+  "present"
+ ],
+ "accepting": [
+  "refuse",
+  "reject"
+ ],
+ "accommodate": [
+  "disoblige"
+ ],
+ "achievement": [],
+ "adjacent": [
+  "far",
+  "distant"
+ ],
+ "alone": [],
+ "animal": [],
+ "anonymous": [
+  "onymous"
+ ],
+ "apparent": [],
+ "argue": [],
+ "assembly": [
+  "dismantling",
+  "disassembly"
+ ],
+ "author": [],
+ "balance": [
+  "asymmetry",
+  "unbalance"
+ ],
+ "bizarre": [],
+ "blank": [
+  "full"
+ ],
+ "brutal": [
+  "humane"
+ ],
+ "calculated": [],
+ "capacity": [
+  "incapacity"
+ ],
+ "certificate": [],
+ "channel": [],
+ "charity": [],
+ "chip": [],
+ "chronicle": [],
+ "commit": [
+  "divest"
+ ],
+ "complement": [],
+ "compliance": [
+  "nonconformity",
+  "noncompliance"
+ ],
+ "composition": [],
+ "contribute": [],
+ "corresponding": [
+  "different",
+  "disagree"
+ ],
+ "created": [],
+ "cry": [
+  "laugh"
+ ],
+ "dawn": [
+  "sunset"
+ ],
+ "decision": [
+  "indecisiveness",
+  "indecision"
+ ],
+ "defined": [
+  "undefined"
+ ],
+ "democratic": [
+  "monarchical",
+  "undemocratic"
+ ],
+ "dense": [
+  "light",
+  "thin"
+ ],
+ "desirable": [
+  "undesirable"
+ ],
+ "determination": [],
+ "did": [],
+ "diet": [],
+ "dig": [],
+ "directly": [
+  "indirectly"
+ ],
+ "disposition": [],
+ "distribution": [
+  "concentration",
+  "density"
+ ],
+ "disturbed": [],
+ "dock": [
+  "undock"
+ ],
+ "dodge": [],
+ "domain": [
+  "range",
+  "codomain"
+ ],
+ "dropped": [],
+ "dying": [
+  "nascent",
+  "birth"
+ ],
+ "edit": [],
+ "endless": [
+  "short"
+ ],
+ "estimate": [],
+ "excluded": [],
+ "forgot": [],
+ "framed": [
+  "unframed"
+ ],
+ "framing": [],
+ "getting": [
+  "leave",
+  "end"
+ ],
+ "given": [
+  "take",
+  "starve"
+ ],
+ "government": [],
+ "granted": [
+  "deny"
+ ],
+ "growth": [
+  "decrease",
+  "decrement"
+ ],
+ "health": [
+  "sickness",
+  "malady"
+ ],
+ "height": [
+  "depth"
+ ],
+ "highest": [],
+ "idea": [],
+ "inexpensive": [
+  "expensive"
+ ],
+ "institution": [],
+ "instrument": [],
+ "integral": [
+  "fractional"
+ ],
+ "invention": [],
+ "jet": [],
+ "jewel": [],
+ "joy": [
+  "sadden",
+  "sorrow"
+ ],
+ "judge": [],
+ "killed": [],
+ "legendary": [
+  "unknown",
+  "real"
+ ],
+ "lock": [
+  "disengage",
+  "unlock"
+ ],
+ "lovely": [
+  "ugly"
+ ],
+ "meaningful": [
+  "meaningless"
+ ],
+ "modify": [],
+ "monster": [],
+ "muscle": [],
+ "named": [],
+ "nearby": [],
+ "nothing": [
+  "everything",
+  "something"
+ ],
+ "notification": [],
+ "observation": [],
+ "once": [],
+ "ongoing": [
+  "future",
+  "past"
+ ],
+ "operational": [
+  "inactive",
+  "nonoperational"
+ ],
+ "ordering": [
+  "deregulate",
+  "disorder"
+ ],
+ "outlook": [],
+ "partner": [
+  "opponent"
+ ],
+ "pet": [],
+ "physical": [
+  "mental",
+  "psychological"
+ ],
+ "polish": [],
+ "pop": [
+  "classical",
+  "classic"
+ ],
+ "pride": [
+  "humility"
+ ],
+ "profession": [],
+ "proposition": [],
+ "proud": [
+  "ashamed",
+  "humble"
+ ],
+ "rational": [
+  "physical",
+  "irrational"
+ ],
+ "recognize": [],
+ "refine": [],
+ "relative": [
+  "absolute",
+  "irrelevant"
+ ],
+ "rent": [],
+ "replica": [],
+ "resident": [
+  "migratory",
+  "nonresident"
+ ],
+ "ride": [
+  "walk"
+ ],
+ "rip": [],
+ "satisfaction": [
+  "dissatisfaction"
+ ],
+ "satisfied": [
+  "dissatisfy"
+ ],
+ "secured": [],
+ "seed": [],
+ "segment": [],
+ "select": [],
+ "shine": [],
+ "silence": [
+  "sound",
+  "louden"
+ ],
+ "silent": [
+  "audible",
+  "noisy"
+ ],
+ "slim": [
+  "fat",
+  "big"
+ ],
+ "snake": [],
+ "solution": [
+  "problem"
+ ],
+ "spear": [],
+ "specialized": [
+  "diversify",
+  "unspecialized"
+ ],
+ "speed": [
+  "linger",
+  "delay"
+ ],
+ "spiritual": [
+  "worldly",
+  "natural"
+ ],
+ "squad": [],
+ "strategy": [],
+ "string": [
+  "unstring"
+ ],
+ "stuck": [
+  "move",
+  "unstuck"
+ ],
+ "substitute": [],
+ "sunset": [
+  "daybreak",
+  "sunrise"
+ ],
+ "surface": [
+  "interior",
+  "subsurface"
+ ],
+ "synthetic": [
+  "natural",
+  "analytic"
+ ],
+ "system": [],
+ "testament": [],
+ "token": [],
+ "transfer": [],
+ "travel": [],
+ "truth": [
+  "falseness",
+  "untruth"
+ ],
+ "understand": [],
+ "valued": [
+  "disrespect",
+  "disesteem"
+ ],
+ "variable": [
+  "invariable"
+ ],
+ "wound": [
+  "unwind"
+ ],
+ "wrap": [
+  "unwind",
+  "unwrap"
+ ],
+ "advantageous": [
+  "disadvantageous"
+ ],
+ "colored": [
+  "white",
+  "uncolored"
+ ],
+ "delineate": [
+  "undelineated"
+ ],
+ "distressed": [
+  "euphoric"
+ ],
+ "dormant": [
+  "active"
+ ],
+ "enthralling": [
+  "disenchant"
+ ],
+ "equivocal": [
+  "univocal",
+  "unequivocal"
+ ],
+ "esteemed": [
+  "disrespect",
+  "disesteem"
+ ],
+ "favorable": [
+  "hostile",
+  "unfavorable"
+ ],
+ "flowering": [
+  "flowerless"
+ ],
+ "hurried": [
+  "delay",
+  "unhurried"
+ ],
+ "impeding": [
+  "free"
+ ],
+ "inconsiderable": [
+  "considerable"
+ ],
+ "inconstant": [
+  "constant"
+ ],
+ "indecorous": [
+  "decorous"
+ ],
+ "indistinguishable": [
+  "different",
+  "distinguishable"
+ ],
+ "inexact": [
+  "exact"
+ ],
+ "manageable": [
+  "difficult",
+  "unmanageable"
+ ],
+ "meagre": [
+  "ample"
+ ],
+ "noticeable": [
+  "weak",
+  "unnoticeable"
+ ],
+ "palpable": [
+  "impalpable"
+ ],
+ "periodical": [
+  "aperiodic"
+ ],
+ "posterior": [
+  "anterior",
+  "prior"
+ ],
+ "rugged": [
+  "smooth",
+  "unfurrowed"
+ ],
+ "rushed": [
+  "linger",
+  "delay"
+ ],
+ "shortened": [
+  "expand",
+  "lengthen"
+ ],
+ "silenced": [
+  "louden",
+  "unsilenced"
+ ],
+ "splitting": [
+  "unite"
+ ],
+ "superficial": [
+  "important",
+  "significant"
+ ],
+ "tangible": [
+  "abstract",
+  "intangible"
+ ],
+ "temperate": [
+  "intemperate"
+ ],
+ "tiring": [
+  "refresh",
+  "interest"
+ ],
+ "unaffected": [
+  "moved",
+  "affected"
+ ],
+ "unbroken": [
+  "plowed",
+  "broken"
+ ],
+ "unconcerned": [
+  "concerned"
+ ],
+ "undeveloped": [
+  "exploited",
+  "developed"
+ ],
+ "unsteady": [
+  "steady"
+ ],
+ "ordinarily": [
+  "remarkably"
+ ],
+ "sorely": [
+  "painlessly"
+ ],
+ "unco": [
+  "unremarkably"
+ ],
+ "clot": [
+  "homogenize"
+ ],
+ "condemnation": [
+  "acquittal",
+  "approbation"
+ ],
+ "disfavor": [
+  "advantage"
+ ],
+ "distinctness": [
+  "softness",
+  "indistinctness"
+ ],
+ "downfall": [
+  "rise"
+ ],
+ "downgrade": [
+  "upgrade"
+ ],
+ "impotency": [
+  "power",
+  "potency"
+ ],
+ "powerlessness": [
+  "power"
+ ],
+ "scarceness": [
+  "abundance"
+ ],
+ "scramble": [
+  "unscramble"
+ ],
+ "similarity": [
+  "dissimilarity"
+ ],
+ "soundness": [
+  "unsoundness"
+ ],
+ "surcharge": [
+  "discount",
+  "undercharge"
+ ],
+ "tally": [
+  "disagree"
+ ],
+ "unconcern": [
+  "concern"
+ ],
+ "affirm": [
+  "deny",
+  "contradict"
+ ],
+ "amplify": [
+  "understate",
+  "downplay"
+ ],
+ "avow": [
+  "disavow"
+ ],
+ "belittle": [
+  "flatter"
+ ],
+ "blacken": [
+  "whiten"
+ ],
+ "dawdle": [
+  "rush"
+ ],
+ "escalate": [
+  "weaken"
+ ],
+ "falsify": [
+  "correct"
+ ],
+ "gladden": [
+  "sadden"
+ ],
+ "obey": [
+  "refuse",
+  "disobey"
+ ],
+ "relegate": [
+  "advance",
+  "elevate"
+ ],
+ "sharpen": [
+  "dull",
+  "soften"
+ ],
+ "simplify": [
+  "complicate"
+ ],
+ "unblock": [
+  "freeze",
+  "block"
+ ],
+ "unravel": [
+  "knot",
+  "ravel"
+ ],
+ "unsnarl": [
+  "entangle",
+  "snarl"
+ ],
+ "ponderous": [],
+ "circuitous": [
+  "direct"
+ ],
+ "placid": [],
+ "snappy": [],
+ "deceitful": [],
+ "cultured": [],
+ "benevolent": [
+  "malevolent"
+ ],
+ "infinitesimal": [
+  "large",
+  "infinite"
+ ],
+ "injurious": [],
+ "forthright": [],
+ "anxious": [
+  "confident"
+ ],
+ "archaic": [
+  "new",
+  "late"
+ ],
+ "boundless": [],
+ "slender": [
+  "thick",
+  "large"
+ ],
+ "murderous": [],
+ "taboo": [
+  "profane"
+ ],
+ "adjunct": [],
+ "haphazard": [],
+ "treacherous": [
+  "safe"
+ ],
+ "copious": [],
+ "verifiable": [
+  "theoretical"
+ ],
+ "easygoing": [],
+ "flawless": [
+  "flawed"
+ ],
+ "repression": [],
+ "aggregation": [],
+ "crook": [],
+ "compartment": [],
+ "apprehension": [],
+ "superstar": [],
+ "antipathy": [
+  "sympathy"
+ ],
+ "quarrel": [
+  "agree"
+ ],
+ "glut": [
+  "shortage"
+ ],
+ "ascertain": [],
+ "conquer": [],
+ "flick": [],
+ "warp": [],
+ "apprehend": [],
+ "condemn": [
+  "save"
+ ],
+ "induce": [
+  "deduce"
+ ],
+ "weigh": [],
+ "pause": [],
+ "revive": [
+  "restore",
+  "renew"
+ ],
+ "mingle": [],
+ "jostle": [],
+ "hoard": [],
+ "manipulate": [],
+ "concoct": [],
+ "constrict": [
+  "enlarge"
+ ],
+ "impart": [],
+ "laud": [],
+ "action": [
+  "inactiveness",
+  "inaction"
+ ],
+ "activity": [
+  "rest",
+  "inactivity"
+ ],
+ "acute": [
+  "chronic",
+  "obtuse"
+ ],
+ "agent": [
+  "patient"
+ ],
+ "aging": [
+  "rejuvenate"
+ ],
+ "ahead": [
+  "back",
+  "backward"
+ ],
+ "allowance": [],
+ "annual": [
+  "perennial",
+  "biennial"
+ ],
+ "apart": [],
+ "appeal": [
+  "repel"
+ ],
+ "arrive": [
+  "depart",
+  "leave"
+ ],
+ "assign": [],
+ "assistant": [],
+ "attract": [
+  "repulse",
+  "repel"
+ ],
+ "automatic": [
+  "voluntary",
+  "manual"
+ ],
+ "babe": [],
+ "ball": [],
+ "bank": [
+  "mistrust",
+  "withdraw"
+ ],
+ "bay": [],
+ "beauty": [
+  "ugliness"
+ ],
+ "before": [],
+ "blanket": [],
+ "blind": [
+  "sighted"
+ ],
+ "bow": [],
+ "brain": [],
+ "breathing": [
+  "breathless"
+ ],
+ "burning": [],
+ "bush": [],
+ "butt": [],
+ "carrying": [],
+ "cash": [
+  "credit"
+ ],
+ "challenged": [],
+ "coalition": [
+  "nonalignment"
+ ],
+ "comic": [
+  "tragic"
+ ],
+ "complaint": [],
+ "compressed": [
+  "thick",
+  "decompress"
+ ],
+ "conference": [],
+ "confirmation": [],
+ "congress": [],
+ "considered": [],
+ "construct": [
+  "misconception"
+ ],
+ "correspondence": [
+  "asymmetry"
+ ],
+ "dangerous": [
+  "safe"
+ ],
+ "deeply": [],
+ "desire": [],
+ "device": [],
+ "discovered": [],
+ "documentation": [],
+ "dollar": [],
+ "dream": [],
+ "earliest": [
+  "middle",
+  "late"
+ ],
+ "emotional": [
+  "cerebral",
+  "unemotional"
+ ],
+ "employment": [
+  "underemployment",
+  "unemployment"
+ ],
+ "encouraging": [
+  "discouraging",
+  "discourage"
+ ],
+ "enough": [
+  "deficient",
+  "insufficient"
+ ],
+ "establishing": [],
+ "event": [],
+ "evident": [],
+ "execute": [],
+ "expiration": [],
+ "explanation": [],
+ "failed": [],
+ "fate": [
+  "choice",
+  "freedom"
+ ],
+ "fear": [
+  "bravery",
+  "fearlessness"
+ ],
+ "flow": [
+  "ebb"
+ ],
+ "forbidden": [
+  "allow",
+  "permissible"
+ ],
+ "forge": [],
+ "frequently": [
+  "rarely",
+  "infrequently"
+ ],
+ "frontier": [],
+ "fruit": [],
+ "gay": [
+  "strict",
+  "heterosexual"
+ ],
+ "gig": [],
+ "giving": [
+  "take",
+  "starve"
+ ],
+ "golden": [],
+ "graphic": [],
+ "gulf": [],
+ "handling": [],
+ "harmony": [
+  "dissonance"
+ ],
+ "harry": [],
+ "hazard": [],
+ "hill": [],
+ "holding": [
+  "disagree"
+ ],
+ "hundred": [],
+ "illness": [
+  "health",
+  "wellness"
+ ],
+ "imp": [],
+ "incredible": [
+  "credible"
+ ],
+ "intense": [
+  "dull",
+  "mild"
+ ],
+ "journal": [],
+ "knee": [],
+ "latter": [
+  "former",
+  "aforementioned"
+ ],
+ "layout": [],
+ "lowest": [
+  "high"
+ ],
+ "mandate": [],
+ "matching": [
+  "disagree"
+ ],
+ "member": [
+  "nonmember"
+ ],
+ "mentor": [],
+ "merger": [
+  "acquisition",
+  "takeover"
+ ],
+ "morning": [
+  "sunset",
+  "evening"
+ ],
+ "movement": [],
+ "multiple": [
+  "single"
+ ],
+ "nervous": [
+  "calm",
+  "relaxed"
+ ],
+ "often": [
+  "rarely",
+  "infrequently"
+ ],
+ "opinion": [],
+ "organ": [],
+ "partially": [
+  "wholly"
+ ],
+ "partition": [],
+ "partnership": [],
+ "pearl": [],
+ "perform": [],
+ "phenomenon": [
+  "noumenon"
+ ],
+ "portrait": [],
+ "poster": [],
+ "preference": [],
+ "preferred": [],
+ "presentation": [],
+ "pressed": [],
+ "prince": [],
+ "procedure": [],
+ "production": [],
+ "ram": [],
+ "realize": [],
+ "realized": [],
+ "reflection": [],
+ "request": [],
+ "resolve": [
+  "irresoluteness"
+ ],
+ "result": [],
+ "scan": [],
+ "seek": [],
+ "selection": [],
+ "sell": [
+  "buy",
+  "purchase"
+ ],
+ "serve": [],
+ "several": [],
+ "showed": [],
+ "sole": [],
+ "spank": [],
+ "spark": [],
+ "specialist": [
+  "generalist"
+ ],
+ "specify": [
+  "generalize"
+ ],
+ "spy": [],
+ "sunny": [],
+ "surround": [],
+ "syndicate": [],
+ "team": [],
+ "tear": [],
+ "temporary": [
+  "eternal",
+  "permanent"
+ ],
+ "testimony": [],
+ "thorough": [],
+ "title": [],
+ "unauthorized": [
+  "official",
+  "authorized"
+ ],
+ "usually": [
+  "remarkably"
+ ],
+ "wellness": [
+  "illness"
+ ],
+ "wisdom": [
+  "folly",
+  "unsoundness"
+ ],
+ "yarn": [],
+ "accommodating": [
+  "disoblige",
+  "unaccommodating"
+ ],
+ "ageing": [
+  "rejuvenate"
+ ],
+ "allowable": [
+  "impermissible"
+ ],
+ "animate": [
+  "deaden",
+  "inanimate"
+ ],
+ "antagonistic": [
+  "positive",
+  "synergistic"
+ ],
+ "blunt": [
+  "sharp",
+  "enliven"
+ ],
+ "cheerful": [
+  "sad",
+  "pessimistic"
+ ],
+ "colorless": [
+  "colourful",
+  "colorful"
+ ],
+ "conclusive": [
+  "inconclusive"
+ ],
+ "congenial": [
+  "uncongenial"
+ ],
+ "constricted": [
+  "unconstricted"
+ ],
+ "delineated": [
+  "undelineated"
+ ],
+ "descendant": [
+  "root",
+  "ascendant"
+ ],
+ "extant": [
+  "extinct"
+ ],
+ "faithful": [
+  "unfaithful"
+ ],
+ "gratifying": [
+  "dissatisfy"
+ ],
+ "hardened": [
+  "soft",
+  "untempered"
+ ],
+ "immaterial": [
+  "corporeal",
+  "material"
+ ],
+ "impermissible": [
+  "permissible"
+ ],
+ "incidental": [
+  "basic",
+  "essential"
+ ],
+ "insensible": [
+  "sensible"
+ ],
+ "jammed": [
+  "free"
+ ],
+ "justified": [
+  "blame",
+  "unjustified"
+ ],
+ "merged": [
+  "disunify"
+ ],
+ "minuscule": [
+  "large",
+  "majuscule"
+ ],
+ "pretentious": [
+  "unostentatious",
+  "unpretentious"
+ ],
+ "probable": [
+  "unlikely",
+  "improbable"
+ ],
+ "publicized": [
+  "suppressed"
+ ],
+ "questionable": [
+  "unquestionable"
+ ],
+ "relinquished": [
+  "hold"
+ ],
+ "seasoned": [
+  "inexperienced",
+  "unseasoned"
+ ],
+ "secular": [
+  "unworldly",
+  "sacred"
+ ],
+ "sighted": [
+  "blind"
+ ],
+ "spontaneous": [
+  "induced"
+ ],
+ "susceptible": [
+  "unsusceptible"
+ ],
+ "thoughtless": [
+  "thoughtful"
+ ],
+ "troubled": [
+  "quiet",
+  "untroubled"
+ ],
+ "unbelievable": [
+  "credible",
+  "believable"
+ ],
+ "uneasy": [
+  "restful",
+  "easy"
+ ],
+ "uneducated": [
+  "educated"
+ ],
+ "uninteresting": [
+  "interesting"
+ ],
+ "unlawful": [
+  "legitimate",
+  "lawful"
+ ],
+ "unpolished": [
+  "polished"
+ ],
+ "unrefined": [
+  "refined"
+ ],
+ "unripe": [
+  "ripe"
+ ],
+ "unscrupulous": [
+  "scrupulous"
+ ],
+ "unvarying": [
+  "multiform",
+  "varied"
+ ],
+ "unwanted": [
+  "desirable",
+  "wanted"
+ ],
+ "wasted": [
+  "conserve",
+  "hypertrophied"
+ ],
+ "blessing": [
+  "desecrate",
+  "disapproval"
+ ],
+ "carelessness": [
+  "carefulness"
+ ],
+ "chill": [
+  "heat"
+ ],
+ "deterrence": [
+  "incentive"
+ ],
+ "discouragement": [
+  "encouragement"
+ ],
+ "fetch": [],
+ "founding": [
+  "abolish"
+ ],
+ "heed": [
+  "inattentiveness"
+ ],
+ "increment": [
+  "decrease",
+  "decrement"
+ ],
+ "liking": [
+  "dislike"
+ ],
+ "malfunction": [
+  "work",
+  "function"
+ ],
+ "righteousness": [
+  "unrighteousness"
+ ],
+ "settling": [
+  "float"
+ ],
+ "soberness": [
+  "drunkenness"
+ ],
+ "unification": [
+  "disunion",
+  "separation"
+ ],
+ "wedge": [
+  "free",
+  "dislodge"
+ ],
+ "zenith": [
+  "nadir"
+ ],
+ "ameliorate": [
+  "decline",
+  "exacerbate"
+ ],
+ "blab": [],
+ "demote": [
+  "raise",
+  "promote"
+ ],
+ "dishearten": [
+  "cheer",
+  "hearten"
+ ],
+ "dislodge": [
+  "stick",
+  "lodge"
+ ],
+ "elevate": [
+  "demote",
+  "relegate"
+ ],
+ "freshen": [
+  "tire",
+  "wear"
+ ],
+ "proscribe": [
+  "allow",
+  "prescribe"
+ ],
+ "quash": [
+  "validate"
+ ],
+ "quench": [
+  "light",
+  "ignite"
+ ],
+ "rejuvenate": [
+  "age"
+ ],
+ "substantiate": [
+  "contradict",
+  "negate"
+ ],
+ "unburden": [
+  "burden"
+ ],
+ "untangle": [
+  "knot",
+  "ravel"
+ ],
+ "untwine": [
+  "twine"
+ ],
+ "deleterious": [
+  "harmless"
+ ],
+ "vicious": [
+  "right",
+  "virtuous"
+ ],
+ "monolithic": [
+  "small"
+ ],
+ "childlike": [
+  "old"
+ ],
+ "belligerent": [
+  "peaceful"
+ ],
+ "fragile": [
+  "important",
+  "significant"
+ ],
+ "somber": [],
+ "metaphysical": [
+  "empirical"
+ ],
+ "clandestine": [
+  "overt"
+ ],
+ "sleepy": [
+  "awake"
+ ],
+ "sumptuous": [],
+ "stout": [
+  "thin"
+ ],
+ "imaginary": [
+  "actual",
+  "real"
+ ],
+ "latent": [
+  "active",
+  "actual"
+ ],
+ "frigid": [
+  "hot"
+ ],
+ "farcical": [],
+ "fanciful": [
+  "real"
+ ],
+ "contentious": [],
+ "decrepit": [
+  "new"
+ ],
+ "privy": [],
+ "ignorant": [
+  "informed"
+ ],
+ "pernicious": [],
+ "hasty": [
+  "deliberate"
+ ],
+ "stately": [],
+ "confederate": [
+  "northern"
+ ],
+ "poison": [],
+ "disturbance": [],
+ "boon": [
+  "bane"
+ ],
+ "opulence": [],
+ "misunderstanding": [],
+ "amplitude": [],
+ "cherish": [],
+ "encircle": [],
+ "temper": [],
+ "puff": [],
+ "deface": [],
+ "compose": [],
+ "administer": [],
+ "muster": [],
+ "stumble": [],
+ "revoke": [
+  "enact"
+ ],
+ "equip": [
+  "dismantle"
+ ],
+ "extol": [],
+ "wreck": [
+  "save",
+  "restore"
+ ],
+ "imitate": [
+  "invent"
+ ],
+ "outstrip": [],
+ "haul": [
+  "veer"
+ ],
+ "about": [],
+ "abuse": [],
+ "allied": [],
+ "angel": [],
+ "annoying": [],
+ "area": [],
+ "assessment": [],
+ "attempt": [],
+ "august": [],
+ "available": [
+  "unavailable"
+ ],
+ "aware": [
+  "unmindful",
+  "unaware"
+ ],
+ "balanced": [
+  "unbalance",
+  "unbalanced"
+ ],
+ "balloon": [],
+ "barrier": [],
+ "believe": [
+  "doubt",
+  "disbelieve"
+ ],
+ "bite": [],
+ "blocked": [
+  "unstuff",
+  "unblock"
+ ],
+ "brochure": [],
+ "broke": [
+  "rich",
+  "promote"
+ ],
+ "buffer": [],
+ "calling": [],
+ "carried": [],
+ "caught": [],
+ "certainly": [],
+ "committed": [
+  "unattached",
+  "uncommitted"
+ ],
+ "commonly": [
+  "remarkably"
+ ],
+ "confusion": [
+  "clarity"
+ ],
+ "constitution": [],
+ "contributed": [],
+ "cradle": [],
+ "crew": [],
+ "criminal": [
+  "right",
+  "innocent"
+ ],
+ "crop": [],
+ "cruise": [],
+ "culture": [],
+ "currency": [],
+ "darkness": [
+  "light",
+  "lightness"
+ ],
+ "debut": [],
+ "deluxe": [],
+ "deputy": [],
+ "designed": [
+  "undesigned"
+ ],
+ "determining": [],
+ "differ": [
+  "concur",
+  "agree"
+ ],
+ "directive": [],
+ "driving": [
+  "attract"
+ ],
+ "elementary": [
+  "difficult",
+  "hard"
+ ],
+ "empirical": [
+  "theoretic",
+  "theoretical"
+ ],
+ "employed": [
+  "fire",
+  "unemployed"
+ ],
+ "entertainment": [],
+ "establishment": [],
+ "estimation": [],
+ "eternal": [
+  "short",
+  "ephemeral"
+ ],
+ "exceed": [
+  "fall",
+  "fail"
+ ],
+ "expire": [
+  "inhale",
+  "inspire"
+ ],
+ "explain": [
+  "obscure"
+ ],
+ "exterior": [
+  "inside",
+  "interior"
+ ],
+ "family": [],
+ "fellowship": [],
+ "fleece": [
+  "undercharge"
+ ],
+ "founded": [],
+ "frost": [],
+ "gem": [],
+ "genius": [
+  "idiot"
+ ],
+ "giant": [
+  "small",
+  "little"
+ ],
+ "grab": [],
+ "grow": [
+  "shrink"
+ ],
+ "hanging": [],
+ "hero": [],
+ "hidden": [
+  "show",
+  "visible"
+ ],
+ "holy": [
+  "unholy"
+ ],
+ "home": [
+  "away"
+ ],
+ "housing": [],
+ "human": [
+  "deity",
+  "nonhuman"
+ ],
+ "imagine": [],
+ "incorporate": [
+  "disintegrate"
+ ],
+ "incorporated": [
+  "disintegrate"
+ ],
+ "interim": [
+  "permanent"
+ ],
+ "introducing": [],
+ "invisible": [
+  "conspicuous",
+  "visible"
+ ],
+ "jack": [],
+ "king": [
+  "queen"
+ ],
+ "knowing": [
+  "ignore"
+ ],
+ "label": [],
+ "laugh": [
+  "weep",
+  "sob"
+ ],
+ "linking": [],
+ "lodging": [
+  "dislodge"
+ ],
+ "loving": [
+  "hate",
+  "unloving"
+ ],
+ "mad": [
+  "wise",
+  "sane"
+ ],
+ "magazine": [],
+ "maintain": [
+  "alter"
+ ],
+ "makeup": [],
+ "marked": [
+  "ignore",
+  "unmarked"
+ ],
+ "mention": [
+  "disregard",
+  "omit"
+ ],
+ "mint": [],
+ "monthly": [],
+ "mostly": [],
+ "necessity": [
+  "luxury",
+  "contingency"
+ ],
+ "needed": [
+  "obviate"
+ ],
+ "occupation": [],
+ "official": [
+  "private",
+  "unofficial"
+ ],
+ "outcome": [
+  "beginning",
+  "source"
+ ],
+ "painful": [
+  "good",
+  "painless"
+ ],
+ "pepper": [],
+ "period": [],
+ "petite": [
+  "large"
+ ],
+ "petition": [],
+ "pleased": [
+  "angry",
+  "displease"
+ ],
+ "posting": [],
+ "product": [],
+ "proposal": [],
+ "quarterly": [],
+ "queen": [
+  "king",
+  "rex"
+ ],
+ "query": [
+  "answer"
+ ],
+ "rage": [],
+ "raising": [
+  "demote",
+  "lower"
+ ],
+ "ran": [],
+ "reader": [],
+ "reality": [
+  "unreality"
+ ],
+ "recommend": [
+  "oppose",
+  "discourage"
+ ],
+ "regarded": [],
+ "region": [],
+ "regularly": [
+  "irregularly"
+ ],
+ "repeat": [],
+ "revised": [],
+ "road": [],
+ "rocket": [],
+ "romantic": [
+  "classicist",
+  "practical"
+ ],
+ "roof": [],
+ "rope": [],
+ "royal": [],
+ "shaped": [],
+ "shepherd": [],
+ "slowly": [
+  "quickly"
+ ],
+ "sophisticated": [
+  "naive"
+ ],
+ "starting": [
+  "end",
+  "stop"
+ ],
+ "sublime": [],
+ "suppose": [],
+ "surely": [],
+ "suspended": [],
+ "suspension": [],
+ "symbol": [],
+ "sympathy": [],
+ "synthesis": [
+  "analysis",
+  "hypothesis"
+ ],
+ "teach": [],
+ "thought": [
+  "forget"
+ ],
+ "time": [],
+ "tone": [
+  "atonicity"
+ ],
+ "tool": [],
+ "traditional": [
+  "unorthodox",
+  "nontraditional"
+ ],
+ "trash": [],
+ "turkey": [],
+ "uncertainty": [
+  "certainty"
+ ],
+ "unnecessary": [
+  "necessary"
+ ],
+ "vale": [],
+ "virgin": [
+  "old"
+ ],
+ "vulnerable": [
+  "strong",
+  "invulnerable"
+ ],
+ "wallet": [],
+ "wheel": [],
+ "winner": [
+  "loser",
+  "failure"
+ ],
+ "wise": [
+  "foolish",
+  "unwise"
+ ],
+ "wish": [
+  "begrudge",
+  "resent"
+ ],
+ "worked": [],
+ "worth": [
+  "worthlessness"
+ ],
+ "yet": [],
+ "ambiguous": [
+  "specific",
+  "unambiguous"
+ ],
+ "amicable": [
+  "hostile"
+ ],
+ "avowed": [
+  "disavow"
+ ],
+ "awkward": [
+  "easy",
+  "graceful"
+ ],
+ "believable": [
+  "incredible",
+  "unbelievable"
+ ],
+ "blemished": [
+  "unblemished"
+ ],
+ "blended": [
+  "unblended"
+ ],
+ "blest": [
+  "cursed",
+  "desecrate"
+ ],
+ "breathless": [
+  "breathing"
+ ],
+ "cerebral": [
+  "emotional"
+ ],
+ "conjoined": [
+  "disjoin"
+ ],
+ "delighted": [
+  "displease",
+  "disenchant"
+ ],
+ "deviate": [
+  "conform"
+ ],
+ "docile": [
+  "stubborn",
+  "wild"
+ ],
+ "enlightened": [
+  "uninitiate",
+  "unenlightened"
+ ],
+ "extinguished": [
+  "ignite"
+ ],
+ "fertile": [
+  "sterile",
+  "infertile"
+ ],
+ "fruitful": [
+  "barren",
+  "unfruitful"
+ ],
+ "healthful": [
+  "unsanitary",
+  "unhealthful"
+ ],
+ "heedless": [
+  "heedful"
+ ],
+ "hopeful": [
+  "desperate",
+  "hopeless"
+ ],
+ "humorous": [
+  "humorless"
+ ],
+ "immortal": [
+  "mortal"
+ ],
+ "incapable": [
+  "adequate",
+  "capable"
+ ],
+ "indeterminate": [
+  "determinate"
+ ],
+ "innate": [
+  "conditioned"
+ ],
+ "insane": [
+  "sane"
+ ],
+ "insubstantial": [
+  "substantial"
+ ],
+ "nonexistent": [
+  "existent"
+ ],
+ "obedient": [
+  "disobedient"
+ ],
+ "plausible": [
+  "implausible"
+ ],
+ "preserved": [
+  "discontinue",
+  "destroyed"
+ ],
+ "profane": [
+  "holy",
+  "sacred"
+ ],
+ "profitable": [
+  "unprofitable"
+ ],
+ "stingy": [
+  "ample",
+  "generous"
+ ],
+ "strengthened": [
+  "weaken"
+ ],
+ "tonic": [
+  "atonic"
+ ],
+ "unbending": [
+  "tense",
+  "bend"
+ ],
+ "unconnected": [
+  "connected"
+ ],
+ "unconventional": [
+  "conventional"
+ ],
+ "unequivocal": [
+  "equivocal"
+ ],
+ "unpretentious": [
+  "ostentatious",
+  "pretentious"
+ ],
+ "unthinkable": [
+  "thinkable"
+ ],
+ "vanished": [
+  "appear"
+ ],
+ "veiled": [
+  "unveil",
+  "unveiled"
+ ],
+ "winding": [
+  "unwind"
+ ],
+ "wrought": [
+  "idle",
+  "malfunction"
+ ],
+ "hereafter": [
+  "past"
+ ],
+ "inappropriately": [
+  "suitably",
+  "appropriately"
+ ],
+ "seldom": [
+  "often"
+ ],
+ "boycott": [
+  "sponsor",
+  "patronize"
+ ],
+ "calmness": [
+  "agitation",
+  "discomposure"
+ ],
+ "commencement": [
+  "finish",
+  "end"
+ ],
+ "conception": [
+  "misconception"
+ ],
+ "curl": [
+  "extension",
+  "uncoil"
+ ],
+ "decrement": [
+  "increase",
+  "increment"
+ ],
+ "degeneration": [
+  "development",
+  "regeneration"
+ ],
+ "disgrace": [
+  "honor"
+ ],
+ "dullness": [
+  "brightness",
+  "sharpness"
+ ],
+ "essentiality": [
+  "inessentiality"
+ ],
+ "falsity": [
+  "truth"
+ ],
+ "hatred": [
+  "compassion",
+  "affection"
+ ],
+ "incompatibility": [
+  "compatibility"
+ ],
+ "incongruity": [
+  "congruousness",
+  "congruity"
+ ],
+ "insanity": [
+  "sanity"
+ ],
+ "lashings": [
+  "unlash"
+ ],
+ "purge": [
+  "rehabilitate"
+ ],
+ "softness": [
+  "sharpness",
+  "fitness"
+ ],
+ "timidity": [
+  "boldness"
+ ],
+ "bury": [
+  "remember"
+ ],
+ "consume": [
+  "abstain",
+  "refrain"
+ ],
+ "darken": [
+  "lighten",
+  "brighten"
+ ],
+ "deaden": [
+  "enliven"
+ ],
+ "defy": [
+  "apply",
+  "obey"
+ ],
+ "desecrate": [
+  "consecrate"
+ ],
+ "detain": [
+  "rush",
+  "liberate"
+ ],
+ "deteriorate": [
+  "recover",
+  "improve"
+ ],
+ "disavow": [
+  "avow"
+ ],
+ "disintegrate": [
+  "incorporate",
+  "integrate"
+ ],
+ "dismantle": [
+  "erect",
+  "assemble"
+ ],
+ "diverge": [
+  "conform",
+  "converge"
+ ],
+ "excite": [
+  "calm",
+  "stifle"
+ ],
+ "ignite": [
+  "extinguish"
+ ],
+ "inflate": [
+  "deflate"
+ ],
+ "quicken": [
+  "slow",
+  "decelerate"
+ ],
+ "recede": [
+  "gain",
+  "advance"
+ ],
+ "unchain": [
+  "chain"
+ ],
+ "understate": [
+  "exaggerate",
+  "overstate"
+ ],
+ "unmask": [
+  "mask"
+ ],
+ "withstand": [
+  "surrender"
+ ],
+ "outspoken": [],
+ "immovable": [
+  "movable"
+ ],
+ "bogus": [
+  "genuine"
+ ],
+ "salutary": [],
+ "grotesque": [
+  "beautiful"
+ ],
+ "laughable": [],
+ "pedestrian": [
+  "interesting"
+ ],
+ "absurd": [
+  "logical",
+  "true"
+ ],
+ "oppressive": [],
+ "idiosyncratic": [
+  "common"
+ ],
+ "fragmentary": [
+  "whole"
+ ],
+ "accidental": [],
+ "untrue": [
+  "correct",
+  "true"
+ ],
+ "inherent": [],
+ "tricky": [
+  "easy"
+ ],
+ "obscene": [],
+ "hideous": [
+  "beautiful"
+ ],
+ "fictitious": [
+  "real",
+  "genuine"
+ ],
+ "speedy": [
+  "slow"
+ ],
+ "microscopic": [
+  "large",
+  "macroscopic"
+ ],
+ "lowly": [],
+ "gigantic": [
+  "small",
+  "little"
+ ],
+ "showy": [],
+ "captivating": [],
+ "contiguous": [
+  "distant"
+ ],
+ "mammoth": [
+  "small"
+ ],
+ "medicinal": [],
+ "horrid": [
+  "good"
+ ],
+ "murky": [
+  "clear"
+ ],
+ "towering": [],
+ "faulty": [
+  "good"
+ ],
+ "spike": [],
+ "girdle": [],
+ "verge": [
+  "middle"
+ ],
+ "lament": [],
+ "bane": [
+  "boon"
+ ],
+ "discourse": [],
+ "reprimand": [],
+ "spill": [],
+ "sequel": [
+  "prequel"
+ ],
+ "injunction": [],
+ "endeavor": [],
+ "flake": [],
+ "obstacle": [],
+ "patron": [],
+ "initiation": [],
+ "banknote": [],
+ "litter": [],
+ "originate": [
+  "copy",
+  "imitate"
+ ],
+ "accompany": [
+  "abandon"
+ ],
+ "assert": [],
+ "elude": [],
+ "bestow": [],
+ "submerge": [],
+ "entertain": [],
+ "scream": [],
+ "circulate": [],
+ "inflame": [],
+ "stump": [],
+ "accomplish": [],
+ "achieved": [],
+ "acquire": [
+  "lose"
+ ],
+ "add": [
+  "subtract",
+  "deduct"
+ ],
+ "additional": [],
+ "adopted": [
+  "native"
+ ],
+ "advised": [],
+ "affair": [],
+ "aim": [],
+ "anchor": [],
+ "appear": [
+  "vanish",
+  "disappear"
+ ],
+ "arranged": [
+  "disarranged",
+  "disarrange"
+ ],
+ "assured": [
+  "worry"
+ ],
+ "attribute": [],
+ "bean": [],
+ "began": [],
+ "beginner": [],
+ "behind": [],
+ "bitch": [],
+ "bloody": [
+  "bloodless"
+ ],
+ "boundary": [],
+ "bread": [],
+ "breeding": [],
+ "buck": [],
+ "budget": [],
+ "buy": [
+  "grant",
+  "sale"
+ ],
+ "buzz": [],
+ "campaign": [],
+ "ceiling": [
+  "floor"
+ ],
+ "chart": [],
+ "checking": [],
+ "civilian": [
+  "man",
+  "serviceman"
+ ],
+ "clan": [],
+ "clearing": [
+  "convict",
+  "clutter"
+ ],
+ "closed": [
+  "open"
+ ],
+ "cloudy": [
+  "distinct",
+  "clear"
+ ],
+ "column": [
+  "row"
+ ],
+ "combining": [],
+ "comment": [],
+ "compliant": [
+  "defiant"
+ ],
+ "constantly": [],
+ "constitute": [],
+ "continuously": [],
+ "coupled": [
+  "uncouple"
+ ],
+ "courtesy": [
+  "discourtesy"
+ ],
+ "crown": [],
+ "crucial": [
+  "noncrucial"
+ ],
+ "curious": [
+  "familiar",
+  "incurious"
+ ],
+ "customer": [],
+ "death": [
+  "birth"
+ ],
+ "demanding": [
+  "obviate",
+  "undemanding"
+ ],
+ "denial": [
+  "prosecution"
+ ],
+ "dependent": [
+  "main",
+  "independent"
+ ],
+ "designation": [],
+ "difference": [
+  "sameness",
+  "identity"
+ ],
+ "directed": [],
+ "disable": [
+  "enable"
+ ],
+ "discounted": [],
+ "dish": [],
+ "dome": [],
+ "eclipse": [],
+ "edited": [],
+ "elder": [
+  "junior"
+ ],
+ "elegant": [
+  "inelegant"
+ ],
+ "elite": [],
+ "enable": [
+  "incapacitate",
+  "disable"
+ ],
+ "entertaining": [],
+ "entry": [],
+ "ethical": [
+  "wrong",
+  "unethical"
+ ],
+ "exemption": [],
+ "extract": [],
+ "facing": [
+  "avoid",
+  "back"
+ ],
+ "fantasy": [],
+ "fare": [],
+ "flying": [],
+ "followed": [],
+ "forced": [
+  "push",
+  "pull"
+ ],
+ "forgotten": [
+  "mind",
+  "remember"
+ ],
+ "formerly": [],
+ "furnished": [
+  "unfurnished"
+ ],
+ "garden": [],
+ "gas": [],
+ "generator": [],
+ "genesis": [],
+ "girl": [
+  "boy",
+  "son"
+ ],
+ "global": [
+  "square",
+  "local"
+ ],
+ "gorgeous": [],
+ "greatest": [],
+ "guided": [
+  "unguided"
+ ],
+ "guru": [],
+ "guy": [
+  "girls",
+  "gal"
+ ],
+ "hash": [],
+ "helped": [],
+ "history": [],
+ "hunt": [],
+ "immediately": [],
+ "induced": [
+  "spontaneous"
+ ],
+ "integration": [
+  "segregation"
+ ],
+ "intended": [
+  "unintended"
+ ],
+ "intermediate": [
+  "immediate",
+  "terminal"
+ ],
+ "inventory": [],
+ "jacket": [],
+ "junction": [],
+ "kernel": [],
+ "kit": [],
+ "know": [
+  "guess",
+  "ignore"
+ ],
+ "lap": [],
+ "largely": [],
+ "learn": [
+  "forget"
+ ],
+ "lease": [],
+ "lecture": [],
+ "lemon": [],
+ "lifetime": [],
+ "likewise": [],
+ "locate": [],
+ "lord": [
+  "subject",
+  "lady"
+ ],
+ "losing": [],
+ "luxury": [
+  "necessity"
+ ],
+ "majority": [
+  "minority"
+ ],
+ "managing": [],
+ "mechanical": [
+  "atomic",
+  "nonmechanical"
+ ],
+ "micro": [],
+ "modified": [
+  "unmodified"
+ ],
+ "motor": [],
+ "narrative": [],
+ "night": [
+  "day",
+  "daylight"
+ ],
+ "notify": [],
+ "operate": [
+  "disengage",
+  "withdraw"
+ ],
+ "option": [],
+ "own": [],
+ "packed": [
+  "loose",
+  "unpack"
+ ],
+ "paint": [],
+ "par": [
+  "bogey"
+ ],
+ "passed": [],
+ "passive": [
+  "violent",
+  "aggressive"
+ ],
+ "pen": [],
+ "performing": [],
+ "periodic": [
+  "irregular",
+  "aperiodic"
+ ],
+ "perspective": [],
+ "placed": [
+  "divest"
+ ],
+ "planned": [
+  "unplanned"
+ ],
+ "pointer": [],
+ "poll": [],
+ "possibility": [
+  "impossibility"
+ ],
+ "preliminary": [
+  "final"
+ ],
+ "primarily": [
+  "secondarily"
+ ],
+ "principle": [],
+ "process": [],
+ "profit": [
+  "lose",
+  "loss"
+ ],
+ "prospect": [],
+ "provide": [],
+ "punk": [],
+ "queue": [],
+ "quiz": [],
+ "ranking": [],
+ "rather": [],
+ "realm": [],
+ "reform": [],
+ "registered": [
+  "unregistered"
+ ],
+ "regression": [
+  "progression"
+ ],
+ "repeated": [],
+ "represent": [
+  "prosecute"
+ ],
+ "resolution": [
+  "preparation",
+  "irresoluteness"
+ ],
+ "restriction": [],
+ "revealed": [],
+ "schedule": [],
+ "social": [
+  "antisocial",
+  "asocial"
+ ],
+ "span": [],
+ "static": [
+  "mobile",
+  "kinetic"
+ ],
+ "structure": [],
+ "stylish": [
+  "unfashionable",
+  "styleless"
+ ],
+ "subdivision": [],
+ "suite": [],
+ "summary": [],
+ "tall": [
+  "short",
+  "little"
+ ],
+ "terrain": [],
+ "transmit": [],
+ "typically": [
+  "atypically"
+ ],
+ "unlikely": [
+  "probable",
+  "likely"
+ ],
+ "used": [
+  "new",
+  "misused"
+ ],
+ "validation": [],
+ "vendor": [],
+ "vertical": [
+  "prostrate",
+  "horizontal"
+ ],
+ "viewed": [],
+ "weekly": [],
+ "while": [],
+ "wit": [],
+ "worship": [],
+ "accelerated": [
+  "decelerate"
+ ],
+ "artful": [
+  "ingenuous",
+  "artless"
+ ],
+ "attentive": [
+  "heedless",
+  "inattentive"
+ ],
+ "bent": [
+  "upright",
+  "unbend"
+ ],
+ "cautious": [
+  "brave",
+  "incautious"
+ ],
+ "changeable": [
+  "immutable",
+  "unchangeable"
+ ],
+ "confined": [
+  "free",
+  "unconfined"
+ ],
+ "dispensable": [
+  "indispensable"
+ ],
+ "disposed": [
+  "disqualify",
+  "indispose"
+ ],
+ "effectual": [
+  "ineffective"
+ ],
+ "employable": [
+  "unemployable"
+ ],
+ "enlarged": [
+  "small",
+  "reduce"
+ ],
+ "exhausted": [
+  "unexhausted"
+ ],
+ "expansive": [
+  "unexpansive"
+ ],
+ "fetching": [],
+ "fictional": [
+  "real",
+  "nonfictional"
+ ],
+ "foolish": [
+  "wise"
+ ],
+ "forbidding": [
+  "allow",
+  "permit"
+ ],
+ "forceful": [
+  "forceless"
+ ],
+ "hooked": [
+  "straight",
+  "unhook"
+ ],
+ "hopeless": [
+  "good",
+  "hopeful"
+ ],
+ "impenetrable": [
+  "penetrable"
+ ],
+ "implausible": [
+  "likely",
+  "plausible"
+ ],
+ "impure": [
+  "clean",
+  "pure"
+ ],
+ "inbred": [
+  "outbred"
+ ],
+ "inconspicuous": [
+  "conspicuous"
+ ],
+ "infertile": [
+  "fertile"
+ ],
+ "inoperable": [
+  "operable"
+ ],
+ "insincere": [
+  "sincere"
+ ],
+ "intrinsic": [
+  "external",
+  "extrinsic"
+ ],
+ "inviting": [
+  "uninviting"
+ ],
+ "irrational": [
+  "reasonable",
+  "rational"
+ ],
+ "jaded": [
+  "refresh"
+ ],
+ "lethargic": [
+  "energetic"
+ ],
+ "liberated": [
+  "confine"
+ ],
+ "mindless": [
+  "mindful"
+ ],
+ "nonconformist": [
+  "conformist"
+ ],
+ "nourished": [
+  "malnourished"
+ ],
+ "obligatory": [
+  "optional"
+ ],
+ "operable": [
+  "inoperable"
+ ],
+ "outward": [
+  "inward"
+ ],
+ "peaked": [],
+ "perceptible": [
+  "imperceptible"
+ ],
+ "reputable": [
+  "disreputable"
+ ],
+ "slippery": [
+  "nonslippery"
+ ],
+ "strained": [
+  "relax",
+  "unstrain"
+ ],
+ "stripped": [
+  "dress"
+ ],
+ "sturdy": [
+  "flexible",
+  "delicate"
+ ],
+ "tame": [
+  "wild"
+ ],
+ "tolerant": [
+  "intolerant"
+ ],
+ "twisting": [
+  "unbend",
+  "untwist"
+ ],
+ "unattached": [
+  "attached"
+ ],
+ "unbearable": [
+  "tolerable"
+ ],
+ "unclear": [
+  "clear"
+ ],
+ "unconscious": [
+  "aware",
+  "conscious"
+ ],
+ "uncoupled": [
+  "couple"
+ ],
+ "uneven": [
+  "even"
+ ],
+ "unfathomable": [
+  "fathomable"
+ ],
+ "unrestrained": [
+  "restrained"
+ ],
+ "unripened": [
+  "ripe"
+ ],
+ "unspecified": [
+  "specified"
+ ],
+ "unstudied": [
+  "studied"
+ ],
+ "unwelcome": [
+  "welcome"
+ ],
+ "acceptably": [
+  "intolerably",
+  "unacceptably"
+ ],
+ "unusually": [
+  "unremarkably"
+ ],
+ "augmentation": [
+  "diminution"
+ ],
+ "benevolence": [
+  "malevolence"
+ ],
+ "blur": [
+  "sharpen",
+  "focus"
+ ],
+ "brightness": [
+  "dullness"
+ ],
+ "clipping": [
+  "unclip"
+ ],
+ "communicating": [
+  "excommunicate"
+ ],
+ "countenance": [
+  "forbid",
+  "disallow"
+ ],
+ "crate": [
+  "uncrate"
+ ],
+ "croak": [],
+ "dawdling": [
+  "rush"
+ ],
+ "divergence": [
+  "convergency",
+  "convergence"
+ ],
+ "fixing": [
+  "break",
+  "unfasten"
+ ],
+ "honesty": [
+  "dishonesty"
+ ],
+ "hurry": [
+  "delay"
+ ],
+ "kindness": [
+  "unkindness"
+ ],
+ "malady": [
+  "wellness",
+  "health"
+ ],
+ "mushroom": [
+  "toadstool"
+ ],
+ "nonentity": [
+  "existence"
+ ],
+ "obedience": [
+  "disobedience"
+ ],
+ "opprobrium": [
+  "fame"
+ ],
+ "partiality": [
+  "impartiality"
+ ],
+ "refrain": [
+  "move",
+  "have"
+ ],
+ "saddle": [
+  "unsaddle"
+ ],
+ "sameness": [
+  "difference"
+ ],
+ "shortening": [
+  "expand",
+  "lengthen"
+ ],
+ "sorrow": [
+  "joy"
+ ],
+ "subtraction": [
+  "addition"
+ ],
+ "tack": [
+  "disassemble",
+  "wear"
+ ],
+ "verity": [
+  "falsity"
+ ],
+ "weave": [
+  "unweave"
+ ],
+ "whisper": [
+  "shout"
+ ],
+ "wholesomeness": [
+  "unwholesomeness"
+ ],
+ "abbreviate": [
+  "expand"
+ ],
+ "abstain": [
+  "have",
+  "take"
+ ],
+ "apprise": [
+  "depreciate"
+ ],
+ "correspond": [
+  "disagree"
+ ],
+ "criticize": [
+  "praise"
+ ],
+ "dampen": [
+  "stimulate"
+ ],
+ "deceive": [
+  "undeceive"
+ ],
+ "depreciate": [
+  "appreciate"
+ ],
+ "deregulate": [
+  "regulate"
+ ],
+ "disown": [
+  "bequeath",
+  "leave"
+ ],
+ "displace": [
+  "engage",
+  "employ"
+ ],
+ "homogenize": [
+  "curdle"
+ ],
+ "nullify": [
+  "create",
+  "validate"
+ ],
+ "postdate": [
+  "predate"
+ ],
+ "retire": [
+  "advance",
+  "rise"
+ ],
+ "rouse": [
+  "calm"
+ ],
+ "uncoil": [
+  "coil"
+ ],
+ "uncouple": [
+  "couple"
+ ],
+ "astronomical": [
+  "little",
+  "small"
+ ],
+ "mundane": [
+  "extraordinary"
+ ],
+ "shady": [
+  "sunny"
+ ],
+ "youthful": [
+  "old"
+ ],
+ "simulated": [
+  "natural"
+ ],
+ "fallacious": [
+  "valid"
+ ],
+ "childish": [
+  "mature",
+  "old"
+ ],
+ "compulsory": [
+  "optional"
+ ],
+ "mountainous": [
+  "little",
+  "small"
+ ],
+ "skinny": [
+  "fat",
+  "loose"
+ ],
+ "hazy": [
+  "clear"
+ ],
+ "sprightly": [],
+ "undercover": [],
+ "quiescent": [
+  "active"
+ ],
+ "farther": [
+  "close"
+ ],
+ "vivid": [],
+ "intermittent": [
+  "constant",
+  "continual"
+ ],
+ "preposterous": [],
+ "stationary": [
+  "moving"
+ ],
+ "overbearing": [],
+ "defective": [
+  "normal"
+ ],
+ "recurrent": [],
+ "outermost": [
+  "inner"
+ ],
+ "steadfast": [],
+ "exhaustive": [
+  "incomplete"
+ ],
+ "multinational": [
+  "national"
+ ],
+ "detestable": [],
+ "nonsensical": [],
+ "hardy": [],
+ "annoyance": [],
+ "tabloid": [
+  "broadsheet"
+ ],
+ "enmity": [
+  "love",
+  "amity"
+ ],
+ "accusation": [
+  "acquittal"
+ ],
+ "ditch": [],
+ "sovereignty": [],
+ "curtain": [],
+ "determinant": [],
+ "venom": [],
+ "scorn": [],
+ "ornament": [
+  "stripe"
+ ],
+ "extremity": [],
+ "deposition": [],
+ "overpower": [],
+ "infringe": [],
+ "pillage": [],
+ "scar": [],
+ "admonish": [],
+ "dictate": [],
+ "recount": [],
+ "mutilate": [],
+ "categorize": [],
+ "contemplate": [],
+ "discard": [],
+ "unsettle": [
+  "settle"
+ ],
+ "amass": [],
+ "cushion": [],
+ "maim": [],
+ "absorption": [],
+ "accredited": [],
+ "added": [],
+ "address": [],
+ "administration": [],
+ "adverse": [
+  "favourable",
+  "favorable"
+ ],
+ "advert": [],
+ "alarm": [],
+ "alleged": [],
+ "alter": [
+  "fix",
+  "maintain"
+ ],
+ "alternative": [
+  "primary",
+  "conventional"
+ ],
+ "analysis": [
+  "synthesis"
+ ],
+ "anxiety": [],
+ "apparel": [
+  "undress"
+ ],
+ "applicable": [
+  "irrelevant"
+ ],
+ "applied": [
+  "exempt",
+  "theoretical"
+ ],
+ "arbitrary": [
+  "nonarbitrary"
+ ],
+ "article": [],
+ "basically": [],
+ "bored": [
+  "interest",
+  "interested"
+ ],
+ "breaking": [
+  "promote",
+  "repair"
+ ],
+ "brother": [
+  "sister"
+ ],
+ "brought": [],
+ "brush": [],
+ "build": [
+  "destroy",
+  "demolish"
+ ],
+ "burst": [
+  "implode"
+ ],
+ "cache": [],
+ "card": [],
+ "charter": [],
+ "cite": [],
+ "clone": [],
+ "coaching": [],
+ "con": [
+  "pro"
+ ],
+ "confidential": [
+  "public"
+ ],
+ "conspiracy": [
+  "disagreement"
+ ],
+ "constitutional": [
+  "unconstitutional"
+ ],
+ "contrast": [
+  "analogy"
+ ],
+ "convert": [],
+ "cookie": [],
+ "corruption": [
+  "incorruptness"
+ ],
+ "creature": [],
+ "credit": [
+  "cash",
+  "debit"
+ ],
+ "crest": [],
+ "curve": [
+  "straighten"
+ ],
+ "dean": [],
+ "demonstrate": [
+  "disprove"
+ ],
+ "dent": [],
+ "disabled": [
+  "enable"
+ ],
+ "disease": [],
+ "don": [
+  "doff"
+ ],
+ "donate": [],
+ "done": [
+  "unmake"
+ ],
+ "doom": [],
+ "door": [],
+ "dramatic": [
+  "lyric",
+  "undramatic"
+ ],
+ "dressed": [
+  "undress"
+ ],
+ "dud": [],
+ "earth": [],
+ "edition": [],
+ "efficient": [
+  "incompetent",
+  "inefficient"
+ ],
+ "engineer": [],
+ "equipment": [],
+ "espy": [],
+ "essay": [],
+ "evolution": [
+  "revolution",
+  "devolution"
+ ],
+ "examining": [],
+ "exhaust": [],
+ "expedient": [
+  "inexpedient"
+ ],
+ "fairly": [
+  "unreasonably",
+  "unfairly"
+ ],
+ "fan": [],
+ "fatal": [
+  "nonfatal"
+ ],
+ "female": [
+  "androgynous",
+  "male"
+ ],
+ "fiction": [
+  "fact"
+ ],
+ "fish": [],
+ "fluid": [
+  "solid"
+ ],
+ "forecast": [],
+ "fox": [],
+ "gate": [],
+ "generated": [],
+ "gold": [],
+ "gore": [],
+ "gossip": [],
+ "hazardous": [
+  "safe"
+ ],
+ "healing": [],
+ "heel": [],
+ "herald": [],
+ "hope": [
+  "fear",
+  "despair"
+ ],
+ "identifying": [],
+ "import": [
+  "inconsequence",
+  "export"
+ ],
+ "indicate": [
+  "obscure",
+  "contraindicate"
+ ],
+ "informal": [
+  "official",
+  "formal"
+ ],
+ "injury": [],
+ "jade": [
+  "refresh"
+ ],
+ "lady": [
+  "gentleman",
+  "lord"
+ ],
+ "legacy": [],
+ "liability": [
+  "asset"
+ ],
+ "lie": [
+  "stand",
+  "rise"
+ ],
+ "madness": [
+  "sanity"
+ ],
+ "mail": [],
+ "mainly": [],
+ "management": [],
+ "manual": [
+  "automatic",
+  "mental"
+ ],
+ "meaning": [],
+ "mechanism": [],
+ "merchant": [],
+ "merge": [
+  "disunify"
+ ],
+ "modification": [],
+ "murder": [],
+ "mysterious": [],
+ "naturally": [
+  "artificially",
+  "unnaturally"
+ ],
+ "newspaper": [],
+ "next": [
+  "previous",
+  "distant"
+ ],
+ "obligation": [],
+ "owned": [
+  "unowned"
+ ],
+ "people": [],
+ "perceived": [],
+ "pierce": [],
+ "pill": [],
+ "plane": [],
+ "pose": [],
+ "premise": [],
+ "preparing": [],
+ "presented": [],
+ "pressure": [],
+ "previously": [],
+ "privilege": [
+  "duty",
+  "obligation"
+ ],
+ "profile": [],
+ "promising": [],
+ "proportion": [
+  "disproportion"
+ ],
+ "prove": [
+  "disprove"
+ ],
+ "proved": [
+  "disprove",
+  "unproved"
+ ],
+ "purpose": [],
+ "pushing": [
+  "pull"
+ ],
+ "random": [
+  "nonrandom"
+ ],
+ "readily": [],
+ "recreation": [],
+ "red": [
+  "gain",
+  "uncolored"
+ ],
+ "relevant": [
+  "irrelevant"
+ ],
+ "removing": [],
+ "replacement": [],
+ "rescue": [],
+ "respected": [
+  "disesteem",
+  "disrespect"
+ ],
+ "revolutionary": [
+  "old",
+  "counterrevolutionary"
+ ],
+ "rising": [
+  "fall",
+  "falling"
+ ],
+ "risk": [],
+ "sally": [],
+ "scope": [],
+ "seller": [],
+ "sensitivity": [
+  "insensitiveness",
+  "insensitivity"
+ ],
+ "series": [
+  "parallel"
+ ],
+ "shaft": [],
+ "ship": [
+  "disembark"
+ ],
+ "shortly": [],
+ "shut": [
+  "open",
+  "admit"
+ ],
+ "silly": [
+  "serious"
+ ],
+ "strap": [
+  "unstrap"
+ ],
+ "suffering": [
+  "enjoy"
+ ],
+ "supplemental": [
+  "primary"
+ ],
+ "surge": [
+  "ebb"
+ ],
+ "survive": [
+  "succumb",
+  "predecease"
+ ],
+ "tailor": [],
+ "tested": [],
+ "threatening": [],
+ "told": [],
+ "tolerance": [
+  "unpermissiveness",
+  "intolerance"
+ ],
+ "toxic": [
+  "nontoxic"
+ ],
+ "training": [],
+ "trend": [],
+ "variation": [],
+ "varying": [
+  "conform"
+ ],
+ "verification": [],
+ "victory": [
+  "defeat",
+  "loss"
+ ],
+ "voice": [
+  "devoice"
+ ],
+ "weird": [
+  "familiar"
+ ],
+ "wonder": [],
+ "worried": [
+  "easy",
+  "reassure"
+ ],
+ "worst": [
+  "good",
+  "best"
+ ],
+ "zero": [],
+ "aggravated": [
+  "better"
+ ],
+ "anterior": [
+  "subsequent",
+  "posterior"
+ ],
+ "antiseptic": [
+  "septic"
+ ],
+ "argumentative": [
+  "unargumentative"
+ ],
+ "atypical": [
+  "normal",
+  "typical"
+ ],
+ "benign": [
+  "malignant",
+  "malign"
+ ],
+ "bouncing": [
+  "clear"
+ ],
+ "clement": [
+  "inclement"
+ ],
+ "colorful": [
+  "colorless",
+  "colourless"
+ ],
+ "conformist": [
+  "dissenter",
+  "nonconformist"
+ ],
+ "connate": [
+  "adnate"
+ ],
+ "consonant": [
+  "vowel"
+ ],
+ "credible": [
+  "incredible"
+ ],
+ "daring": [
+  "timidity"
+ ],
+ "degenerate": [
+  "recuperate"
+ ],
+ "discontinued": [
+  "continue",
+  "continued"
+ ],
+ "disheartened": [
+  "hearten"
+ ],
+ "dispirited": [
+  "elate"
+ ],
+ "eager": [
+  "uneager"
+ ],
+ "enchanted": [
+  "disenchanted",
+  "disenchant"
+ ],
+ "enfranchised": [
+  "disenfranchised",
+  "disenfranchise"
+ ],
+ "forfeit": [
+  "claim",
+  "gain"
+ ],
+ "graceful": [
+  "awkward"
+ ],
+ "harmless": [
+  "harmful"
+ ],
+ "homogenous": [
+  "heterogeneous"
+ ],
+ "humane": [
+  "inhumane"
+ ],
+ "illicit": [
+  "legal",
+  "licit"
+ ],
+ "immobile": [
+  "mobile"
+ ],
+ "impotent": [
+  "potent"
+ ],
+ "imprecise": [
+  "precise"
+ ],
+ "indispensable": [
+  "dispensable"
+ ],
+ "indistinct": [
+  "distinct"
+ ],
+ "inoffensive": [
+  "dysphemistic",
+  "offensive"
+ ],
+ "intractable": [
+  "tractable"
+ ],
+ "jumpy": [
+  "smooth"
+ ],
+ "opaque": [
+  "bright",
+  "transparent"
+ ],
+ "orthodox": [
+  "heretical",
+  "unorthodox"
+ ],
+ "overcast": [
+  "clear"
+ ],
+ "playful": [
+  "serious",
+  "unplayful"
+ ],
+ "prejudiced": [
+  "unprejudiced"
+ ],
+ "principled": [
+  "unprincipled"
+ ],
+ "purposeful": [
+  "purposeless"
+ ],
+ "resolute": [
+  "irresolute"
+ ],
+ "revealing": [
+  "concealing"
+ ],
+ "scarce": [
+  "abundant"
+ ],
+ "serviceable": [
+  "unserviceable"
+ ],
+ "shy": [
+  "confident",
+  "bold"
+ ],
+ "sorrowful": [
+  "joyful"
+ ],
+ "stifling": [
+  "stimulate"
+ ],
+ "theatrical": [
+  "untheatrical"
+ ],
+ "transient": [
+  "recurrent",
+  "immanent"
+ ],
+ "unassertive": [
+  "assertive"
+ ],
+ "uncongenial": [
+  "congenial"
+ ],
+ "unendurable": [
+  "tolerable"
+ ],
+ "unequal": [
+  "adequate",
+  "equal"
+ ],
+ "unnatural": [
+  "unaffected",
+  "natural"
+ ],
+ "unobjectionable": [
+  "dirty"
+ ],
+ "unrelated": [
+  "related"
+ ],
+ "unreliable": [
+  "trustworthy",
+  "reliable"
+ ],
+ "unsympathetic": [
+  "sympathetic"
+ ],
+ "unveiled": [
+  "veil",
+  "veiled"
+ ],
+ "unwholesome": [
+  "wholesome"
+ ],
+ "wary": [
+  "unwary"
+ ],
+ "watchful": [
+  "unalert"
+ ],
+ "wearied": [
+  "refresh"
+ ],
+ "wedged": [
+  "dislodge"
+ ],
+ "weeping": [
+  "laugh"
+ ],
+ "deliberately": [
+  "unintentionally",
+  "accidentally"
+ ],
+ "immoderately": [
+  "reasonably",
+  "moderately"
+ ],
+ "inadequately": [
+  "adequately"
+ ],
+ "outdoors": [
+  "inside",
+  "indoors"
+ ],
+ "tolerably": [
+  "unacceptably",
+  "intolerably"
+ ],
+ "unreasonably": [
+  "moderately",
+  "reasonably"
+ ],
+ "unsuitably": [
+  "appropriately",
+  "suitably"
+ ],
+ "affinity": [
+  "consanguinity"
+ ],
+ "affirmation": [
+  "reversal"
+ ],
+ "affirmed": [
+  "negate"
+ ],
+ "agitation": [
+  "calmness"
+ ],
+ "attire": [
+  "underdress"
+ ],
+ "clasp": [
+  "unbuckle",
+  "unclasp"
+ ],
+ "conk": [],
+ "dabbler": [],
+ "disapproval": [
+  "approval"
+ ],
+ "discontinuance": [
+  "continuation",
+  "continuance"
+ ],
+ "disesteem": [
+  "respect",
+  "esteem"
+ ],
+ "dissimilarity": [
+  "similarity"
+ ],
+ "ebbing": [
+  "tide"
+ ],
+ "emptiness": [
+  "fullness"
+ ],
+ "healthiness": [],
+ "heedlessness": [
+  "attentiveness",
+  "heedfulness"
+ ],
+ "incertitude": [
+  "certainty"
+ ],
+ "incongruousness": [
+  "congruity",
+  "congruousness"
+ ],
+ "individuality": [
+  "commonality"
+ ],
+ "interdict": [
+  "allow",
+  "permit"
+ ],
+ "keenness": [
+  "dullness"
+ ],
+ "overcharge": [
+  "undercharge"
+ ],
+ "pluck": [
+  "undercharge",
+  "gutlessness"
+ ],
+ "riches": [
+  "poor"
+ ],
+ "sharpness": [
+  "indistinctness",
+  "softness"
+ ],
+ "sickness": [
+  "health",
+  "wellness"
+ ],
+ "taint": [
+  "disinfect"
+ ],
+ "tattle": [],
+ "unlikeness": [
+  "similitude",
+  "likeness"
+ ],
+ "uplift": [
+  "depress"
+ ],
+ "betray": [
+  "undeceive"
+ ],
+ "bottlefeed": [
+  "breastfeed"
+ ],
+ "conjoin": [
+  "disjoin"
+ ],
+ "corroborate": [
+  "negate",
+  "contradict"
+ ],
+ "descend": [
+  "rise",
+  "ascend"
+ ],
+ "dilate": [
+  "shorten",
+  "reduce"
+ ],
+ "disassemble": [
+  "assemble"
+ ],
+ "embellish": [
+  "uglify"
+ ],
+ "enfranchise": [
+  "disenfranchise",
+  "disfranchise"
+ ],
+ "meliorate": [
+  "worsen"
+ ],
+ "omit": [
+  "include",
+  "mention"
+ ],
+ "rectify": [
+  "falsify"
+ ],
+ "stiffen": [
+  "loosen"
+ ],
+ "unlash": [
+  "lash"
+ ],
+ "violate": [
+  "keep",
+  "observe"
+ ],
+ "whiten": [
+  "blacken"
+ ],
+ "stern": [
+  "bow"
+ ],
+ "icy": [
+  "hot"
+ ],
+ "solemn": [],
+ "poignant": [],
+ "underweight": [
+  "overweight"
+ ],
+ "prostrate": [
+  "upright",
+  "erect"
+ ],
+ "combative": [
+  "peaceful"
+ ],
+ "sinful": [
+  "holy",
+  "righteous"
+ ],
+ "intact": [
+  "broken",
+  "affected"
+ ],
+ "opulent": [],
+ "auxiliary": [
+  "primary"
+ ],
+ "jittery": [],
+ "viable": [
+  "dead",
+  "impossible"
+ ],
+ "embryonic": [
+  "late",
+  "mature"
+ ],
+ "vacant": [
+  "full"
+ ],
+ "curative": [],
+ "supplementary": [
+  "primary"
+ ],
+ "spurious": [
+  "genuine"
+ ],
+ "militant": [
+  "peaceful"
+ ],
+ "sneaky": [],
+ "forthcoming": [
+  "present"
+ ],
+ "elfin": [
+  "natural"
+ ],
+ "damaging": [],
+ "aversion": [
+  "love"
+ ],
+ "spite": [],
+ "avocation": [],
+ "disproof": [
+  "proof"
+ ],
+ "stake": [],
+ "enjoyment": [],
+ "humor": [],
+ "fracture": [],
+ "crossroad": [],
+ "bark": [],
+ "subsidy": [
+  "tax"
+ ],
+ "trench": [
+  "dike"
+ ],
+ "addict": [],
+ "tsar": [],
+ "brag": [],
+ "evaporate": [
+  "solidify",
+  "condense"
+ ],
+ "educate": [],
+ "depict": [],
+ "abet": [],
+ "dissipate": [],
+ "frustrate": [],
+ "growl": [],
+ "indulge": [
+  "abstain"
+ ],
+ "reconstruct": [],
+ "wail": [],
+ "glide": [],
+ "appoint": [],
+ "moan": [],
+ "glorify": [],
+ "acknowledge": [
+  "deny"
+ ],
+ "adopt": [],
+ "affiliate": [],
+ "another": [],
+ "anticipated": [],
+ "appreciated": [
+  "depreciate"
+ ],
+ "appreciation": [
+  "depreciation"
+ ],
+ "approximate": [
+  "exact"
+ ],
+ "arena": [],
+ "assigned": [
+  "unassigned"
+ ],
+ "authentication": [],
+ "aye": [],
+ "background": [
+  "foreground"
+ ],
+ "backup": [],
+ "battery": [],
+ "bed": [],
+ "belly": [],
+ "billing": [],
+ "bird": [],
+ "blackjack": [],
+ "blue": [
+  "southern",
+  "neutral"
+ ],
+ "boy": [
+  "daughter",
+  "girl"
+ ],
+ "brake": [],
+ "broker": [],
+ "buyer": [],
+ "cartridge": [],
+ "catalyst": [
+  "inhibitor",
+  "anticatalyst"
+ ],
+ "certification": [
+  "disenfranchisement"
+ ],
+ "chronic": [
+  "unusual",
+  "short"
+ ],
+ "coin": [],
+ "commentary": [],
+ "compilation": [],
+ "complex": [
+  "simple"
+ ],
+ "complicated": [
+  "simplify",
+  "simple"
+ ],
+ "concord": [
+  "disagree"
+ ],
+ "continually": [],
+ "continued": [
+  "discontinued",
+  "discontinue"
+ ],
+ "contracting": [
+  "expand",
+  "stretch"
+ ],
+ "contribution": [],
+ "cost": [],
+ "country": [],
+ "craft": [],
+ "creative": [
+  "destructive",
+  "uncreative"
+ ],
+ "dale": [],
+ "dam": [],
+ "day": [
+  "nighttime",
+  "dark"
+ ],
+ "definitely": [],
+ "description": [],
+ "designer": [],
+ "diagram": [],
+ "dialogue": [
+  "monologue"
+ ],
+ "director": [],
+ "directory": [],
+ "disability": [
+  "strength",
+  "ability"
+ ],
+ "disaster": [],
+ "discuss": [],
+ "distance": [
+  "interval"
+ ],
+ "distributed": [
+  "gather",
+  "concentrated"
+ ],
+ "dive": [],
+ "doctrine": [],
+ "dust": [],
+ "echo": [],
+ "elderly": [
+  "young",
+  "youth"
+ ],
+ "elect": [
+  "reprobate"
+ ],
+ "endorsement": [],
+ "epic": [],
+ "evening": [
+  "morning"
+ ],
+ "examination": [],
+ "examined": [],
+ "executive": [],
+ "existing": [
+  "nonexistent"
+ ],
+ "expressed": [
+  "implicit"
+ ],
+ "faith": [],
+ "falling": [
+  "rise",
+  "rising"
+ ],
+ "fired": [
+  "hire"
+ ],
+ "focused": [
+  "blur",
+  "unfocused"
+ ],
+ "forum": [],
+ "fraction": [
+  "multiply"
+ ],
+ "freed": [],
+ "glad": [
+  "sad"
+ ],
+ "gospel": [],
+ "graphical": [],
+ "hear": [],
+ "helping": [],
+ "identified": [],
+ "importance": [
+  "unimportance"
+ ],
+ "impose": [],
+ "improvement": [
+  "decline"
+ ],
+ "indigenous": [
+  "foreign"
+ ],
+ "ink": [],
+ "instance": [],
+ "intelligent": [
+  "stupid",
+  "unintelligent"
+ ],
+ "intention": [],
+ "international": [
+  "domestic",
+  "national"
+ ],
+ "investigator": [],
+ "jar": [],
+ "jug": [],
+ "later": [
+  "early"
+ ],
+ "lazy": [
+  "active",
+  "busy"
+ ],
+ "liable": [],
+ "limitation": [],
+ "listed": [
+  "unlisted"
+ ],
+ "location": [
+  "studio"
+ ],
+ "mag": [],
+ "magnificent": [],
+ "market": [],
+ "maximize": [
+  "minimise",
+  "minimize"
+ ],
+ "merry": [],
+ "minister": [],
+ "mire": [],
+ "monkey": [],
+ "motion": [
+  "rest",
+  "motionlessness"
+ ],
+ "mouth": [],
+ "naughty": [
+  "good"
+ ],
+ "negotiation": [],
+ "network": [],
+ "newsletter": [],
+ "normally": [
+  "remarkably"
+ ],
+ "noticed": [
+  "ignore",
+  "unnoticed"
+ ],
+ "occasionally": [],
+ "one": [],
+ "opponent": [
+  "ally",
+  "proponent"
+ ],
+ "opposed": [
+  "unopposed"
+ ],
+ "optional": [
+  "compulsory",
+  "obligatory"
+ ],
+ "pacific": [],
+ "park": [
+  "building",
+  "skyscraper"
+ ],
+ "payment": [
+  "default",
+  "nonpayment"
+ ],
+ "penalty": [
+  "reward",
+  "advantage"
+ ],
+ "pest": [],
+ "phase": [],
+ "pike": [],
+ "pit": [],
+ "plaza": [],
+ "pointed": [
+  "pointless"
+ ],
+ "portal": [],
+ "print": [],
+ "probe": [],
+ "proceeding": [
+  "discontinue"
+ ],
+ "projected": [],
+ "promptly": [],
+ "province": [],
+ "publication": [],
+ "purchase": [
+  "sell"
+ ],
+ "pursue": [],
+ "quickly": [
+  "slowly"
+ ],
+ "read": [
+  "pass"
+ ],
+ "received": [
+  "nonstandard"
+ ],
+ "recovery": [],
+ "regional": [],
+ "rehab": [],
+ "remain": [
+  "change"
+ ],
+ "remaining": [
+  "change"
+ ],
+ "replace": [],
+ "replication": [
+  "transcription"
+ ],
+ "reproduction": [],
+ "resistant": [
+  "susceptible",
+  "absorbent"
+ ],
+ "ribbon": [],
+ "riot": [],
+ "romance": [],
+ "sacred": [
+  "profane",
+  "secular"
+ ],
+ "scene": [],
+ "sea": [],
+ "skip": [],
+ "smell": [],
+ "soak": [
+  "undercharge"
+ ],
+ "sold": [
+  "buy",
+  "unsold"
+ ],
+ "south": [
+  "north"
+ ],
+ "specialty": [],
+ "spotlight": [
+  "background"
+ ],
+ "squirt": [],
+ "stated": [],
+ "statute": [],
+ "staying": [],
+ "steering": [],
+ "steward": [],
+ "street": [],
+ "strengthening": [
+  "weaken",
+  "weakening"
+ ],
+ "stunning": [],
+ "successful": [
+  "unsuccessful"
+ ],
+ "sudden": [
+  "gradual"
+ ],
+ "suggested": [],
+ "suited": [],
+ "supervisor": [],
+ "surprising": [
+  "unsurprising"
+ ],
+ "tablet": [],
+ "tagged": [
+  "unlabeled"
+ ],
+ "talented": [
+  "untalented"
+ ],
+ "task": [],
+ "technique": [],
+ "territory": [],
+ "then": [],
+ "think": [
+  "forget",
+  "block"
+ ],
+ "ticket": [],
+ "ton": [],
+ "tradition": [],
+ "treaty": [],
+ "truly": [
+  "insincerely"
+ ],
+ "unavailable": [
+  "available"
+ ],
+ "under": [],
+ "unlimited": [
+  "limited"
+ ],
+ "vault": [],
+ "version": [],
+ "visit": [],
+ "visual": [
+  "invisible"
+ ],
+ "volunteer": [
+  "draftee",
+  "conscript"
+ ],
+ "waiver": [],
+ "wake": [
+  "sleep"
+ ],
+ "war": [
+  "peace"
+ ],
+ "wave": [],
+ "wing": [],
+ "winning": [
+  "lose",
+  "fail"
+ ],
+ "wire": [
+  "unwire"
+ ],
+ "zip": [
+  "unzip"
+ ],
+ "apropos": [
+  "malapropos"
+ ],
+ "awake": [
+  "unconscious",
+  "asleep"
+ ],
+ "catarrhine": [
+  "leptorrhine"
+ ],
+ "catching": [
+  "unhitch"
+ ],
+ "commodious": [
+  "incommodious"
+ ],
+ "consecrate": [
+  "desecrated",
+  "desecrate"
+ ],
+ "consecrated": [
+  "desecrated",
+  "desecrate"
+ ],
+ "considerate": [
+  "inconsiderate"
+ ],
+ "crowded": [
+  "uncrowded"
+ ],
+ "dejected": [
+  "elate",
+  "elated"
+ ],
+ "dependable": [
+  "unreliable",
+  "undependable"
+ ],
+ "depressing": [
+  "elate",
+  "cheerful"
+ ],
+ "descendent": [
+  "root",
+  "ancestor"
+ ],
+ "diffident": [
+  "confident"
+ ],
+ "disarranged": [
+  "arrange",
+  "arranged"
+ ],
+ "discernible": [
+  "indiscernible"
+ ],
+ "discontent": [
+  "contentment",
+  "contented"
+ ],
+ "discordant": [
+  "accordant"
+ ],
+ "discouraging": [
+  "encourage",
+  "encouraging"
+ ],
+ "disinclined": [
+  "dispose",
+  "inclined"
+ ],
+ "dismissed": [
+  "hire"
+ ],
+ "disordered": [
+  "ordered",
+  "order"
+ ],
+ "drained": [
+  "undrained"
+ ],
+ "earthly": [
+  "heavenly"
+ ],
+ "esoteric": [
+  "exoteric"
+ ],
+ "fastened": [
+  "unbuttoned",
+  "unfastened"
+ ],
+ "fearful": [
+  "good",
+  "fearless"
+ ],
+ "felicitous": [
+  "infelicitous"
+ ],
+ "flimsy": [
+  "convincing",
+  "sturdy"
+ ],
+ "fortunate": [
+  "unfortunate"
+ ],
+ "guiltless": [
+  "guilty"
+ ],
+ "hallowed": [
+  "desecrate"
+ ],
+ "harmonious": [
+  "inharmonious"
+ ],
+ "hateful": [
+  "lovable"
+ ],
+ "heedful": [
+  "heedless"
+ ],
+ "hospitable": [
+  "inhospitable"
+ ],
+ "illiterate": [
+  "educated",
+  "literate"
+ ],
+ "illogical": [
+  "logical"
+ ],
+ "immutable": [
+  "mutable"
+ ],
+ "impalpable": [
+  "tangible",
+  "palpable"
+ ],
+ "impartial": [
+  "biased",
+  "partial"
+ ],
+ "implicit": [
+  "comparative",
+  "explicit"
+ ],
+ "impractical": [
+  "practical"
+ ],
+ "inconsiderate": [
+  "considerate"
+ ],
+ "inefficient": [
+  "efficient"
+ ],
+ "intensified": [],
+ "matriarchal": [
+  "patriarchal"
+ ],
+ "merciful": [
+  "cruel",
+  "merciless"
+ ],
+ "oblique": [
+  "direct",
+  "perpendicular"
+ ],
+ "ostentatious": [
+  "unostentatious"
+ ],
+ "painless": [
+  "hard",
+  "painful"
+ ],
+ "peaceable": [
+  "unpeaceful"
+ ],
+ "permissive": [
+  "preventive",
+  "unpermissive"
+ ],
+ "precocious": [
+  "retarded"
+ ],
+ "provocative": [
+  "unprovocative"
+ ],
+ "prudent": [
+  "imprudent"
+ ],
+ "regenerate": [
+  "unregenerate"
+ ],
+ "releasing": [
+  "block",
+  "confine"
+ ],
+ "restless": [
+  "restful"
+ ],
+ "rounded": [
+  "angular"
+ ],
+ "savory": [
+  "unsavory"
+ ],
+ "sparkling": [
+  "still"
+ ],
+ "stressed": [
+  "unstressed"
+ ],
+ "tainted": [
+  "disinfect"
+ ],
+ "timid": [
+  "brave",
+  "confident"
+ ],
+ "trimmed": [
+  "untrimmed"
+ ],
+ "trustworthy": [
+  "untrustworthy"
+ ],
+ "unaggressive": [
+  "aggressive"
+ ],
+ "unambiguous": [
+  "equivocal",
+  "ambiguous"
+ ],
+ "unaware": [
+  "aware"
+ ],
+ "unbound": [
+  "bind",
+  "bound"
+ ],
+ "unburdened": [
+  "burdened",
+  "burden"
+ ],
+ "unchangeable": [
+  "changeable"
+ ],
+ "unclassified": [
+  "classified"
+ ],
+ "underage": [
+  "major"
+ ],
+ "undone": [
+  "wrap",
+  "make"
+ ],
+ "unfavorable": [
+  "good",
+  "favorable"
+ ],
+ "unjust": [
+  "fair",
+  "just"
+ ],
+ "unpopular": [
+  "popular"
+ ],
+ "unproven": [
+  "proved"
+ ],
+ "unquiet": [
+  "quiet"
+ ],
+ "unsafe": [
+  "secure",
+  "safe"
+ ],
+ "untrustworthy": [
+  "trustworthy"
+ ],
+ "untruthful": [
+  "truthful"
+ ],
+ "virulent": [
+  "avirulent"
+ ],
+ "warmhearted": [
+  "coldhearted"
+ ],
+ "worsening": [
+  "better",
+  "bettering"
+ ],
+ "decently": [
+  "improperly",
+  "indecently"
+ ],
+ "happily": [
+  "sadly",
+  "unhappily"
+ ],
+ "incorrectly": [
+  "right",
+  "correctly"
+ ],
+ "insufficiently": [
+  "sufficiently"
+ ],
+ "moderately": [
+  "unreasonably",
+  "immoderately"
+ ],
+ "oft": [
+  "rarely",
+  "infrequently"
+ ],
+ "oftentimes": [
+  "rarely",
+  "infrequently"
+ ],
+ "ofttimes": [
+  "rarely",
+  "infrequently"
+ ],
+ "adequacy": [
+  "insufficiency",
+  "inadequacy"
+ ],
+ "approbation": [
+  "condemnation",
+  "disapprobation"
+ ],
+ "badness": [
+  "good",
+  "goodness"
+ ],
+ "confines": [
+  "free"
+ ],
+ "congruity": [
+  "incongruousness",
+  "incongruity"
+ ],
+ "correctness": [
+  "wrongness",
+  "incorrectness"
+ ],
+ "dawning": [
+  "sunset"
+ ],
+ "dependability": [
+  "unreliableness",
+  "undependability"
+ ],
+ "diminution": [
+  "increase",
+  "augmentation"
+ ],
+ "discord": [
+  "agree"
+ ],
+ "disproportion": [
+  "proportion"
+ ],
+ "dissension": [
+  "agreement"
+ ],
+ "extinguishing": [
+  "ignite"
+ ],
+ "foolishness": [
+  "wisdom"
+ ],
+ "futurity": [
+  "pastness",
+  "past"
+ ],
+ "generosity": [
+  "stinginess"
+ ],
+ "hiding": [
+  "show"
+ ],
+ "infamy": [
+  "fame"
+ ],
+ "lacing": [
+  "untwine"
+ ],
+ "looseness": [
+  "fixedness",
+  "stiffen"
+ ],
+ "lull": [
+  "agitate"
+ ],
+ "misfortune": [
+  "fortune"
+ ],
+ "orderliness": [
+  "disorder",
+  "disorderliness"
+ ],
+ "postulate": [
+  "eliminate",
+  "obviate"
+ ],
+ "potentiality": [
+  "incapability"
+ ],
+ "prudence": [
+  "imprudence"
+ ],
+ "reverence": [
+  "irreverence"
+ ],
+ "segregate": [
+  "mix",
+  "desegregate"
+ ],
+ "seriousness": [
+  "frivolity"
+ ],
+ "slur": [
+  "focus"
+ ],
+ "solidity": [
+  "hollowness",
+  "fluidity"
+ ],
+ "stupidity": [
+  "intelligence"
+ ],
+ "unhappiness": [
+  "happiness"
+ ],
+ "unhealthiness": [],
+ "uniting": [
+  "divide",
+  "disunion"
+ ],
+ "worthlessness": [
+  "worth"
+ ],
+ "acquiesce": [
+  "dissent"
+ ],
+ "analyze": [
+  "synthesize"
+ ],
+ "ascend": [
+  "fall",
+  "descend"
+ ],
+ "clarify": [
+  "obfuscate"
+ ],
+ "decipher": [
+  "encode"
+ ],
+ "decontaminate": [
+  "contaminate"
+ ],
+ "demoralize": [
+  "elate"
+ ],
+ "desist": [
+  "have",
+  "continue"
+ ],
+ "disappear": [
+  "appear"
+ ],
+ "disinfect": [
+  "infect"
+ ],
+ "displease": [
+  "please"
+ ],
+ "enthral": [
+  "disenchant"
+ ],
+ "enthrall": [
+  "disenchant"
+ ],
+ "flatter": [
+  "disparage",
+  "natural"
+ ],
+ "fulfill": [],
+ "generalize": [
+  "specify",
+  "specialize"
+ ],
+ "gird": [
+  "disarm"
+ ],
+ "habilitate": [
+  "undress"
+ ],
+ "hasten": [
+  "linger",
+  "retard"
+ ],
+ "implode": [
+  "explode"
+ ],
+ "materialize": [
+  "dematerialise",
+  "dematerialize"
+ ],
+ "perish": [],
+ "prosecute": [
+  "defend",
+  "represent"
+ ],
+ "raze": [
+  "erect",
+  "raise"
+ ],
+ "underdress": [
+  "overdress"
+ ],
+ "undervalue": [
+  "appreciate",
+  "overvalue"
+ ],
+ "unfreeze": [
+  "block",
+  "freeze"
+ ],
+ "unify": [
+  "separate",
+  "disunify"
+ ],
+ "unmake": [
+  "make"
+ ],
+ "unyoke": [
+  "yoke"
+ ],
+ "vanish": [
+  "appear"
+ ],
+ "nameless": [],
+ "authoritative": [],
+ "suspicious": [],
+ "inhuman": [
+  "human"
+ ],
+ "austere": [],
+ "everlasting": [],
+ "unused": [
+  "active",
+  "used"
+ ],
+ "squat": [
+  "high",
+  "tall"
+ ],
+ "unfeeling": [],
+ "stringent": [],
+ "arrogant": [
+  "humble",
+  "condescending"
+ ],
+ "instinctive": [],
+ "witty": [],
+ "vibrant": [],
+ "lusty": [],
+ "comical": [],
+ "spacious": [
+  "little",
+  "small"
+ ],
+ "quaint": [],
+ "infantile": [
+  "old"
+ ],
+ "warlike": [
+  "peaceful"
+ ],
+ "crafty": [],
+ "unremarkable": [],
+ "regal": [],
+ "depraved": [],
+ "perpetual": [
+  "temporary"
+ ],
+ "zany": [],
+ "highbrow": [
+  "lowbrow"
+ ],
+ "whimsical": [],
+ "fugitive": [
+  "long"
+ ],
+ "balmy": [],
+ "problematic": [
+  "easy"
+ ],
+ "crisp": [
+  "hot",
+  "straight"
+ ],
+ "uncomplicated": [
+  "complicated"
+ ],
+ "polluted": [
+  "pure"
+ ],
+ "impromptu": [
+  "prepared"
+ ],
+ "plentiful": [
+  "scarce"
+ ],
+ "airy": [],
+ "husky": [],
+ "lowbrow": [
+  "highbrow"
+ ],
+ "prolonged": [
+  "short"
+ ],
+ "conceivable": [
+  "inconceivable"
+ ],
+ "notorious": [],
+ "fierce": [],
+ "shrewd": [],
+ "distressing": [
+  "good"
+ ],
+ "greasy": [],
+ "jerk": [
+  "press"
+ ],
+ "detriment": [
+  "benefit"
+ ],
+ "tread": [
+  "riser",
+  "rise"
+ ],
+ "loaf": [],
+ "slab": [],
+ "pardon": [],
+ "squire": [],
+ "counterpart": [],
+ "tenet": [],
+ "upturn": [
+  "downturn"
+ ],
+ "depiction": [],
+ "closet": [],
+ "leap": [],
+ "middleman": [],
+ "warn": [],
+ "reproach": [],
+ "propagate": [],
+ "concede": [],
+ "sting": [],
+ "cleave": [],
+ "profess": [],
+ "repeal": [],
+ "breathe": [],
+ "cripple": [],
+ "sear": [],
+ "curtail": [],
+ "avert": [
+  "incur"
+ ],
+ "infer": [],
+ "depose": [
+  "restore"
+ ],
+ "bait": [],
+ "oppress": [],
+ "expel": [],
+ "forage": [],
+ "bulge": [],
+ "accompanying": [],
+ "achieve": [],
+ "acquired": [
+  "lose"
+ ],
+ "adjustable": [],
+ "adjustment": [],
+ "affect": [],
+ "affordable": [
+  "expensive"
+ ],
+ "again": [],
+ "align": [
+  "skew"
+ ],
+ "also": [],
+ "amazing": [],
+ "amend": [
+  "worsen"
+ ],
+ "amenity": [
+  "disagreeableness"
+ ],
+ "angry": [
+  "pleased",
+  "unangry"
+ ],
+ "appliance": [],
+ "application": [],
+ "awareness": [
+  "incognizance"
+ ],
+ "beam": [],
+ "beside": [],
+ "bias": [],
+ "bracket": [],
+ "bringing": [],
+ "bull": [
+  "bear"
+ ],
+ "cad": [],
+ "cage": [],
+ "canal": [],
+ "canvas": [],
+ "capability": [
+  "incapableness",
+  "incapability"
+ ],
+ "cartoon": [],
+ "cave": [],
+ "chest": [],
+ "cited": [],
+ "clearly": [
+  "unintelligibly"
+ ],
+ "clock": [],
+ "cloud": [
+  "clear"
+ ],
+ "coast": [],
+ "competition": [
+  "cooperation"
+ ],
+ "completion": [],
+ "concentration": [
+  "dilution",
+  "dispersion"
+ ],
+ "configuration": [],
+ "considering": [],
+ "consistently": [
+  "unsystematically",
+  "inconsistently"
+ ],
+ "consolidation": [],
+ "contain": [],
+ "continuous": [
+  "discontinuous"
+ ],
+ "cop": [],
+ "correction": [],
+ "correctly": [
+  "wrongly",
+  "incorrectly"
+ ],
+ "creating": [],
+ "decreased": [
+  "increase",
+  "increased"
+ ],
+ "degree": [],
+ "delayed": [
+  "rush"
+ ],
+ "delivering": [],
+ "dell": [],
+ "density": [
+  "distribution",
+  "dispersion"
+ ],
+ "detected": [
+  "undetected"
+ ],
+ "deviation": [],
+ "devoted": [],
+ "dialog": [],
+ "dick": [],
+ "distributor": [],
+ "documented": [
+  "undocumented"
+ ],
+ "doll": [],
+ "donated": [],
+ "donation": [],
+ "drug": [],
+ "due": [
+  "undue"
+ ],
+ "earn": [],
+ "enclosure": [],
+ "energy": [],
+ "enlargement": [
+  "contraction"
+ ],
+ "equipped": [
+  "unfurnished",
+  "unequipped"
+ ],
+ "excel": [],
+ "excessive": [
+  "moderate",
+  "insufficient"
+ ],
+ "excluding": [],
+ "experience": [
+  "inexperience"
+ ],
+ "explained": [],
+ "eyed": [
+  "eyeless"
+ ],
+ "fallen": [
+  "rise",
+  "ascend"
+ ],
+ "feel": [],
+ "fewer": [
+  "many",
+  "more"
+ ],
+ "filling": [
+  "empty"
+ ],
+ "finance": [],
+ "formula": [],
+ "framework": [],
+ "freight": [],
+ "gallery": [],
+ "glance": [],
+ "glen": [],
+ "grown": [],
+ "guarantee": [],
+ "guest": [],
+ "guild": [],
+ "hairy": [
+  "bald",
+  "hairless"
+ ],
+ "hall": [
+  "bower"
+ ],
+ "handled": [
+  "handleless"
+ ],
+ "handy": [],
+ "heard": [],
+ "hell": [
+  "heaven"
+ ],
+ "hence": [],
+ "here": [
+  "there"
+ ],
+ "historic": [
+  "legendary",
+  "future"
+ ],
+ "honey": [],
+ "hop": [],
+ "horror": [],
+ "husband": [
+  "wife",
+  "waste"
+ ],
+ "ice": [],
+ "identification": [],
+ "identity": [],
+ "implication": [],
+ "inclusive": [
+  "exclusive"
+ ],
+ "indeed": [],
+ "indication": [
+  "contraindication"
+ ],
+ "induction": [],
+ "infectious": [
+  "noninfectious"
+ ],
+ "inn": [],
+ "input": [],
+ "integrity": [],
+ "interval": [],
+ "introductory": [],
+ "justify": [
+  "blame"
+ ],
+ "landing": [
+  "takeoff"
+ ],
+ "led": [
+  "follow"
+ ],
+ "letter": [],
+ "linear": [
+  "cubic",
+  "nonlinear"
+ ],
+ "liquid": [
+  "gaseous",
+  "illiquid"
+ ],
+ "listing": [],
+ "lone": [],
+ "lounge": [],
+ "magnetic": [
+  "geographic",
+  "antimagnetic"
+ ],
+ "matched": [
+  "disagree",
+  "mismatched"
+ ],
+ "median": [
+  "peripheral",
+  "distal"
+ ],
+ "memorial": [],
+ "menu": [],
+ "merchandise": [],
+ "met": [],
+ "mid": [],
+ "mill": [],
+ "miscellaneous": [],
+ "mistake": [],
+ "nearly": [],
+ "nomination": [],
+ "offered": [],
+ "older": [
+  "young",
+  "new"
+ ],
+ "ordinance": [],
+ "organic": [
+  "functional",
+  "inorganic"
+ ],
+ "pact": [],
+ "paid": [
+  "default",
+  "unpaid"
+ ],
+ "pain": [
+  "pleasure"
+ ],
+ "path": [],
+ "perhaps": [],
+ "periodically": [],
+ "pin": [
+  "unpin"
+ ],
+ "placing": [],
+ "playing": [],
+ "possibly": [
+  "impossibly"
+ ],
+ "precisely": [
+  "inexactly",
+  "imprecisely"
+ ],
+ "preventing": [],
+ "producer": [],
+ "promo": [],
+ "proof": [],
+ "provided": [],
+ "pushed": [],
+ "quest": [],
+ "quote": [
+  "unquote"
+ ],
+ "raid": [],
+ "rapid": [
+  "slow"
+ ],
+ "reading": [],
+ "recognized": [],
+ "reflect": [],
+ "reliability": [
+  "undependableness",
+  "unreliability"
+ ],
+ "reminder": [],
+ "renew": [],
+ "reporter": [],
+ "represented": [
+  "undelineated",
+  "prosecute"
+ ],
+ "research": [],
+ "resistance": [],
+ "responsible": [
+  "irresponsible"
+ ],
+ "reward": [
+  "dishonor",
+  "penalty"
+ ],
+ "room": [],
+ "roster": [],
+ "roughly": [],
+ "sacrifice": [],
+ "season": [],
+ "selected": [
+  "unselected"
+ ],
+ "self": [],
+ "shark": [],
+ "shop": [
+  "boycott"
+ ],
+ "shopper": [],
+ "shore": [],
+ "showing": [
+  "hide",
+  "disprove"
+ ],
+ "significance": [
+  "insignificance"
+ ],
+ "simply": [],
+ "sin": [],
+ "slave": [],
+ "slope": [],
+ "smaller": [
+  "big",
+  "large"
+ ],
+ "some": [],
+ "something": [],
+ "sometime": [],
+ "species": [],
+ "speech": [],
+ "spin": [],
+ "steal": [],
+ "student": [
+  "teacher"
+ ],
+ "studio": [
+  "location"
+ ],
+ "studying": [],
+ "suddenly": [],
+ "supplied": [],
+ "supporting": [
+  "negate"
+ ],
+ "systematic": [
+  "unsystematic"
+ ],
+ "tax": [],
+ "threshold": [],
+ "toll": [],
+ "touched": [
+  "unmoved",
+  "untouched"
+ ],
+ "tragedy": [
+  "burlesque",
+  "comedy"
+ ],
+ "transparent": [
+  "thick",
+  "opaque"
+ ],
+ "trek": [],
+ "trying": [],
+ "tune": [
+  "untune"
+ ],
+ "twin": [],
+ "twisted": [
+  "unbend",
+  "untwist"
+ ],
+ "unemployment": [
+  "employment"
+ ],
+ "unexpected": [
+  "expected"
+ ],
+ "urgent": [],
+ "verify": [
+  "disprove"
+ ],
+ "viewing": [
+  "model"
+ ],
+ "went": [],
+ "within": [
+  "outside"
+ ],
+ "without": [],
+ "woman": [
+  "girl",
+  "man"
+ ],
+ "worldwide": [
+  "local",
+  "national"
+ ],
+ "articulate": [
+  "unarticulated",
+  "inarticulate"
+ ],
+ "chained": [
+  "unchain"
+ ],
+ "coiled": [
+  "uncoil",
+  "uncoiled"
+ ],
+ "contaminated": [
+  "uncontaminated",
+  "decontaminate"
+ ],
+ "courteous": [
+  "discourteous"
+ ],
+ "cyclic": [
+  "noncyclic",
+  "acyclic"
+ ],
+ "destructive": [
+  "creative",
+  "productive"
+ ],
+ "diffuse": [
+  "concentrate",
+  "hard"
+ ],
+ "dignified": [
+  "undignified"
+ ],
+ "diligent": [
+  "negligent"
+ ],
+ "diluted": [
+  "concentrated",
+  "undiluted"
+ ],
+ "disarming": [
+  "arm",
+  "arming"
+ ],
+ "discernable": [
+  "indiscernible"
+ ],
+ "discerning": [
+  "undiscerning"
+ ],
+ "discomposed": [
+  "composed"
+ ],
+ "discontinuous": [
+  "continuous"
+ ],
+ "disjoint": [
+  "join"
+ ],
+ "disjointed": [
+  "join"
+ ],
+ "elastic": [
+  "inelastic"
+ ],
+ "elective": [
+  "appointive"
+ ],
+ "empiric": [
+  "theoretical"
+ ],
+ "enlightening": [
+  "unedifying",
+  "unenlightening"
+ ],
+ "enterprising": [
+  "unenterprising"
+ ],
+ "enthralled": [
+  "disenchant"
+ ],
+ "euphoric": [
+  "dysphoric"
+ ],
+ "exaggerated": [
+  "understate"
+ ],
+ "fewest": [
+  "many",
+  "most"
+ ],
+ "gifted": [
+  "untalented"
+ ],
+ "gradual": [
+  "steep",
+  "abrupt"
+ ],
+ "hairless": [
+  "hairy",
+  "haired"
+ ],
+ "heterogeneous": [
+  "homogeneous",
+  "autogenous"
+ ],
+ "imitative": [
+  "nonechoic",
+  "nonimitative"
+ ],
+ "imperceptible": [
+  "perceptible"
+ ],
+ "inattentive": [
+  "attentive"
+ ],
+ "inconsistent": [
+  "consistent"
+ ],
+ "incorporeal": [
+  "corporeal"
+ ],
+ "infrequent": [
+  "frequent"
+ ],
+ "ingenuous": [
+  "disingenuous"
+ ],
+ "inhospitable": [
+  "hospitable"
+ ],
+ "innocuous": [
+  "noxious"
+ ],
+ "intentional": [
+  "undesigned",
+  "unintentional"
+ ],
+ "invigorating": [
+  "deaden",
+  "debilitating"
+ ],
+ "inward": [
+  "outward"
+ ],
+ "joyous": [
+  "joyless"
+ ],
+ "laced": [
+  "untwine",
+  "unlaced"
+ ],
+ "lacking": [
+  "have"
+ ],
+ "licit": [
+  "illicit"
+ ],
+ "loosened": [
+  "stiffen"
+ ],
+ "mindful": [
+  "unmindful"
+ ],
+ "naive": [
+  "sophisticated",
+  "informed"
+ ],
+ "naturalized": [
+  "denaturalize"
+ ],
+ "nonnative": [
+  "native"
+ ],
+ "nonpartisan": [
+  "partisan"
+ ],
+ "nonprofessional": [
+  "professional"
+ ],
+ "optimistic": [
+  "pessimistic"
+ ],
+ "perennial": [
+  "short",
+  "biennial"
+ ],
+ "planted": [
+  "unplanted"
+ ],
+ "poorly": [
+  "well"
+ ],
+ "quenched": [
+  "ignite"
+ ],
+ "rectified": [
+  "falsify"
+ ],
+ "restricting": [
+  "derestrict"
+ ],
+ "rousing": [
+  "calm"
+ ],
+ "soiled": [
+  "clean"
+ ],
+ "spiritless": [
+  "spirited"
+ ],
+ "stale": [
+  "original",
+  "fresh"
+ ],
+ "sterile": [
+  "fertile"
+ ],
+ "stormy": [
+  "calm"
+ ],
+ "subjective": [
+  "transeunt",
+  "objective"
+ ],
+ "tasteless": [
+  "tasty",
+  "tasteful"
+ ],
+ "tractable": [
+  "intractable"
+ ],
+ "unaccustomed": [
+  "accustomed"
+ ],
+ "unborn": [
+  "born"
+ ],
+ "uncivil": [
+  "polite",
+  "civil"
+ ],
+ "uncomfortable": [
+  "comfortable"
+ ],
+ "unemotional": [
+  "emotional"
+ ],
+ "unethical": [
+  "ethical"
+ ],
+ "unexciting": [
+  "stimulating",
+  "exciting"
+ ],
+ "unfastened": [
+  "shut",
+  "fastened"
+ ],
+ "unfortunate": [
+  "auspicious",
+  "fortunate"
+ ],
+ "unhurried": [
+  "hurried"
+ ],
+ "unimpaired": [
+  "impaired"
+ ],
+ "unimpressive": [
+  "impressive"
+ ],
+ "unintelligible": [
+  "clear",
+  "intelligible"
+ ],
+ "unlearned": [
+  "conditioned"
+ ],
+ "unloaded": [
+  "loaded"
+ ],
+ "unneeded": [
+  "necessary"
+ ],
+ "unorthodox": [
+  "orthodox"
+ ],
+ "unprincipled": [
+  "principled"
+ ],
+ "unprofessional": [
+  "professional"
+ ],
+ "unproved": [
+  "proved"
+ ],
+ "unreserved": [
+  "reserved"
+ ],
+ "unrestricted": [
+  "private",
+  "restricted"
+ ],
+ "unwary": [
+  "wary"
+ ],
+ "unwilling": [
+  "willing"
+ ],
+ "unwitting": [
+  "witting"
+ ],
+ "unworldly": [
+  "worldly"
+ ],
+ "worldly": [
+  "naive",
+  "unworldly"
+ ],
+ "appropriately": [
+  "unsuitably",
+  "inappropriately"
+ ],
+ "decorously": [
+  "indecorously"
+ ],
+ "felicitously": [
+  "infelicitously"
+ ],
+ "hastily": [
+  "unhurriedly"
+ ],
+ "indirectly": [
+  "directly"
+ ],
+ "irregularly": [
+  "regularly"
+ ],
+ "passably": [
+  "immoderately",
+  "unreasonably"
+ ],
+ "suitably": [
+  "inappropriately",
+  "unsuitably"
+ ],
+ "unacceptably": [
+  "tolerably",
+  "acceptably"
+ ],
+ "antagonist": [
+  "synergist",
+  "agonist"
+ ],
+ "assembling": [
+  "disassemble"
+ ],
+ "assets": [
+  "liability",
+  "liabilities"
+ ],
+ "brace": [
+  "sedate"
+ ],
+ "choke": [
+  "unclog"
+ ],
+ "closeness": [
+  "farness",
+  "openness"
+ ],
+ "conceit": [
+  "humility"
+ ],
+ "contentment": [
+  "discontentment"
+ ],
+ "decency": [
+  "indecency"
+ ],
+ "declension": [
+  "ascent"
+ ],
+ "disadvantage": [
+  "advantage"
+ ],
+ "discomposure": [
+  "composure"
+ ],
+ "disincentive": [
+  "incentive"
+ ],
+ "disinclination": [
+  "inclination"
+ ],
+ "dismay": [
+  "elate"
+ ],
+ "disrepute": [
+  "reputation",
+  "repute"
+ ],
+ "dryness": [
+  "moisture",
+  "wetness"
+ ],
+ "fidelity": [
+  "unfaithfulness",
+  "infidelity"
+ ],
+ "flunk": [
+  "pass",
+  "passing"
+ ],
+ "fullness": [
+  "emptiness"
+ ],
+ "imbalance": [
+  "symmetry",
+  "balance"
+ ],
+ "immorality": [
+  "morality"
+ ],
+ "imperfection": [
+  "perfection"
+ ],
+ "inaccuracy": [
+  "truth",
+  "accuracy"
+ ],
+ "inactivity": [
+  "action",
+  "activity"
+ ],
+ "inattention": [
+  "attention"
+ ],
+ "incoherence": [
+  "coherence"
+ ],
+ "inducement": [
+  "disincentive"
+ ],
+ "ineffectiveness": [
+  "effectiveness"
+ ],
+ "inertia": [
+  "activeness"
+ ],
+ "ingress": [
+  "emersion",
+  "egress"
+ ],
+ "launching": [
+  "abolish"
+ ],
+ "materiality": [
+  "incorporeality",
+  "immateriality"
+ ],
+ "misconception": [
+  "concept",
+  "conception"
+ ],
+ "morality": [
+  "immorality"
+ ],
+ "nadir": [
+  "zenith"
+ ],
+ "nascency": [
+  "death"
+ ],
+ "nonconformity": [
+  "conformism",
+  "conformity"
+ ],
+ "openness": [
+  "closeness"
+ ],
+ "prosecution": [
+  "denial",
+  "defence"
+ ],
+ "ravel": [
+  "unknot",
+  "unravel"
+ ],
+ "relinquishing": [
+  "hold"
+ ],
+ "reversal": [
+  "affirmation"
+ ],
+ "similitude": [
+  "unlikeness",
+  "dissimilitude"
+ ],
+ "stillness": [
+  "motion"
+ ],
+ "usefulness": [
+  "inutility",
+  "uselessness"
+ ],
+ "uselessness": [
+  "utility",
+  "usefulness"
+ ],
+ "abridge": [
+  "expand"
+ ],
+ "activate": [
+  "deactivate",
+  "inactivate"
+ ],
+ "admire": [],
+ "complain": [
+  "cheer"
+ ],
+ "contaminate": [
+  "decontaminate"
+ ],
+ "criminalise": [
+  "legalize",
+  "decriminalise"
+ ],
+ "criminalize": [
+  "legalize",
+  "decriminalize"
+ ],
+ "deodorize": [
+  "odourise",
+  "odorize"
+ ],
+ "desensitize": [
+  "sensitise",
+  "sensitize"
+ ],
+ "detest": [
+  "love"
+ ],
+ "disqualify": [
+  "qualify"
+ ],
+ "distort": [
+  "untwist"
+ ],
+ "disunify": [
+  "unify"
+ ],
+ "enforce": [
+  "exempt",
+  "free"
+ ],
+ "erase": [
+  "record"
+ ],
+ "louden": [
+  "quieten"
+ ],
+ "patronize": [
+  "boycott"
+ ],
+ "roughen": [
+  "smooth"
+ ],
+ "succumb": [
+  "survive"
+ ],
+ "sweeten": [
+  "sour"
+ ],
+ "uglify": [
+  "beautify"
+ ],
+ "unbar": [
+  "bar"
+ ],
+ "unscramble": [
+  "knot",
+  "scramble"
+ ],
+ "unstring": [
+  "string"
+ ],
+ "untwist": [
+  "twist"
+ ],
+ "vitalize": [
+  "devitalize"
+ ],
+ "widen": [
+  "contract",
+  "narrow"
+ ],
+ "pompous": [],
+ "expressive": [],
+ "dreamy": [],
+ "headstrong": [],
+ "visionary": [
+  "practical"
+ ],
+ "roomy": [],
+ "trashy": [],
+ "hilarious": [],
+ "rustic": [
+  "urban"
+ ],
+ "livid": [
+  "dark"
+ ],
+ "melancholy": [],
+ "enigmatic": [],
+ "hurtful": [],
+ "risky": [
+  "safe"
+ ],
+ "sickly": [
+  "healthy"
+ ],
+ "senseless": [],
+ "ephemeral": [
+  "eternal",
+  "permanent"
+ ],
+ "galvanic": [],
+ "industrious": [],
+ "mournful": [],
+ "replete": [],
+ "prosaic": [
+  "poetic"
+ ],
+ "authoritarian": [
+  "democratic"
+ ],
+ "fraudulent": [],
+ "hale": [],
+ "erratic": [],
+ "miserly": [],
+ "pliable": [],
+ "cogent": [],
+ "bountiful": [],
+ "sundry": [],
+ "vigilant": [],
+ "versatile": [],
+ "makeshift": [
+  "permanent"
+ ],
+ "ethereal": [
+  "real"
+ ],
+ "degeneracy": [],
+ "strait": [],
+ "crevice": [],
+ "culmination": [],
+ "corollary": [],
+ "ridicule": [
+  "praise"
+ ],
+ "blazon": [],
+ "decoration": [],
+ "gag": [],
+ "blight": [],
+ "bout": [],
+ "intellect": [],
+ "abridgment": [],
+ "proponent": [
+  "detractor",
+  "opponent"
+ ],
+ "revulsion": [],
+ "moor": [],
+ "brawl": [],
+ "sieve": [],
+ "curiosity": [
+  "ignorance"
+ ],
+ "roadway": [],
+ "patronage": [],
+ "caress": [],
+ "indentation": [],
+ "possess": [],
+ "interpret": [],
+ "devastate": [],
+ "cooperate": [
+  "contend"
+ ],
+ "vindicate": [],
+ "shelve": [],
+ "narrate": [],
+ "empower": [],
+ "designate": [],
+ "harmonize": [],
+ "pulverize": [],
+ "abhor": [
+  "like",
+  "love"
+ ],
+ "dispense": [],
+ "decimate": [],
+ "misrepresent": [],
+ "meditate": [],
+ "regroup": [],
+ "drape": [],
+ "assess": [],
+ "bake": [],
+ "implant": [],
+ "promulgate": [],
+ "accident": [],
+ "accreditation": [],
+ "acting": [
+  "refrain"
+ ],
+ "adjusted": [
+  "skew",
+  "unadjusted"
+ ],
+ "administered": [],
+ "admitted": [],
+ "adventure": [],
+ "affiliated": [],
+ "afford": [],
+ "ago": [],
+ "allocated": [],
+ "altered": [
+  "unaltered"
+ ],
+ "analytical": [
+  "synthetic",
+  "synthetical"
+ ],
+ "annex": [],
+ "approximately": [],
+ "argued": [],
+ "art": [],
+ "attitude": [],
+ "attraction": [
+  "repulsion"
+ ],
+ "baseline": [],
+ "beef": [],
+ "below": [
+  "upstairs",
+  "above"
+ ],
+ "beyond": [],
+ "bin": [],
+ "blocking": [
+  "free",
+  "unblock"
+ ],
+ "boulevard": [],
+ "breach": [
+  "keep",
+  "observe"
+ ],
+ "breath": [],
+ "broadcasting": [],
+ "builder": [],
+ "calendar": [],
+ "called": [],
+ "celebration": [],
+ "challenging": [
+  "easy"
+ ],
+ "chat": [],
+ "chuck": [],
+ "circumstance": [],
+ "citation": [],
+ "clarity": [
+  "confusion",
+  "opacity"
+ ],
+ "clothe": [
+  "undress",
+  "strip"
+ ],
+ "colleague": [],
+ "comedy": [
+  "drama",
+  "tragedy"
+ ],
+ "complication": [],
+ "compromise": [],
+ "concert": [],
+ "conditioning": [],
+ "construction": [
+  "misconstruction"
+ ],
+ "convenient": [
+  "incommodious",
+  "inconvenient"
+ ],
+ "conversion": [],
+ "cook": [],
+ "cooperation": [
+  "rivalry",
+  "competition"
+ ],
+ "coordinate": [],
+ "cord": [],
+ "corrected": [
+  "falsify",
+  "uncorrected"
+ ],
+ "costume": [],
+ "courier": [],
+ "cute": [],
+ "date": [],
+ "dealer": [],
+ "defect": [],
+ "define": [],
+ "departure": [
+  "arrival"
+ ],
+ "depth": [],
+ "descending": [
+  "rise",
+  "ascending"
+ ],
+ "described": [],
+ "designing": [],
+ "detect": [],
+ "detective": [],
+ "developing": [],
+ "discussion": [],
+ "dozen": [],
+ "drew": [
+  "push",
+  "repel"
+ ],
+ "dun": [],
+ "durable": [
+  "short",
+  "perishable"
+ ],
+ "earlier": [
+  "middle",
+  "late"
+ ],
+ "effectiveness": [
+  "ineffectiveness"
+ ],
+ "effort": [],
+ "either": [],
+ "elevation": [
+  "depression",
+  "reduction"
+ ],
+ "encounter": [],
+ "enemy": [
+  "ally",
+  "friend"
+ ],
+ "enhancement": [],
+ "eon": [],
+ "evaluate": [],
+ "evaluation": [],
+ "excellence": [],
+ "excuse": [],
+ "exempt": [
+  "enforce",
+  "nonexempt"
+ ],
+ "exhibition": [],
+ "existence": [
+  "nonbeing",
+  "nonexistence"
+ ],
+ "extending": [],
+ "fatty": [
+  "nonfat"
+ ],
+ "feedback": [],
+ "festival": [],
+ "fever": [],
+ "fib": [],
+ "finding": [
+  "lose"
+ ],
+ "finishing": [
+  "start",
+  "begin"
+ ],
+ "flame": [],
+ "flight": [],
+ "flux": [],
+ "foot": [
+  "head"
+ ]
+}
