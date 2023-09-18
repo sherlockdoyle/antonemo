@@ -55,7 +55,7 @@ const Keyboard: Component<KeyboardProps> = props => {
     <div class='flex flex-col gap-1'>
       <For each={KEYBOARD_ROWS}>
         {row => (
-          <div class='flex w-full justify-center gap-1'>
+          <div class='flex w-full justify-center gap-0.5 sm:gap-1'>
             <For each={row}>
               {key => (
                 <Button

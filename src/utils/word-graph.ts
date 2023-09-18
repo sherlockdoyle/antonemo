@@ -1,16 +1,25 @@
-import wordPath from '../assets/words.json?url';
+import { decompress } from 'huffy';
+import wordPath from '../assets/words-default.bin?url';
 import { Random } from './random';
 import { addAll, iou, isSubset } from './set-extensions';
 
 let wordList: Record<string, string[]> | undefined;
 export async function fetchAndGetWordList(): Promise<Record<string, string[]>> {
   if (!wordList) {
-    wordList = (await (await fetch(wordPath)).json()) as Record<string, string[]>;
+    wordList = Object.fromEntries(
+      new TextDecoder()
+        .decode(decompress(new Uint8Array(await (await fetch(wordPath)).arrayBuffer())))
+        .split(';')
+        .map(s => {
+          const [w, ...a] = s.split(',');
+          return [w, a];
+        }),
+    );
   }
   return wordList;
 }
 
-export class NoWordError extends Error { }
+export class NoWordError extends Error {}
 
 const MAX_NUMBER_OF_LETTERS = ((26 / 4) * 3) | 0;
 export class Builder {

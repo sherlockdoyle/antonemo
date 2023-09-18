@@ -88,7 +88,7 @@ const Tips: Component<TipsProps> = props => (
     }
   >
     <h2 class='text-xl font-bold'>How To Play</h2>
-    <p>The objective of the game is to construct the final word using the correct letters. Here’s how you can play:</p>
+    <p>The objective of the game is to construct the final word using the correct letters. Here's how you can play:</p>
     <ul class='ml-4 mt-4 list-disc'>
       <li>Utilize the active letters to form words.</li>
       <li>
@@ -125,6 +125,16 @@ const Tips: Component<TipsProps> = props => (
       The score is calculated based on the number of steps taken to construct the final word. Therefore, a lower score
       is more desirable. Each added word increases the step count by 1. Utilizing hints will multiply the current step
       count by a certain amount.
+    </p>
+
+    <h3 class='mb-1 mt-4 text-lg font-bold'>Notes</h3>
+    <p>
+      Please note that a word may have multiple antonyms. So the antonym of an antonym may not be the same as the
+      original word.
+    </p>
+    <p>
+      Additionally, since the game uses an auto-generated wordlist, there may be wrong antonyms. If you come across any
+      such errors, please let me know.
     </p>
   </Modal>
 );

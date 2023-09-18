@@ -29,11 +29,10 @@ function App() {
   setGlobalStore({ seed: today });
   createEffect(async () => {
     if (globalStore.gameState === GameState.Starting || (firstRun && !showTips())) {
+      setShowLoading(true);
       firstRun = false;
       engine = new GameEngine(globalStore.gameMode, setGlobalStore);
-      setShowLoading(true);
       await engine.buildWordGraph();
-      setShowLoading(false);
       engine.setRandomSeed(globalStore.seed);
       let offset = globalStore.offset;
       while (true) {
@@ -48,6 +47,7 @@ function App() {
       setGlobalStore({ gameState: GameState.Playing });
       setPersistentStore('playTime', globalStore.gameMode, today);
       setRenderHints(false);
+      setShowLoading(false);
     }
   });
   onMount(() => {
@@ -152,7 +152,7 @@ function App() {
         )}
       </Shell>
 
-      {showLoading() && <ToastAlert status='info'>Loading words...</ToastAlert>}
+      {showLoading() && <ToastAlert status='info'>Loading game...</ToastAlert>}
       {isCurrentWordWrong() && <ToastAlert status='warning'>Wrong word!</ToastAlert>}
 
       <Tips open={showTips()} handleClose={() => setShowTips(false)} />
