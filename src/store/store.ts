@@ -1,5 +1,5 @@
 import { createStore } from 'solid-js/store';
-import { EngineState, GameMode, GameState } from '../utils/engine';
+import { EngineState, GameEngine, GameMode, GameState } from '../utils/engine';
 import createLocalStore from './createLocalStore';
 
 interface PersistentStore {
@@ -22,10 +22,10 @@ interface GlobalStore extends EngineState {
   offset: number;
   finalWord: string | undefined;
 }
-const initialGlobalStore: GlobalStore = {
+const initialGlobalStore: Readonly<GlobalStore> = {
   gameMode: persistentStore.defaultGameMode,
   gameState: GameState.Idle,
-  seed: 0,
+  seed: GameEngine.getCurrentDay(),
   offset: 0,
   finalWord: undefined,
   steps: 0,
@@ -38,8 +38,7 @@ const initialGlobalStore: GlobalStore = {
   activeLetters: new Set(),
   correctLetters: new Set(),
   seenSolution: false,
-}
+};
 const [globalStore, setGlobalStore] = createStore<GlobalStore>({ ...initialGlobalStore });
 
 export { globalStore, initialGlobalStore, persistentStore, setGlobalStore, setPersistentStore };
-

@@ -26,7 +26,6 @@ function App() {
   let firstRun = true,
     today = GameEngine.getCurrentDay(),
     engine: GameEngine;
-  setGlobalStore({ seed: today });
   createEffect(async () => {
     if (globalStore.gameState === GameState.Starting || (firstRun && !showTips())) {
       setShowLoading(true);

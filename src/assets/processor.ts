@@ -1,6 +1,5 @@
 // run with ts-node-esm ./src/assets/processor.ts
 import fs from 'fs';
-import { compress } from 'huffy';
 import path from 'path';
 
 function isWordOkay(word: string): boolean {
@@ -134,12 +133,8 @@ topWords.forEach(word => {
 });
 
 fs.writeFileSync(
-  './src/assets/words-default.bin',
-  compress(
-    new TextEncoder().encode(
-      Object.entries(finalAntonyms)
-        .map(([w, a]) => [w, ...a].join(','))
-        .join(';'),
-    ),
-  ),
+  './src/assets/words-default.txt',
+  Object.entries(finalAntonyms)
+    .map(([w, a]) => [w, ...a].join(','))
+    .join(';'),
 );

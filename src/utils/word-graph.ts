@@ -1,5 +1,4 @@
-import { decompress } from 'huffy';
-import wordPath from '../assets/words-default.bin?url';
+import wordPath from '../assets/words-default.txt?url';
 import { Random } from './random';
 import { addAll, iou, isSubset } from './set-extensions';
 
@@ -7,13 +6,10 @@ let wordList: Record<string, string[]> | undefined;
 export async function fetchAndGetWordList(): Promise<Record<string, string[]>> {
   if (!wordList) {
     wordList = Object.fromEntries(
-      new TextDecoder()
-        .decode(decompress(new Uint8Array(await (await fetch(wordPath)).arrayBuffer())))
-        .split(';')
-        .map(s => {
-          const [w, ...a] = s.split(',');
-          return [w, a];
-        }),
+      (await (await fetch(wordPath)).text()).split(';').map(s => {
+        const [w, ...a] = s.split(',');
+        return [w, a];
+      }),
     );
   }
   return wordList;
