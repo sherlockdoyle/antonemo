@@ -1,7 +1,7 @@
 import { SetStoreFunction } from 'solid-js/store';
 import { Random } from './random';
 import { addAll, isSubset } from './set-extensions';
-import { Builder, fetchAndGetWordList } from './word-graph';
+import { Builder, WordListType, fetchAndGetWordList } from './word-graph';
 
 export const enum GameMode {
   Easy,
@@ -100,8 +100,8 @@ export class GameEngine {
     this.#seenSolution = false;
   }
 
-  async buildWordGraph() {
-    const words = await fetchAndGetWordList();
+  async buildWordGraph(type: WordListType) {
+    const words = await fetchAndGetWordList(type);
     const antonymMap: Record<string, string> = {};
     Object.entries(words).forEach(([word, antonyms]) => {
       let antonym: string | undefined;

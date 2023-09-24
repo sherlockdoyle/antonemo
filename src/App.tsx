@@ -31,7 +31,7 @@ function App() {
       setShowLoading(true);
       firstRun = false;
       engine = new GameEngine(globalStore.gameMode, setGlobalStore);
-      await engine.buildWordGraph();
+      await engine.buildWordGraph(persistentStore.wordListType);
       engine.setRandomSeed(globalStore.seed);
       let offset = globalStore.offset;
       while (true) {
@@ -44,9 +44,17 @@ function App() {
       }
       engine.updateStore();
       setGlobalStore({ gameState: GameState.Playing });
-      setPersistentStore('playTime', globalStore.gameMode, today);
+      setPersistentStore(store => ({
+        ...store,
+        playTime: {
+          ...store.playTime,
+          [persistentStore.wordListType]: { ...store.playTime[store.wordListType], [globalStore.gameMode]: today },
+        },
+      }));
       setRenderHints(false);
       setShowLoading(false);
+      (document.activeElement as HTMLElement | null)?.blur();
+      window.focus();
     }
   });
   onMount(() => {

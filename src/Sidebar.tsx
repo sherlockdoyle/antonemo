@@ -2,6 +2,7 @@ import { Component, JSXElement, ParentComponent, createSignal } from 'solid-js';
 import Collapse from './components/Collapse';
 import { globalStore, initialGlobalStore, persistentStore, setGlobalStore, setPersistentStore } from './store/store';
 import { GameMode, GameState } from './utils/engine';
+import { WordListType } from './utils/word-graph';
 
 interface MenuItemProps {
   title: string;
@@ -17,6 +18,34 @@ const MenuItem: ParentComponent<MenuItemProps> = props => (
     <div class='divider' />
   </>
 );
+
+const wordListHint: Record<WordListType, string> = {
+  default: 'Auto-generated wordlist with 5000+ words. May contain mistakes.',
+  manual: '100+ most common words. The antonyms were manually picked.',
+};
+const DefaultWordList: Component = () => {
+  const initialWordListType = persistentStore.wordListType;
+  return (
+    <MenuItem
+      title='Default Word List'
+      help={
+        <>
+          <p>{wordListHint[persistentStore.wordListType]}</p>
+          {persistentStore.wordListType !== initialWordListType && <p>Reload the page to apply changes.</p>}
+        </>
+      }
+    >
+      <select
+        class='select select-bordered select-primary uppercase'
+        value={persistentStore.wordListType}
+        onChange={e => setPersistentStore({ wordListType: e.currentTarget.value as WordListType })}
+      >
+        <option value='default'>DEFAULT</option>
+        <option value='manual'>MANUAL</option>
+      </select>
+    </MenuItem>
+  );
+};
 
 const DefaultGameMode: Component = () => (
   <MenuItem
@@ -124,6 +153,7 @@ const CustomGame: Component<{ handleClose: () => void }> = props => {
 const Sidebar: Component<{ handleClose: () => void }> = props => {
   return (
     <>
+      <DefaultWordList />
       <DefaultGameMode />
 
       <Collapse title='Custom Game'>

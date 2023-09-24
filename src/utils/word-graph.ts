@@ -1,18 +1,25 @@
-import wordPath from '../assets/words-default.txt?url';
+import defaultWordsPath from '../assets/words-default.txt?url';
+import manualWordsPath from '../assets/words-manual.txt?url';
 import { Random } from './random';
 import { addAll, iou, isSubset } from './set-extensions';
 
-let wordList: Record<string, string[]> | undefined;
-export async function fetchAndGetWordList(): Promise<Record<string, string[]>> {
-  if (!wordList) {
-    wordList = Object.fromEntries(
-      (await (await fetch(wordPath)).text()).split(';').map(s => {
+const type2path = {
+  default: defaultWordsPath,
+  manual: manualWordsPath,
+};
+export type WordListType = keyof typeof type2path;
+
+const wordLists: Partial<Record<WordListType, Record<string, string[]>>> = {};
+export async function fetchAndGetWordList(type: WordListType): Promise<Record<string, string[]>> {
+  if (!wordLists[type]) {
+    wordLists[type] = Object.fromEntries(
+      (await (await fetch(type2path[type])).text()).split(';').map(s => {
         const [w, ...a] = s.split(',');
         return [w, a];
       }),
     );
   }
-  return wordList;
+  return wordLists[type]!;
 }
 
 export class NoWordError extends Error {}

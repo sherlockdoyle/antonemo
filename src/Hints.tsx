@@ -61,16 +61,14 @@ const Hints: Component<TipsProps> = props => {
             name: 'Solution',
             children: solution() ? (
               <>
-                <h2 class='mb-3 mt-1 text-xl font-bold'>
-                  Here is one possible sequence of words (and their antonyms). May contain redundant words.
-                </h2>
+                <h2 class='mt-1 text-xl font-bold'>Here is one possible sequence of words (and their antonyms).</h2>
+                <h3 class='mb-3 text-lg font-bold'>May contain redundant words.</h3>
                 <div class='text-lg font-semibold uppercase'>
                   <For each={solution()}>
                     {([word, antonym], i) => (
                       <span class='inline-block'>
                         {i() === 0 || (
                           <svg
-                            xmlns='http://www.w3.org/2000/svg'
                             fill='none'
                             viewBox='0 0 24 24'
                             stroke-width='2.5'

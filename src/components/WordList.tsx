@@ -11,13 +11,7 @@ const WordRow: Component<{ word: string }> = props => {
         href={`https://www.merriam-webster.com/thesaurus/${props.word}`}
         target='_blank'
       >
-        <svg
-          xmlns='http://www.w3.org/2000/svg'
-          fill='none'
-          viewBox='0 0 24 24'
-          stroke-width='2'
-          class='h-10 w-10 stroke-info'
-        >
+        <svg fill='none' viewBox='0 0 24 24' stroke-width='2' class='h-10 w-10 stroke-info'>
           <path
             stroke-linecap='round'
             stroke-linejoin='round'
@@ -52,7 +46,7 @@ const CurrentWordRow: Component<CurrentWordRowProps> = props => {
         {props.isFinal ? (
           <For each={[...props.word]}>
             {(letter, i) => (
-              <span class='animate-wave inline-block' style={{ 'animation-delay': `${0.1 * i()}s` }}>
+              <span class='inline-block animate-wave' style={{ 'animation-delay': `${0.1 * i()}s` }}>
                 {letter}
               </span>
             )}
@@ -66,13 +60,7 @@ const CurrentWordRow: Component<CurrentWordRowProps> = props => {
       </div>
       {props.isFinal ? (
         <div class='flex h-12 w-12 items-center justify-center rounded-full bg-success text-success-content'>
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-            viewBox='1 0 24 24'
-            stroke-width='2.5'
-            class='h-10 w-10 stroke-current'
-          >
+          <svg fill='none' viewBox='1 0 24 24' stroke-width='2.5' class='h-10 w-10 stroke-current'>
             <path stroke-linecap='round' stroke-linejoin='round' d='M4.5 12.75l6 6 9-13.5' />
           </svg>
         </div>
@@ -85,13 +73,7 @@ const CurrentWordRow: Component<CurrentWordRowProps> = props => {
           }}
           onClick={props.handleClick}
         >
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-            viewBox='0 0 24 24'
-            stroke-width='2'
-            class='h-10 w-10 stroke-current'
-          >
+          <svg fill='none' viewBox='0 0 24 24' stroke-width='2' class='h-10 w-10 stroke-current'>
             <path
               stroke-linecap='round'
               stroke-linejoin='round'

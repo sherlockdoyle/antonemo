@@ -1,15 +1,18 @@
 import { createStore } from 'solid-js/store';
 import { EngineState, GameEngine, GameMode, GameState } from '../utils/engine';
+import { WordListType } from '../utils/word-graph';
 import createLocalStore from './createLocalStore';
 
 interface PersistentStore {
   isLightTheme: boolean;
+  wordListType: WordListType;
   defaultGameMode: GameMode;
   showTips: boolean;
-  playTime: Partial<Record<GameMode, number>>;
+  playTime: Partial<Record<WordListType, Partial<Record<GameMode, number>>>>;
 }
 const [persistentStore, setPersistentStore] = createLocalStore<PersistentStore>('a', {
   isLightTheme: false,
+  wordListType: 'manual',
   defaultGameMode: GameMode.Easy,
   showTips: true,
   playTime: {},

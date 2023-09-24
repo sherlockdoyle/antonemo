@@ -15,12 +15,7 @@ const GitHub: Component = () => (
 
 const HowToPlay: Component<{ handleTips: () => void }> = props => (
   <button class='flex flex-col items-center' onClick={props.handleTips}>
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 24 24'
-      stroke-width='2'
-      class='h-12 w-12 fill-none stroke-current'
-    >
+    <svg viewBox='0 0 24 24' stroke-width='2' class='h-12 w-12 fill-none stroke-current'>
       <path
         stroke-linecap='round'
         stroke-linejoin='round'
