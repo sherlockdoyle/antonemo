@@ -138,3 +138,54 @@ fs.writeFileSync(
     .map(([w, a]) => [w, ...a].join(','))
     .join(';'),
 );
+
+// manual
+// const manual = Object.fromEntries(
+//   fs
+//     .readFileSync('./src/assets/manual.txt', 'utf-8')
+//     .trim()
+//     .split('\n')
+//     .map<[string, string[]]>(line => {
+//       const [word, ...antonyms] = line.split(',');
+//       return [word, [...new Set(antonyms)]];
+//     }),
+// );
+// const letterFrequencies: Record<string, number> = {};
+// Object.entries(manual).forEach(([word, antonyms]) => {
+//   for (const letter of word) {
+//     if (letter in letterFrequencies) ++letterFrequencies[letter];
+//     else letterFrequencies[letter] = 1;
+//   }
+//   antonyms.forEach(antonym => {
+//     for (const letter of antonym) {
+//       if (letter in letterFrequencies) ++letterFrequencies[letter];
+//       else letterFrequencies[letter] = 1;
+//     }
+//   });
+// });
+// function wordLetterFrequency(word: string): number {
+//   let freq = 0;
+//   for (const letter of word) {
+//     freq += letterFrequencies[letter];
+//   }
+//   return freq / word.length;
+// }
+
+// Object.entries(manual).forEach(([word, antonyms]) => {
+//   antonyms.sort((a, b) => {
+//     const [iouA, diffA] = iou(word, a),
+//       [iouB, diffB] = iou(word, b);
+//     if (iouA !== iouB) return iouA - iouB;
+//     if (iouA * diffB !== iouB * diffA) return iouA * diffB - iouB * diffA;
+//     if (a.length !== b.length) return b.length - a.length;
+//     return wordLetterFrequency(b) - wordLetterFrequency(a);
+//   });
+// });
+// fs.writeFileSync('./src/assets/manual-processed.json', JSON.stringify(manual, null, 1));
+
+fs.writeFileSync(
+  './src/assets/words-manual.txt',
+  Object.entries(JSON.parse(fs.readFileSync('./src/assets/manual-processed.json', 'utf-8')) as Record<string, string[]>)
+    .map(([w, a]) => [w, ...a].join(','))
+    .join(';'),
+);

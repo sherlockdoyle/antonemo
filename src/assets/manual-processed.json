@@ -1,0 +1,451 @@
+{
+ "all": [
+  "nothing",
+  "little"
+ ],
+ "and": [
+  "minus"
+ ],
+ "any": [
+  "neither",
+  "none"
+ ],
+ "ask": [
+  "ignore",
+  "answer"
+ ],
+ "bad": [
+  "fresh",
+  "good"
+ ],
+ "big": [
+  "small",
+  "little"
+ ],
+ "but": [
+  "and",
+  "including"
+ ],
+ "can": [
+  "cannot"
+ ],
+ "day": [
+  "night",
+  "nadir"
+ ],
+ "eye": [
+  "ignore",
+  "edge"
+ ],
+ "few": [
+  "many",
+  "plentiful"
+ ],
+ "for": [
+  "against"
+ ],
+ "get": [
+  "lose",
+  "take"
+ ],
+ "her": [
+  "him"
+ ],
+ "him": [
+  "her"
+ ],
+ "his": [
+  "yours",
+  "hers"
+ ],
+ "how": [],
+ "its": [
+  "whose",
+  "their"
+ ],
+ "man": [
+  "female",
+  "woman"
+ ],
+ "new": [
+  "old",
+  "used"
+ ],
+ "not": [
+  "willing",
+  "keen"
+ ],
+ "now": [
+  "future",
+  "past"
+ ],
+ "old": [
+  "new",
+  "young"
+ ],
+ "one": [
+  "multiple",
+  "many"
+ ],
+ "our": [
+  "their",
+  "your"
+ ],
+ "out": [
+  "admit",
+  "conscious"
+ ],
+ "own": [
+  "shared",
+  "disown"
+ ],
+ "say": [
+  "suppress",
+  "deny"
+ ],
+ "see": [
+  "avoid",
+  "disbelieve"
+ ],
+ "she": [
+  "male"
+ ],
+ "the": [],
+ "try": [
+  "drop",
+  "quit"
+ ],
+ "two": [
+  "single"
+ ],
+ "use": [
+  "neglect",
+  "ignore"
+ ],
+ "way": [
+  "slightly"
+ ],
+ "who": [
+  "somebody",
+  "someone"
+ ],
+ "you": [],
+ "able": [
+  "incompetent",
+  "inept"
+ ],
+ "also": [
+  "otherwise",
+  "conversely"
+ ],
+ "back": [
+  "front",
+  "face"
+ ],
+ "call": [
+  "dismiss",
+  "ignore"
+ ],
+ "case": [],
+ "come": [
+  "unite",
+  "leave"
+ ],
+ "even": [
+  "odd",
+  "uneven"
+ ],
+ "fact": [
+  "lie",
+  "fiction"
+ ],
+ "feel": [
+  "doubt"
+ ],
+ "find": [
+  "lose"
+ ],
+ "from": [],
+ "give": [
+  "take",
+  "receive"
+ ],
+ "good": [
+  "small",
+  "bad"
+ ],
+ "hand": [
+  "foot",
+  "hindrance"
+ ],
+ "have": [
+  "abandon",
+  "need"
+ ],
+ "high": [
+  "deep",
+  "low"
+ ],
+ "into": [
+  "from",
+  "beyond"
+ ],
+ "just": [
+  "wrongful",
+  "unjust"
+ ],
+ "know": [
+  "misread",
+  "misknow"
+ ],
+ "last": [
+  "beginning",
+  "first"
+ ],
+ "life": [
+  "death",
+  "nonexistence"
+ ],
+ "like": [
+  "hate",
+  "dislike"
+ ],
+ "long": [
+  "brief",
+  "short"
+ ],
+ "look": [
+  "ignore"
+ ],
+ "make": [
+  "destroy",
+  "lose"
+ ],
+ "most": [
+  "few",
+  "little"
+ ],
+ "next": [
+  "before",
+  "preceding"
+ ],
+ "only": [
+  "severally",
+  "many"
+ ],
+ "over": [
+  "under",
+  "below"
+ ],
+ "part": [
+  "whole",
+  "meet"
+ ],
+ "same": [
+  "different",
+  "another"
+ ],
+ "seem": [],
+ "some": [
+  "all",
+  "none"
+ ],
+ "take": [
+  "give",
+  "add"
+ ],
+ "tell": [
+  "conceal",
+  "listen"
+ ],
+ "than": [
+  "nevertheless",
+  "although"
+ ],
+ "that": [
+  "this"
+ ],
+ "them": [],
+ "then": [
+  "later",
+  "never"
+ ],
+ "they": [
+  "she"
+ ],
+ "this": [
+  "specified",
+  "that"
+ ],
+ "time": [
+  "perpetual",
+  "timeless"
+ ],
+ "want": [
+  "presence",
+  "wealth"
+ ],
+ "week": [
+  "vacation",
+  "weekend"
+ ],
+ "well": [
+  "poorly",
+  "barely"
+ ],
+ "what": [
+  "nothing"
+ ],
+ "when": [
+  "before",
+  "once"
+ ],
+ "will": [
+  "hesitance",
+  "unwillingness"
+ ],
+ "with": [
+  "without"
+ ],
+ "work": [
+  "play",
+  "rest"
+ ],
+ "year": [
+  "day"
+ ],
+ "your": [
+  "mine"
+ ],
+ "about": [
+  "precisely",
+  "exactly"
+ ],
+ "after": [
+  "prior",
+  "before"
+ ],
+ "child": [
+  "ancestor",
+  "predecessor"
+ ],
+ "could": [],
+ "early": [
+  "modern",
+  "late"
+ ],
+ "first": [
+  "developed",
+  "last"
+ ],
+ "great": [
+  "nobody",
+  "little"
+ ],
+ "group": [
+  "individual",
+  "unit"
+ ],
+ "large": [
+  "small",
+  "meager"
+ ],
+ "leave": [
+  "stay",
+  "arrive"
+ ],
+ "other": [
+  "similar",
+  "like"
+ ],
+ "place": [
+  "remove",
+  "displace"
+ ],
+ "point": [
+  "middle",
+  "beginning"
+ ],
+ "right": [
+  "left",
+  "wrong"
+ ],
+ "small": [
+  "big",
+  "old"
+ ],
+ "their": [
+  "our",
+  "mine"
+ ],
+ "there": [
+  "absent",
+  "here"
+ ],
+ "these": [
+  "those"
+ ],
+ "thing": [
+  "abstract"
+ ],
+ "think": [
+  "act"
+ ],
+ "which": [
+  "that",
+  "whatever"
+ ],
+ "woman": [
+  "male",
+  "man"
+ ],
+ "world": [
+  "void"
+ ],
+ "would": [],
+ "young": [
+  "mature",
+  "old"
+ ],
+ "little": [
+  "long",
+  "elder"
+ ],
+ "number": [
+  "zero",
+  "none"
+ ],
+ "people": [
+  "other"
+ ],
+ "person": [
+  "other"
+ ],
+ "public": [
+  "secret",
+  "private"
+ ],
+ "because": [
+  "despite"
+ ],
+ "company": [
+  "lonliness",
+  "unemployment"
+ ],
+ "problem": [
+  "conclusion",
+  "answer"
+ ],
+ "different": [
+  "same",
+  "ordinary"
+ ],
+ "important": [
+  "trivial",
+  "unimportant"
+ ],
+ "government": [
+  "anarchy",
+  "opposition"
+ ]
+}
