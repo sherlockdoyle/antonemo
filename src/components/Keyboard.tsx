@@ -20,7 +20,7 @@ const Button: Component<ButtonProps> = props => {
   const isBigKey = isEnter || isBackspace;
   return (
     <button
-      class='btn h-12 flex-1 px-0 font-bold'
+      class='btn h-12 flex-1 touch-manipulation px-0 font-bold'
       classList={{
         'flex-grow-[1.5]': isBigKey,
         'text-xl': !isEnter,

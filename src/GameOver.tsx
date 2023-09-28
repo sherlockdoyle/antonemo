@@ -72,7 +72,7 @@ const Share: Component = () => {
       <div class='mt-2 w-full border-t-2 border-t-base-content border-opacity-20 pt-1 text-left text-xl font-bold'>
         Share
       </div>
-      <div class='flex w-full justify-around'>
+      <div class='flex w-full flex-wrap justify-around'>
         <button
           class='btn btn-circle'
           title='Copy text'

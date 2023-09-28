@@ -38,7 +38,7 @@ const DefaultWordList: Component = () => {
       help={
         <>
           <p>{wordListHint[persistentStore.wordListType].hint}</p>
-          {persistentStore.wordListType !== initialWordListType && <p>Reload the page to apply changes.</p>}
+          {persistentStore.wordListType !== initialWordListType && <i>Reload the page to apply changes.</i>}
         </>
       }
     >
