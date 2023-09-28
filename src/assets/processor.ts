@@ -82,10 +82,100 @@ eaclFiles.forEach(file => {
   });
 });
 
+const manual = Object.fromEntries(
+  fs
+    .readFileSync('./src/assets/manual.txt', 'utf-8')
+    .trim()
+    .split('\n')
+    .map<[string, string[]]>(line => {
+      const [word, ...antonyms] = line.split(',');
+      return [word, [...new Set(antonyms)]];
+    }),
+);
+Object.entries(manual).forEach(([word, antonyms]) => {
+  if (isWordOkay(word)) {
+    if (!(word in allWords))
+      allWords[word] = {
+        synonyms: new Set<string>(),
+        antonyms: new Set<string>(),
+      };
+
+    antonyms.forEach(antonym => {
+      if (isWordOkay(antonym)) allWords[word].antonyms.add(antonym);
+    });
+  }
+});
+// manual wordlist specific code
+// const letterFrequencies: Record<string, number> = {};
+// Object.entries(manual).forEach(([word, antonyms]) => {
+//   for (const letter of word) {
+//     if (letter in letterFrequencies) ++letterFrequencies[letter];
+//     else letterFrequencies[letter] = 1;
+//   }
+//   antonyms.forEach(antonym => {
+//     for (const letter of antonym) {
+//       if (letter in letterFrequencies) ++letterFrequencies[letter];
+//       else letterFrequencies[letter] = 1;
+//     }
+//   });
+// });
+// function wordLetterFrequency(word: string): number {
+//   let freq = 0;
+//   for (const letter of word) {
+//     freq += letterFrequencies[letter];
+//   }
+//   return freq / word.length;
+// }
+
+// Object.entries(manual).forEach(([word, antonyms]) => {
+//   antonyms.sort((a, b) => {
+//     const [iouA, diffA] = iou(word, a),
+//       [iouB, diffB] = iou(word, b);
+//     if (iouA !== iouB) return iouA - iouB;
+//     if (iouA * diffB !== iouB * diffA) return iouA * diffB - iouB * diffA;
+//     if (a.length !== b.length) return b.length - a.length;
+//     return wordLetterFrequency(b) - wordLetterFrequency(a);
+//   });
+// });
+// fs.writeFileSync('./src/assets/manual-processed.json', JSON.stringify(manual, null, 1));
+
+// fs.writeFileSync(
+//   './src/assets/words-manual.txt',
+//   Object.entries(JSON.parse(fs.readFileSync('./src/assets/manual-processed.json', 'utf-8')) as Record<string, string[]>)
+//     .map(([w, a]) => [w, ...a].join(','))
+//     .join(';'),
+// );
+
 fs.writeFileSync(
   './src/assets/allWords.json',
   JSON.stringify(allWords, (_, v) => (v instanceof Set ? Array.from(v) : v), 1),
 );
+
+// large wordlist specific code
+// Object.entries(allWords).forEach(([word, value]) => {
+//   value._synonyms?.forEach(synonym => value.synonyms.add(synonym));
+//   delete value._synonyms; // save some memory
+//   value.synonyms.forEach(synonym => {
+//     if (!(synonym in allWords)) {
+//       allWords[synonym] = {
+//         synonyms: new Set<string>(),
+//         antonyms: new Set<string>(),
+//       };
+//     }
+//   });
+
+//   value._antonyms?.forEach(antonym => value.antonyms.add(antonym));
+//   delete value._antonyms; // save some memory
+//   value.antonyms.forEach(antonym => {
+//     if (!(antonym in allWords)) {
+//       allWords[antonym] = {
+//         synonyms: new Set<string>(),
+//         antonyms: new Set<string>(),
+//       };
+//     }
+//     allWords[antonym].antonyms.add(word);
+//   });
+// });
 
 const wordFrequencies: Record<string, number> = {};
 Object.entries(allWords).forEach(([word, { synonyms, antonyms, _synonyms = [], _antonyms = [] }]) => {
@@ -135,57 +225,6 @@ topWords.forEach(word => {
 fs.writeFileSync(
   './src/assets/words-default.txt',
   Object.entries(finalAntonyms)
-    .map(([w, a]) => [w, ...a].join(','))
-    .join(';'),
-);
-
-// manual
-// const manual = Object.fromEntries(
-//   fs
-//     .readFileSync('./src/assets/manual.txt', 'utf-8')
-//     .trim()
-//     .split('\n')
-//     .map<[string, string[]]>(line => {
-//       const [word, ...antonyms] = line.split(',');
-//       return [word, [...new Set(antonyms)]];
-//     }),
-// );
-// const letterFrequencies: Record<string, number> = {};
-// Object.entries(manual).forEach(([word, antonyms]) => {
-//   for (const letter of word) {
-//     if (letter in letterFrequencies) ++letterFrequencies[letter];
-//     else letterFrequencies[letter] = 1;
-//   }
-//   antonyms.forEach(antonym => {
-//     for (const letter of antonym) {
-//       if (letter in letterFrequencies) ++letterFrequencies[letter];
-//       else letterFrequencies[letter] = 1;
-//     }
-//   });
-// });
-// function wordLetterFrequency(word: string): number {
-//   let freq = 0;
-//   for (const letter of word) {
-//     freq += letterFrequencies[letter];
-//   }
-//   return freq / word.length;
-// }
-
-// Object.entries(manual).forEach(([word, antonyms]) => {
-//   antonyms.sort((a, b) => {
-//     const [iouA, diffA] = iou(word, a),
-//       [iouB, diffB] = iou(word, b);
-//     if (iouA !== iouB) return iouA - iouB;
-//     if (iouA * diffB !== iouB * diffA) return iouA * diffB - iouB * diffA;
-//     if (a.length !== b.length) return b.length - a.length;
-//     return wordLetterFrequency(b) - wordLetterFrequency(a);
-//   });
-// });
-// fs.writeFileSync('./src/assets/manual-processed.json', JSON.stringify(manual, null, 1));
-
-fs.writeFileSync(
-  './src/assets/words-manual.txt',
-  Object.entries(JSON.parse(fs.readFileSync('./src/assets/manual-processed.json', 'utf-8')) as Record<string, string[]>)
     .map(([w, a]) => [w, ...a].join(','))
     .join(';'),
 );

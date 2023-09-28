@@ -1,451 +1,1641 @@
 {
- "all": [
-  "nothing",
-  "little"
- ],
- "and": [
-  "minus"
- ],
- "any": [
-  "neither",
-  "none"
- ],
- "ask": [
-  "ignore",
-  "answer"
- ],
- "bad": [
-  "fresh",
-  "good"
- ],
- "big": [
-  "small",
-  "little"
- ],
- "but": [
-  "and",
-  "including"
- ],
- "can": [
-  "cannot"
- ],
- "day": [
-  "night",
-  "nadir"
- ],
- "eye": [
-  "ignore",
-  "edge"
- ],
- "few": [
-  "many",
-  "plentiful"
- ],
- "for": [
-  "against"
- ],
- "get": [
-  "lose",
-  "take"
- ],
- "her": [
-  "him"
- ],
- "him": [
-  "her"
- ],
- "his": [
-  "yours",
-  "hers"
- ],
- "how": [],
- "its": [
-  "whose",
-  "their"
- ],
- "man": [
-  "female",
-  "woman"
- ],
- "new": [
-  "old",
-  "used"
- ],
- "not": [
-  "willing",
-  "keen"
- ],
- "now": [
-  "future",
-  "past"
- ],
- "old": [
-  "new",
-  "young"
- ],
- "one": [
-  "multiple",
-  "many"
- ],
- "our": [
-  "their",
-  "your"
- ],
- "out": [
-  "admit",
-  "conscious"
- ],
- "own": [
-  "shared",
-  "disown"
- ],
- "say": [
-  "suppress",
-  "deny"
- ],
- "see": [
-  "avoid",
-  "disbelieve"
- ],
- "she": [
-  "male"
- ],
- "the": [],
- "try": [
-  "drop",
-  "quit"
- ],
- "two": [
-  "single"
- ],
- "use": [
-  "neglect",
-  "ignore"
- ],
- "way": [
-  "slightly"
- ],
- "who": [
-  "somebody",
-  "someone"
- ],
- "you": [],
- "able": [
-  "incompetent",
-  "inept"
- ],
- "also": [
-  "otherwise",
-  "conversely"
- ],
- "back": [
-  "front",
-  "face"
- ],
- "call": [
-  "dismiss",
-  "ignore"
- ],
- "case": [],
- "come": [
-  "unite",
-  "leave"
- ],
- "even": [
-  "odd",
-  "uneven"
- ],
- "fact": [
-  "lie",
-  "fiction"
- ],
- "feel": [
-  "doubt"
- ],
- "find": [
-  "lose"
- ],
- "from": [],
- "give": [
-  "take",
-  "receive"
- ],
- "good": [
-  "small",
-  "bad"
- ],
- "hand": [
-  "foot",
-  "hindrance"
- ],
- "have": [
-  "abandon",
-  "need"
- ],
- "high": [
-  "deep",
-  "low"
- ],
- "into": [
-  "from",
-  "beyond"
- ],
- "just": [
-  "wrongful",
-  "unjust"
- ],
- "know": [
-  "misread",
-  "misknow"
- ],
- "last": [
-  "beginning",
-  "first"
- ],
- "life": [
-  "death",
-  "nonexistence"
- ],
- "like": [
-  "hate",
-  "dislike"
- ],
- "long": [
-  "brief",
-  "short"
- ],
- "look": [
-  "ignore"
- ],
- "make": [
-  "destroy",
-  "lose"
- ],
- "most": [
-  "few",
-  "little"
- ],
- "next": [
-  "before",
-  "preceding"
- ],
- "only": [
-  "severally",
-  "many"
- ],
- "over": [
-  "under",
-  "below"
- ],
- "part": [
-  "whole",
-  "meet"
- ],
- "same": [
-  "different",
-  "another"
- ],
- "seem": [],
- "some": [
-  "all",
-  "none"
- ],
- "take": [
-  "give",
-  "add"
- ],
- "tell": [
-  "conceal",
-  "listen"
- ],
- "than": [
-  "nevertheless",
-  "although"
- ],
- "that": [
-  "this"
- ],
- "them": [],
- "then": [
-  "later",
-  "never"
- ],
- "they": [
-  "she"
- ],
- "this": [
-  "specified",
-  "that"
- ],
- "time": [
-  "perpetual",
-  "timeless"
- ],
- "want": [
-  "presence",
-  "wealth"
- ],
- "week": [
-  "vacation",
-  "weekend"
- ],
- "well": [
-  "poorly",
-  "barely"
- ],
- "what": [
-  "nothing"
- ],
- "when": [
-  "before",
-  "once"
- ],
- "will": [
-  "hesitance",
-  "unwillingness"
- ],
- "with": [
-  "without"
- ],
- "work": [
-  "play",
-  "rest"
- ],
- "year": [
-  "day"
- ],
- "your": [
-  "mine"
- ],
- "about": [
-  "precisely",
-  "exactly"
- ],
- "after": [
-  "prior",
-  "before"
- ],
- "child": [
-  "ancestor",
-  "predecessor"
- ],
- "could": [],
- "early": [
-  "modern",
-  "late"
- ],
- "first": [
-  "developed",
-  "last"
- ],
- "great": [
-  "nobody",
-  "little"
- ],
- "group": [
-  "individual",
-  "unit"
- ],
- "large": [
-  "small",
-  "meager"
- ],
- "leave": [
-  "stay",
-  "arrive"
- ],
- "other": [
-  "similar",
-  "like"
- ],
- "place": [
-  "remove",
-  "displace"
- ],
- "point": [
-  "middle",
-  "beginning"
- ],
- "right": [
-  "left",
-  "wrong"
- ],
- "small": [
-  "big",
-  "old"
- ],
- "their": [
-  "our",
-  "mine"
- ],
- "there": [
-  "absent",
-  "here"
- ],
- "these": [
-  "those"
- ],
- "thing": [
-  "abstract"
- ],
- "think": [
-  "act"
- ],
- "which": [
-  "that",
-  "whatever"
- ],
- "woman": [
-  "male",
-  "man"
- ],
- "world": [
-  "void"
- ],
- "would": [],
- "young": [
-  "mature",
-  "old"
- ],
- "little": [
-  "long",
-  "elder"
- ],
- "number": [
-  "zero",
-  "none"
- ],
- "people": [
-  "other"
- ],
- "person": [
-  "other"
- ],
- "public": [
-  "secret",
-  "private"
- ],
- "because": [
-  "despite"
- ],
- "company": [
-  "lonliness",
-  "unemployment"
- ],
- "problem": [
-  "conclusion",
-  "answer"
- ],
- "different": [
-  "same",
-  "ordinary"
- ],
- "important": [
-  "trivial",
-  "unimportant"
- ],
- "government": [
-  "anarchy",
-  "opposition"
- ]
+  "abate": [
+    "increase"
+  ],
+  "able": [
+    "incompetent",
+    "unable"
+  ],
+  "abortive": [
+    "successful"
+  ],
+  "about": [
+    "precisely",
+    "exactly"
+  ],
+  "above": [
+    "below"
+  ],
+  "abridge": [
+    "expand"
+  ],
+  "absent": [
+    "present"
+  ],
+  "abundant": [
+    "scarce"
+  ],
+  "accept": [
+    "refuse",
+    "decline"
+  ],
+  "accurate": [
+    "inaccurate"
+  ],
+  "achieve": [
+    "fail"
+  ],
+  "add": [
+    "subtract"
+  ],
+  "adjacent": [
+    "distant"
+  ],
+  "admire": [
+    "detest"
+  ],
+  "admit": [
+    "reject",
+    "deny"
+  ],
+  "adore": [
+    "hate"
+  ],
+  "advance": [
+    "retreat"
+  ],
+  "advantage": [
+    "disadvantage"
+  ],
+  "afraid": [
+    "confident"
+  ],
+  "after": [
+    "prior",
+    "before"
+  ],
+  "against": [
+    "for"
+  ],
+  "agree": [
+    "disagree"
+  ],
+  "alive": [
+    "dead"
+  ],
+  "all": [
+    "nothing",
+    "little"
+  ],
+  "allow": [
+    "forbid"
+  ],
+  "ally": [
+    "enemy"
+  ],
+  "alone": [
+    "together"
+  ],
+  "also": [
+    "otherwise",
+    "conversely"
+  ],
+  "always": [
+    "never"
+  ],
+  "amateur": [
+    "professional"
+  ],
+  "amuse": [
+    "bore"
+  ],
+  "ancient": [
+    "modern"
+  ],
+  "and": [
+    "minus"
+  ],
+  "annoy": [
+    "soothe"
+  ],
+  "answer": [
+    "question"
+  ],
+  "any": [
+    "neither",
+    "none"
+  ],
+  "apparent": [
+    "obscure"
+  ],
+  "argue": [
+    "agree"
+  ],
+  "arrive": [
+    "depart",
+    "leave"
+  ],
+  "arrogant": [
+    "humble"
+  ],
+  "ascend": [
+    "descend"
+  ],
+  "ask": [
+    "ignore",
+    "answer"
+  ],
+  "attack": [
+    "defend"
+  ],
+  "attractive": [
+    "repulsive"
+  ],
+  "awake": [
+    "asleep"
+  ],
+  "awkward": [
+    "graceful"
+  ],
+  "back": [
+    "front",
+    "face"
+  ],
+  "bad": [
+    "fresh",
+    "good"
+  ],
+  "bare": [
+    "covered"
+  ],
+  "beautiful": [
+    "ugly"
+  ],
+  "because": [
+    "despite"
+  ],
+  "before": [
+    "after"
+  ],
+  "begin": [
+    "end"
+  ],
+  "beginning": [
+    "conclusion"
+  ],
+  "best": [
+    "worst"
+  ],
+  "better": [
+    "worse"
+  ],
+  "big": [
+    "small",
+    "little"
+  ],
+  "birth": [
+    "death"
+  ],
+  "bitter": [
+    "sweet"
+  ],
+  "black": [
+    "white"
+  ],
+  "blame": [
+    "praise"
+  ],
+  "bless": [
+    "curse"
+  ],
+  "blunt": [
+    "sharp"
+  ],
+  "body": [
+    "soul"
+  ],
+  "bold": [
+    "timid"
+  ],
+  "boring": [
+    "interesting"
+  ],
+  "bottom": [
+    "top"
+  ],
+  "boundless": [
+    "limited"
+  ],
+  "boy": [
+    "girl"
+  ],
+  "brave": [
+    "cowardly"
+  ],
+  "break": [
+    "repair"
+  ],
+  "brief": [
+    "long"
+  ],
+  "bright": [
+    "dull"
+  ],
+  "brighten": [
+    "fade"
+  ],
+  "bring": [
+    "remove"
+  ],
+  "brother": [
+    "sister"
+  ],
+  "busy": [
+    "idle"
+  ],
+  "but": [
+    "and",
+    "including"
+  ],
+  "buy": [
+    "sell"
+  ],
+  "call": [
+    "dismiss",
+    "neglect"
+  ],
+  "calm": [
+    "windy"
+  ],
+  "can": [
+    "cannot"
+  ],
+  "capable": [
+    "incapable"
+  ],
+  "captive": [
+    "free"
+  ],
+  "capture": [
+    "release"
+  ],
+  "careful": [
+    "careless"
+  ],
+  "case": [],
+  "cautious": [
+    "careless"
+  ],
+  "center": [
+    "edge"
+  ],
+  "change": [
+    "remain"
+  ],
+  "cheap": [
+    "expensive"
+  ],
+  "cheerful": [
+    "sad"
+  ],
+  "child": [
+    "ancestor",
+    "adult"
+  ],
+  "chilly": [
+    "warm"
+  ],
+  "clean": [
+    "dirty"
+  ],
+  "clever": [
+    "stupid",
+    "foolish"
+  ],
+  "close": [
+    "open"
+  ],
+  "cold": [
+    "hot"
+  ],
+  "combine": [
+    "separate"
+  ],
+  "come": [
+    "unite",
+    "leave"
+  ],
+  "comfort": [
+    "discomfort"
+  ],
+  "company": [
+    "lonliness",
+    "unemployment"
+  ],
+  "complete": [
+    "incomplete"
+  ],
+  "complex": [
+    "simple"
+  ],
+  "compliment": [
+    "insult"
+  ],
+  "conceal": [
+    "reveal"
+  ],
+  "continue": [
+    "interrupt"
+  ],
+  "cool": [
+    "warm"
+  ],
+  "copy": [
+    "original"
+  ],
+  "correct": [
+    "wrong",
+    "incorrect"
+  ],
+  "could": [],
+  "countryman": [
+    "foreigner"
+  ],
+  "courage": [
+    "cowardice"
+  ],
+  "crazy": [
+    "sane"
+  ],
+  "create": [
+    "destroy"
+  ],
+  "crooked": [
+    "straight"
+  ],
+  "cruel": [
+    "kind"
+  ],
+  "customer": [
+    "supplier"
+  ],
+  "damage": [
+    "improve"
+  ],
+  "dark": [
+    "light",
+    "bright"
+  ],
+  "dawn": [
+    "sunset"
+  ],
+  "day": [
+    "night",
+    "nadir"
+  ],
+  "daytime": [
+    "midnight"
+  ],
+  "decrease": [
+    "increase"
+  ],
+  "deep": [
+    "shallow"
+  ],
+  "demand": [
+    "supply"
+  ],
+  "despair": [
+    "hope"
+  ],
+  "destroy": [
+    "create"
+  ],
+  "different": [
+    "same",
+    "ordinary"
+  ],
+  "difficult": [
+    "easy"
+  ],
+  "dim": [
+    "bright"
+  ],
+  "discourage": [
+    "encourage"
+  ],
+  "divide": [
+    "unite"
+  ],
+  "doctor": [
+    "patient"
+  ],
+  "doubt": [
+    "trust"
+  ],
+  "down": [],
+  "downwards": [
+    "upwards"
+  ],
+  "drunk": [
+    "sober"
+  ],
+  "dry": [
+    "wet"
+  ],
+  "dusk": [
+    "dawn"
+  ],
+  "early": [
+    "modern",
+    "late"
+  ],
+  "earth": [
+    "sky"
+  ],
+  "east": [
+    "west"
+  ],
+  "easy": [
+    "difficult",
+    "hard"
+  ],
+  "effective": [
+    "ineffective"
+  ],
+  "elementary": [
+    "advanced"
+  ],
+  "employer": [
+    "employee"
+  ],
+  "empty": [
+    "full"
+  ],
+  "end": [
+    "begin"
+  ],
+  "enter": [
+    "exit"
+  ],
+  "even": [
+    "odd",
+    "uneven"
+  ],
+  "evening": [
+    "morning"
+  ],
+  "evil": [
+    "good"
+  ],
+  "excited": [
+    "bored"
+  ],
+  "exhale": [
+    "inhale"
+  ],
+  "expand": [
+    "shrink",
+    "contract"
+  ],
+  "export": [
+    "import"
+  ],
+  "exterior": [
+    "interior"
+  ],
+  "external": [
+    "internal"
+  ],
+  "eye": [
+    "ignore",
+    "edge"
+  ],
+  "fact": [
+    "lie",
+    "fiction"
+  ],
+  "fail": [
+    "pass"
+  ],
+  "fake": [
+    "real"
+  ],
+  "fall": [
+    "rise"
+  ],
+  "false": [
+    "true"
+  ],
+  "famous": [
+    "unknown"
+  ],
+  "fast": [
+    "slow"
+  ],
+  "fat": [
+    "skinny",
+    "thin"
+  ],
+  "feeble": [
+    "strong"
+  ],
+  "feel": [
+    "doubt"
+  ],
+  "few": [
+    "many",
+    "plentiful"
+  ],
+  "fiction": [
+    "fact"
+  ],
+  "find": [
+    "lose"
+  ],
+  "firm": [
+    "flabby"
+  ],
+  "first": [
+    "developed",
+    "last"
+  ],
+  "float": [
+    "sink"
+  ],
+  "floor": [
+    "ceiling"
+  ],
+  "follow": [
+    "lead"
+  ],
+  "foolish": [
+    "wise"
+  ],
+  "for": [
+    "against"
+  ],
+  "forget": [
+    "remember"
+  ],
+  "forgivable": [
+    "unforgivable"
+  ],
+  "forgive": [
+    "blame"
+  ],
+  "fortunate": [
+    "unfortunate"
+  ],
+  "forward": [
+    "backward"
+  ],
+  "free": [
+    "restricted"
+  ],
+  "freeze": [
+    "boil"
+  ],
+  "fresh": [
+    "stale"
+  ],
+  "friend": [
+    "enemy"
+  ],
+  "from": [],
+  "frown": [
+    "smile"
+  ],
+  "full": [
+    "empty"
+  ],
+  "funny": [
+    "sad"
+  ],
+  "generous": [
+    "stingy"
+  ],
+  "gentle": [
+    "rough"
+  ],
+  "get": [
+    "lose",
+    "take"
+  ],
+  "giant": [
+    "dwarf",
+    "tiny"
+  ],
+  "give": [
+    "take",
+    "receive"
+  ],
+  "gloomy": [
+    "cheerful"
+  ],
+  "good": [
+    "small",
+    "bad"
+  ],
+  "government": [
+    "anarchy",
+    "opposition"
+  ],
+  "great": [
+    "nobody",
+    "little"
+  ],
+  "grief": [
+    "joy"
+  ],
+  "group": [
+    "individual",
+    "unit"
+  ],
+  "grow": [
+    "shrink"
+  ],
+  "guilty": [
+    "innocent"
+  ],
+  "hand": [
+    "foot",
+    "hindrance"
+  ],
+  "happy": [
+    "sad"
+  ],
+  "hard": [
+    "soft"
+  ],
+  "harmful": [
+    "harmless"
+  ],
+  "harsh": [
+    "mild"
+  ],
+  "have": [
+    "abandon",
+    "need"
+  ],
+  "healthy": [
+    "sick"
+  ],
+  "heaven": [
+    "hell"
+  ],
+  "heavy": [
+    "light"
+  ],
+  "her": [
+    "him"
+  ],
+  "here": [
+    "there"
+  ],
+  "hero": [
+    "coward"
+  ],
+  "high": [
+    "sober",
+    "low"
+  ],
+  "him": [
+    "her"
+  ],
+  "hire": [
+    "fire"
+  ],
+  "his": [
+    "yours",
+    "hers"
+  ],
+  "how": [],
+  "huge": [
+    "tiny"
+  ],
+  "hungry": [
+    "full"
+  ],
+  "husband": [
+    "wife"
+  ],
+  "identical": [
+    "different"
+  ],
+  "idle": [
+    "active"
+  ],
+  "ignite": [
+    "extinguish"
+  ],
+  "ignorant": [
+    "educated"
+  ],
+  "important": [
+    "trivial",
+    "unimportant"
+  ],
+  "include": [
+    "exclude"
+  ],
+  "increase": [
+    "decrease"
+  ],
+  "individual": [
+    "group"
+  ],
+  "innocent": [
+    "guilty"
+  ],
+  "inside": [
+    "outside"
+  ],
+  "instructor": [
+    "pupil"
+  ],
+  "into": [
+    "from",
+    "beyond"
+  ],
+  "its": [
+    "whose",
+    "their"
+  ],
+  "joy": [
+    "sadness",
+    "grief"
+  ],
+  "junior": [
+    "senior"
+  ],
+  "just": [
+    "wrongful",
+    "unjust"
+  ],
+  "justice": [
+    "injustice"
+  ],
+  "kind": [
+    "cruel"
+  ],
+  "know": [
+    "misread",
+    "misknow"
+  ],
+  "knowledge": [
+    "ignorance"
+  ],
+  "landlord": [
+    "tenant"
+  ],
+  "large": [
+    "small",
+    "meager"
+  ],
+  "last": [
+    "beginning",
+    "first"
+  ],
+  "laugh": [
+    "cry"
+  ],
+  "lawful": [
+    "unlawful"
+  ],
+  "lazy": [
+    "industrious",
+    "diligent"
+  ],
+  "leave": [
+    "stay",
+    "arrive"
+  ],
+  "legal": [
+    "illegal"
+  ],
+  "lenient": [
+    "strict"
+  ],
+  "less": [
+    "more"
+  ],
+  "lie": [
+    "truth"
+  ],
+  "life": [
+    "death",
+    "nonexistence"
+  ],
+  "like": [
+    "hate",
+    "dislike"
+  ],
+  "likely": [
+    "unlikely"
+  ],
+  "liquid": [
+    "solid"
+  ],
+  "little": [
+    "long",
+    "elder"
+  ],
+  "live": [
+    "die"
+  ],
+  "lock": [
+    "unlock"
+  ],
+  "lonely": [
+    "crowded"
+  ],
+  "long": [
+    "brief",
+    "short"
+  ],
+  "look": [
+    "ignore"
+  ],
+  "loose": [
+    "tight"
+  ],
+  "lost": [
+    "found"
+  ],
+  "lot": [
+    "little"
+  ],
+  "loud": [
+    "quiet"
+  ],
+  "love": [
+    "hate"
+  ],
+  "loyal": [
+    "disloyal"
+  ],
+  "major": [
+    "minor"
+  ],
+  "make": [
+    "destroy",
+    "miss"
+  ],
+  "male": [
+    "female"
+  ],
+  "man": [
+    "wimpish",
+    "woman"
+  ],
+  "marry": [
+    "divorce"
+  ],
+  "marvelous": [
+    "terrible"
+  ],
+  "mature": [
+    "immature"
+  ],
+  "maximum": [
+    "minimum"
+  ],
+  "melt": [
+    "freeze"
+  ],
+  "merry": [
+    "sad"
+  ],
+  "midday": [
+    "midnight"
+  ],
+  "miser": [
+    "spendthrift"
+  ],
+  "mix": [
+    "separate"
+  ],
+  "moist": [
+    "dry"
+  ],
+  "more": [
+    "less"
+  ],
+  "most": [
+    "few",
+    "least"
+  ],
+  "move": [
+    "stay"
+  ],
+  "nadir": [
+    "zenith"
+  ],
+  "narrow": [
+    "broad"
+  ],
+  "nasty": [
+    "nice",
+    "pleasant"
+  ],
+  "natural": [
+    "artificial"
+  ],
+  "near": [
+    "distance",
+    "far"
+  ],
+  "neat": [
+    "messy"
+  ],
+  "negative": [
+    "positive"
+  ],
+  "nephew": [
+    "niece"
+  ],
+  "never": [
+    "always"
+  ],
+  "new": [
+    "old",
+    "used"
+  ],
+  "next": [
+    "previous",
+    "before"
+  ],
+  "night": [
+    "day"
+  ],
+  "noisy": [
+    "quiet",
+    "silent"
+  ],
+  "none": [
+    "all",
+    "some"
+  ],
+  "noon": [
+    "midnight"
+  ],
+  "north": [
+    "south"
+  ],
+  "not": [
+    "willing",
+    "keen"
+  ],
+  "nothing": [
+    "something"
+  ],
+  "notice": [
+    "ignore"
+  ],
+  "now": [
+    "future",
+    "then"
+  ],
+  "number": [
+    "zero",
+    "none"
+  ],
+  "obedient": [
+    "disobedient"
+  ],
+  "obvious": [
+    "hidden"
+  ],
+  "odd": [
+    "even"
+  ],
+  "off": [],
+  "often": [
+    "seldom"
+  ],
+  "old": [
+    "new",
+    "young"
+  ],
+  "one": [
+    "multiple",
+    "many"
+  ],
+  "only": [
+    "severally",
+    "many"
+  ],
+  "open": [
+    "shut"
+  ],
+  "opposite": [
+    "same"
+  ],
+  "optimist": [
+    "pessimist"
+  ],
+  "optimistic": [
+    "pessimistic"
+  ],
+  "ordinary": [
+    "extraordinary"
+  ],
+  "other": [
+    "similar",
+    "like"
+  ],
+  "our": [
+    "their",
+    "your"
+  ],
+  "out": [
+    "admit",
+    "conscious"
+  ],
+  "over": [
+    "under",
+    "below"
+  ],
+  "own": [
+    "shared",
+    "disown"
+  ],
+  "pain": [
+    "pleasure"
+  ],
+  "panic": [
+    "calm"
+  ],
+  "part": [
+    "whole",
+    "meet"
+  ],
+  "partial": [
+    "complete"
+  ],
+  "pass": [
+    "fail"
+  ],
+  "passive": [
+    "active"
+  ],
+  "patient": [
+    "impatient"
+  ],
+  "peace": [
+    "war"
+  ],
+  "people": [
+    "other"
+  ],
+  "permanent": [
+    "unstable",
+    "temporary"
+  ],
+  "person": [
+    "other"
+  ],
+  "place": [
+    "remove",
+    "displace"
+  ],
+  "play": [
+    "work"
+  ],
+  "plentiful": [
+    "scarce",
+    "sparse"
+  ],
+  "plural": [
+    "singular"
+  ],
+  "point": [
+    "middle",
+    "beginning"
+  ],
+  "polite": [
+    "rude",
+    "impolite"
+  ],
+  "poor": [
+    "rich"
+  ],
+  "positive": [
+    "negative"
+  ],
+  "possible": [
+    "impossible"
+  ],
+  "poverty": [
+    "riches",
+    "wealth"
+  ],
+  "powerful": [
+    "weak"
+  ],
+  "praise": [
+    "criticism"
+  ],
+  "pre": [
+    "post"
+  ],
+  "predator": [
+    "prey"
+  ],
+  "pretty": [
+    "ugly"
+  ],
+  "pride": [
+    "modesty"
+  ],
+  "private": [
+    "public"
+  ],
+  "problem": [
+    "conclusion",
+    "answer"
+  ],
+  "profit": [
+    "loss"
+  ],
+  "prudent": [
+    "imprudent"
+  ],
+  "public": [
+    "secret",
+    "private"
+  ],
+  "pure": [
+    "impure"
+  ],
+  "push": [
+    "pull"
+  ],
+  "quality": [
+    "inferiority"
+  ],
+  "quick": [
+    "slow"
+  ],
+  "raise": [
+    "lower"
+  ],
+  "random": [
+    "specific"
+  ],
+  "rapid": [
+    "slow"
+  ],
+  "rare": [
+    "common"
+  ],
+  "raw": [
+    "cooked"
+  ],
+  "real": [
+    "fake"
+  ],
+  "regret": [
+    "rejoice"
+  ],
+  "regular": [
+    "irregular"
+  ],
+  "relevant": [
+    "irrelevant"
+  ],
+  "remember": [
+    "forget"
+  ],
+  "rich": [
+    "poor"
+  ],
+  "right": [
+    "left",
+    "wrong"
+  ],
+  "rigid": [
+    "flexible"
+  ],
+  "rise": [
+    "sink"
+  ],
+  "risky": [
+    "safe"
+  ],
+  "rough": [
+    "smooth"
+  ],
+  "rude": [
+    "polite",
+    "courteous"
+  ],
+  "sad": [
+    "happy"
+  ],
+  "safe": [
+    "dangerous"
+  ],
+  "same": [
+    "different",
+    "another"
+  ],
+  "satisfied": [
+    "dissatisfied"
+  ],
+  "say": [
+    "suppress",
+    "deny"
+  ],
+  "secondhand": [
+    "new"
+  ],
+  "secure": [
+    "insecure"
+  ],
+  "see": [
+    "avoid",
+    "disbelieve"
+  ],
+  "seem": [],
+  "segregate": [
+    "integrate"
+  ],
+  "seldom": [
+    "often"
+  ],
+  "sell": [
+    "buy"
+  ],
+  "seller": [
+    "buyer"
+  ],
+  "send": [
+    "receive"
+  ],
+  "servant": [
+    "master"
+  ],
+  "shame": [
+    "honor"
+  ],
+  "she": [
+    "male"
+  ],
+  "short": [
+    "long"
+  ],
+  "shout": [
+    "whisper"
+  ],
+  "show": [
+    "hide"
+  ],
+  "simple": [
+    "hard",
+    "complicated"
+  ],
+  "single": [
+    "married"
+  ],
+  "sit": [
+    "stand"
+  ],
+  "slave": [
+    "master"
+  ],
+  "small": [
+    "big",
+    "old"
+  ],
+  "smart": [
+    "stupid"
+  ],
+  "smooth": [
+    "rough"
+  ],
+  "some": [
+    "all",
+    "none"
+  ],
+  "sour": [
+    "sweet"
+  ],
+  "sow": [
+    "reap"
+  ],
+  "spend": [
+    "earn",
+    "save"
+  ],
+  "start": [
+    "finish",
+    "stop"
+  ],
+  "started": [
+    "finished"
+  ],
+  "stay": [
+    "leave"
+  ],
+  "stiff": [
+    "flexible"
+  ],
+  "stop": [],
+  "straight": [
+    "crooked"
+  ],
+  "strength": [
+    "weakness"
+  ],
+  "strengthen": [
+    "weaken"
+  ],
+  "stress": [
+    "relax"
+  ],
+  "strict": [
+    "lenient"
+  ],
+  "strong": [
+    "weak"
+  ],
+  "student": [
+    "teacher"
+  ],
+  "sturdy": [
+    "weak"
+  ],
+  "success": [
+    "failure"
+  ],
+  "sunny": [
+    "cloudy"
+  ],
+  "superb": [
+    "inferior"
+  ],
+  "synonym": [
+    "antonym"
+  ],
+  "take": [
+    "give",
+    "liberate"
+  ],
+  "tall": [
+    "short"
+  ],
+  "tame": [
+    "wild"
+  ],
+  "teach": [
+    "learn"
+  ],
+  "tell": [
+    "conceal",
+    "listen"
+  ],
+  "temporary": [
+    "permanent"
+  ],
+  "terrible": [
+    "wonderful"
+  ],
+  "than": [
+    "nevertheless",
+    "although"
+  ],
+  "that": [
+    "this"
+  ],
+  "the": [],
+  "their": [
+    "our",
+    "mine"
+  ],
+  "them": [],
+  "then": [
+    "later",
+    "never"
+  ],
+  "there": [
+    "absent",
+    "here"
+  ],
+  "these": [
+    "those"
+  ],
+  "they": [
+    "she"
+  ],
+  "thick": [
+    "thin"
+  ],
+  "thin": [
+    "wide"
+  ],
+  "thing": [
+    "abstract"
+  ],
+  "think": [
+    "act"
+  ],
+  "this": [
+    "specified",
+    "that"
+  ],
+  "throw": [
+    "catch"
+  ],
+  "tidy": [
+    "messy"
+  ],
+  "tie": [
+    "untie"
+  ],
+  "time": [
+    "perpetual",
+    "timeless"
+  ],
+  "timid": [
+    "bold"
+  ],
+  "together": [
+    "apart"
+  ],
+  "tolerant": [
+    "intolerant"
+  ],
+  "top": [
+    "bottom"
+  ],
+  "tough": [
+    "easy",
+    "tender"
+  ],
+  "toward": [
+    "away"
+  ],
+  "tragic": [
+    "comic"
+  ],
+  "transparent": [
+    "opaque"
+  ],
+  "trap": [
+    "release"
+  ],
+  "triumph": [
+    "defeat"
+  ],
+  "true": [
+    "false"
+  ],
+  "try": [
+    "drop",
+    "quit"
+  ],
+  "two": [
+    "single"
+  ],
+  "understand": [
+    "misunderstand"
+  ],
+  "union": [
+    "separation"
+  ],
+  "unique": [
+    "common"
+  ],
+  "unqualified": [
+    "qualified"
+  ],
+  "unsafe": [
+    "safe"
+  ],
+  "upset": [
+    "stabilize"
+  ],
+  "upstairs": [
+    "downstairs"
+  ],
+  "urge": [
+    "deter"
+  ],
+  "use": [
+    "neglect",
+    "abuse"
+  ],
+  "useful": [
+    "useless"
+  ],
+  "vacant": [
+    "occupied"
+  ],
+  "vague": [
+    "definite"
+  ],
+  "vanish": [
+    "appear"
+  ],
+  "vast": [
+    "tiny"
+  ],
+  "vertical": [
+    "horizontal"
+  ],
+  "victory": [
+    "defeat"
+  ],
+  "villain": [
+    "hero"
+  ],
+  "virtue": [
+    "vice"
+  ],
+  "visible": [
+    "invisible"
+  ],
+  "want": [
+    "presence",
+    "wealth"
+  ],
+  "war": [
+    "peace"
+  ],
+  "wax": [
+    "wane"
+  ],
+  "way": [
+    "slightly"
+  ],
+  "wealth": [
+    "poverty"
+  ],
+  "week": [
+    "vacation",
+    "weekend"
+  ],
+  "well": [
+    "sick",
+    "poorly"
+  ],
+  "wet": [
+    "dry"
+  ],
+  "what": [
+    "nothing"
+  ],
+  "when": [
+    "before",
+    "once"
+  ],
+  "which": [
+    "that",
+    "whatever"
+  ],
+  "white": [
+    "black"
+  ],
+  "who": [
+    "somebody",
+    "someone"
+  ],
+  "wide": [
+    "narrow"
+  ],
+  "wild": [
+    "tame"
+  ],
+  "will": [
+    "hesitance",
+    "unwillingness"
+  ],
+  "win": [
+    "lose"
+  ],
+  "with": [
+    "without"
+  ],
+  "within": [
+    "outside"
+  ],
+  "woman": [
+    "male",
+    "man"
+  ],
+  "work": [
+    "fail",
+    "rest"
+  ],
+  "world": [
+    "void"
+  ],
+  "worthy": [
+    "worthless"
+  ],
+  "would": [],
+  "year": [
+    "day"
+  ],
+  "yes": [],
+  "you": [],
+  "young": [
+    "mature",
+    "old"
+  ],
+  "your": [
+    "mine"
+  ]
 }

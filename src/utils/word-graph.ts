@@ -1,11 +1,13 @@
 import defaultWordsPath from '../assets/words-default.txt?url';
+import largeWordsPath from '../assets/words-large.txt?url';
 import manualWordsPath from '../assets/words-manual.txt?url';
 import { Random } from './random';
 import { addAll, iou, isSubset } from './set-extensions';
 
 const type2path = {
-  default: defaultWordsPath,
   manual: manualWordsPath,
+  default: defaultWordsPath,
+  large: largeWordsPath,
 };
 export type WordListType = keyof typeof type2path;
 

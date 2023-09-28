@@ -1,4 +1,4 @@
-import { Component, JSXElement, ParentComponent, createSignal } from 'solid-js';
+import { Component, For, JSXElement, ParentComponent, createSignal } from 'solid-js';
 import Collapse from './components/Collapse';
 import { globalStore, initialGlobalStore, persistentStore, setGlobalStore, setPersistentStore } from './store/store';
 import { GameMode, GameState } from './utils/engine';
@@ -19,18 +19,25 @@ const MenuItem: ParentComponent<MenuItemProps> = props => (
   </>
 );
 
-const wordListHint: Record<WordListType, string> = {
-  default: 'Auto-generated wordlist with 5000+ words. May contain mistakes.',
-  manual: '100+ most common words. The antonyms were manually picked.',
+const wordListHint: Record<
+  WordListType,
+  {
+    name: string;
+    hint: string;
+  }
+> = {
+  manual: { name: 'MANUAL', hint: '500+ most common words. The antonyms were manually picked.' },
+  default: { name: 'DEFAULT', hint: 'Auto-generated wordlist with 5000+ words. May contain mistakes.' },
+  large: { name: 'LARGE', hint: 'All of the 38769 words. Probably contains slangs, may hang the page.' },
 };
 const DefaultWordList: Component = () => {
   const initialWordListType = persistentStore.wordListType;
   return (
     <MenuItem
-      title='Default Word List'
+      title='Word List'
       help={
         <>
-          <p>{wordListHint[persistentStore.wordListType]}</p>
+          <p>{wordListHint[persistentStore.wordListType].hint}</p>
           {persistentStore.wordListType !== initialWordListType && <p>Reload the page to apply changes.</p>}
         </>
       }
@@ -40,8 +47,7 @@ const DefaultWordList: Component = () => {
         value={persistentStore.wordListType}
         onChange={e => setPersistentStore({ wordListType: e.currentTarget.value as WordListType })}
       >
-        <option value='default'>DEFAULT</option>
-        <option value='manual'>MANUAL</option>
+        <For each={Object.entries(wordListHint)}>{([key, { name }]) => <option value={key}>{name}</option>}</For>
       </select>
     </MenuItem>
   );
