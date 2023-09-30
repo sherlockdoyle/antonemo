@@ -20,7 +20,7 @@ const Hints: Component<TipsProps> = props => {
   const [wordsWithAntonyms, setWordsWithAntonyms] = createSignal<WordAndAntonym[]>();
   const [solution, setSolution] = createSignal<WordAndAntonym[]>();
 
-  let random = 0;
+  let idx = 0;
 
   return (
     <Modal open={props.open} handleClose={props.handleClose}>
@@ -31,18 +31,28 @@ const Hints: Component<TipsProps> = props => {
             children: (
               <div class='mt-3 flex gap-4'>
                 <div class='flex-1'>
-                  <button class='btn w-full' onClick={() => setWords(props.getWords())}>
+                  <button
+                    class='btn w-full'
+                    onClick={() => {
+                      setWords(props.getWords());
+                      ++idx;
+                    }}
+                  >
                     Show a valid word
                   </button>
                   <div class='text mx-1 text-xs normal-case'>
                     Number of steps will become {Math.floor(globalStore.steps * WORD_HINT_FACTOR)}.
                   </div>
-                  {words() && (
-                    <div class='text-lg font-semibold uppercase'>{words()![random++ % words()!.length][0]}</div>
-                  )}
+                  {words() && <div class='text-lg font-semibold uppercase'>{words()![idx % words()!.length][0]}</div>}
                 </div>
                 <div class='flex-1'>
-                  <button class='btn w-full' onClick={() => setWordsWithAntonyms(props.getWordsWithAntonyms())}>
+                  <button
+                    class='btn w-full'
+                    onClick={() => {
+                      setWordsWithAntonyms(props.getWordsWithAntonyms());
+                      ++idx;
+                    }}
+                  >
                     with antonym
                   </button>
                   <div class='text mx-1 text-xs normal-case'>
@@ -50,7 +60,7 @@ const Hints: Component<TipsProps> = props => {
                   </div>
                   {wordsWithAntonyms() && (
                     <div class='text-lg font-semibold uppercase'>
-                      {wordToString(wordsWithAntonyms()![random++ % wordsWithAntonyms()!.length])}
+                      {wordToString(wordsWithAntonyms()![idx % wordsWithAntonyms()!.length])}
                     </div>
                   )}
                 </div>
