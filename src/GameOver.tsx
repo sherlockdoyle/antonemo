@@ -61,11 +61,18 @@ const Lost: Component = () => (
 );
 
 const PAGE_URL = 'https://sherlockdoyle.github.io/antonemo';
-const Share: Component = () => {
+const Share: Component<CommonProps> = props => {
   const text = () =>
     `I just finished Antonemo, a logical game about opposite words, in only ${globalStore.steps} step${
       globalStore.steps === 1 ? '' : 's'
     }! Can you beat my record?`;
+  const url = () => {
+    const day = props.today + globalStore.offset;
+    return (
+      PAGE_URL +
+      `?${day}${persistentStore.wordListType}${globalStore.gameMode}${globalStore.seed === day ? '' : globalStore.seed}`
+    );
+  };
 
   return (
     <>
@@ -76,7 +83,7 @@ const Share: Component = () => {
         <button
           class='btn btn-circle'
           title='Copy text'
-          onClick={() => navigator.clipboard.writeText(text() + '\n\n' + PAGE_URL)}
+          onClick={() => navigator.clipboard.writeText(text() + '\n\n' + url())}
         >
           <svg viewBox='0 0 24 24' class='h-12 w-12 fill-current'>
             <path d='m19.086 6.061-1.6214-1.6214a1.5 1.5 0 0 0-1.0606-0.43941h-5.3786c-0.82861 0-1.5 0.67162-1.5 1.5v1.5h-2.5c-0.82842 0-1.5 0.67162-1.5 1.5v9.9998c0 0.82861 0.67162 1.5 1.5 1.5h6.9999c0.82842 0 1.4999-0.67144 1.4999-1.5v-1.4999h2.5001c0.82842 0 1.4999-0.67162 1.4999-1.5v-8.3786a1.5 1.5 0 0 0-0.43941-1.0606zm-5.2481 12.439h-6.6249a0.1875 0.1875 0 0 1-0.18741-0.18741v-9.6249a0.1875 0.1875 0 0 1 0.18741-0.18741h2.3125v6.9999c0 0.82842 0.67144 1.5 1.5 1.5h2.9999v1.3126a0.1875 0.1875 0 0 1-0.18741 0.18741zm4-2.9999h-6.625a0.1875 0.1875 0 0 1-0.18741-0.1876v-9.6248a0.1875 0.1875 0 0 1 0.18741-0.1876h3.3126v2.75c0 0.41421 0.33581 0.75002 0.75002 0.75002h2.75v6.3124a0.1875 0.1875 0 0 1-0.1876 0.1876zm0.1876-8h-2.0001v-2h0.30109c0.0504 0 0.09707 0.01867 0.13253 0.05413l1.5114 1.5116a0.1875 0.1875 0 0 1 0.05413 0.13253z' />
@@ -86,7 +93,7 @@ const Share: Component = () => {
         <a
           class='btn btn-circle'
           title='Share on WhatsApp'
-          href={`https://api.whatsapp.com/send?text=${encodeURIComponent(text() + '\n\n' + PAGE_URL)}`}
+          href={`https://api.whatsapp.com/send?text=${encodeURIComponent(text() + '\n\n' + url())}`}
           target='_blank'
         >
           <svg viewBox='0 0 24 24' class='h-12 w-12 fill-current'>
@@ -98,7 +105,7 @@ const Share: Component = () => {
           class='btn btn-circle'
           title='Share on Facebook'
           href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-            PAGE_URL,
+            url(),
           )}&title=Antonemo&description=${encodeURIComponent(text())}&hashtag=antonemo`}
           target='_blank'
         >
@@ -111,7 +118,7 @@ const Share: Component = () => {
           class='btn btn-circle'
           title='Share on Twitter'
           href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(text())}&url=${encodeURIComponent(
-            PAGE_URL,
+            url(),
           )}&hashtags=antonemo`}
           target='_blank'
         >
@@ -123,7 +130,7 @@ const Share: Component = () => {
         <a
           class='btn btn-circle'
           title='Share on Reddit'
-          href={`https://www.reddit.com/submit?url=${encodeURIComponent(PAGE_URL)}&title=${encodeURIComponent(
+          href={`https://www.reddit.com/submit?url=${encodeURIComponent(url())}&title=${encodeURIComponent(
             `I finished Antonemo in ${globalStore.steps} step${globalStore.steps === 1 ? '' : 's'}`,
           )}`}
           target='_blank'
@@ -136,7 +143,7 @@ const Share: Component = () => {
         <button
           class='btn btn-circle'
           title='Share anywhere'
-          onClick={() => navigator.share?.({ title: 'Antonemo', text: text(), url: PAGE_URL })}
+          onClick={() => navigator.share?.({ title: 'Antonemo', text: text(), url: url() })}
         >
           <svg viewBox='0 0 24 24' class='h-12 w-12 fill-current'>
             <path d='m16.053 14.105c-0.76643 0-1.4644 0.29268-1.9886 0.77216l-5.2609-2.146c0.12216-0.47994 0.12216-0.98284 0-1.4628l5.2609-2.146c0.52421 0.47952 1.2222 0.77221 1.9886 0.77221 1.6278 0 2.9474-1.3196 2.9474-2.9474s-1.3196-2.9474-2.9474-2.9474-2.9474 1.3196-2.9474 2.9474c0 0.25247 0.03184 0.49752 0.09158 0.73142l-5.2609 2.146c-0.52416-0.47952-1.2221-0.77221-1.9885-0.77221-1.6278 0-2.9474 1.3196-2.9474 2.9474s1.3196 2.9474 2.9474 2.9474c0.76642 0 1.4644-0.29268 1.9886-0.77216l5.2609 2.146c-0.06096 0.23902-0.09173 0.48474-0.09158 0.73142 0 1.6278 1.3196 2.9474 2.9474 2.9474s2.9474-1.3196 2.9474-2.9474c-6.1e-5 -1.6278-1.3196-2.9474-2.9474-2.9474z' />
@@ -156,7 +163,7 @@ const GameOver: Component<GameOverProps> = props => {
       <div class='flex flex-col items-center gap-2 text-center text-lg'>
         {globalStore.gameState === GameState.Won ? <Won /> : <Lost />}
         <NextStep {...props} />
-        {globalStore.gameState === GameState.Won && <Share />}
+        {globalStore.gameState === GameState.Won && <Share {...props} />}
       </div>
     </Modal>
   );

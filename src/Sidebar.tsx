@@ -28,7 +28,7 @@ const wordListHint: Record<
 > = {
   manual: { name: 'MANUAL', hint: '500+ most common words. The antonyms were manually picked.' },
   default: { name: 'DEFAULT', hint: 'Auto-generated wordlist with 5000+ words. May contain mistakes.' },
-  large: { name: 'LARGE', hint: 'All of the 38769 words. Probably contains slangs, may hang the page.' },
+  large: { name: 'LARGE', hint: '38769 words. Probably contains slangs, may hang the page.' },
 };
 const DefaultWordList: Component = () => {
   const initialWordListType = persistentStore.wordListType;

@@ -11,6 +11,7 @@ import WordList from './components/WordList';
 import createAutoToggle from './signals/createAutoToggle';
 import { globalStore, persistentStore, setGlobalStore, setPersistentStore } from './store/store';
 import { GameEngine, GameMode, GameState, Key, WORD_PRIME } from './utils/engine';
+import { parseParam } from './utils/param';
 import handleTheme from './utils/theme';
 
 function App() {
@@ -29,28 +30,31 @@ function App() {
   createEffect(async () => {
     if (globalStore.gameState === GameState.Starting || (firstRun && !showTips())) {
       setShowLoading(true);
+      const params = firstRun ? parseParam(window.location.search.slice(1)) : {};
       firstRun = false;
-      engine = new GameEngine(globalStore.gameMode, setGlobalStore);
-      await engine.buildWordGraph(persistentStore.wordListType);
-      engine.setRandomSeed(globalStore.seed);
-      let offset = globalStore.offset;
+      engine = new GameEngine(params.mode ?? globalStore.gameMode, setGlobalStore);
+      await engine.buildWordGraph(params.listType ?? persistentStore.wordListType);
+      engine.setRandomSeed(params.seed ?? globalStore.seed);
+      let day = params.day ?? today + globalStore.offset;
       while (true) {
         try {
-          engine.initWithWordIdx((((today + offset) % engine.numberOfWords) * WORD_PRIME) % engine.numberOfWords);
+          engine.initWithWordIdx(((day % engine.numberOfWords) * WORD_PRIME) % engine.numberOfWords);
           break;
         } catch (e) {
-          ++offset;
+          ++day;
         }
       }
       engine.updateStore();
       setGlobalStore({ gameState: GameState.Playing });
-      setPersistentStore(store => ({
-        ...store,
-        playTime: {
-          ...store.playTime,
-          [persistentStore.wordListType]: { ...store.playTime[store.wordListType], [globalStore.gameMode]: today },
-        },
-      }));
+      if (params.day == null && params.listType == null && params.mode == null && params.seed == null) {
+        setPersistentStore(store => ({
+          ...store,
+          playTime: {
+            ...store.playTime,
+            [persistentStore.wordListType]: { ...store.playTime[store.wordListType], [globalStore.gameMode]: today },
+          },
+        }));
+      }
       setRenderHints(false);
       setShowLoading(false);
       (document.activeElement as HTMLElement | null)?.blur();
@@ -160,7 +164,7 @@ function App() {
       </Shell>
 
       {showLoading() && <ToastAlert status='info'>Loading game...</ToastAlert>}
-      {isCurrentWordWrong() && <ToastAlert status='warning'>Wrong word!</ToastAlert>}
+      {isCurrentWordWrong() && <ToastAlert status='warning'>Not in word list!</ToastAlert>}
 
       <Tips open={showTips()} handleClose={() => setShowTips(false)} />
       <GameOver
