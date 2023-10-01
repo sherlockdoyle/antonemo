@@ -5,9 +5,9 @@ import { Random } from './random';
 import { addAll, iou, isSubset } from './set-extensions';
 
 const type2path = {
-  manual: manualWordsPath,
-  default: defaultWordsPath,
-  large: largeWordsPath,
+  m: manualWordsPath,
+  d: defaultWordsPath,
+  l: largeWordsPath,
 };
 export type WordListType = keyof typeof type2path;
 
@@ -28,16 +28,16 @@ export class NoWordError extends Error {}
 
 const MAX_NUMBER_OF_LETTERS = ((26 / 4) * 3) | 0;
 export class Builder {
-  #startingSet: Set<string>;
-  #wordGraph: Record<string, string | undefined>;
-  #random: Random;
-  #differentFromStart: boolean;
+  #e: Set<string>;
+  #t: Record<string, string | undefined>;
+  #o: Random;
+  #n: boolean;
 
-  #wordSet: Set<string>;
-  #letterSet: Set<string>;
-  #iouCache: Record<string, number>;
-  #matchCache: Record<string, number>;
-  #wordList: string[];
+  #a: Set<string>;
+  #r: Set<string>;
+  #s: Record<string, number>;
+  #i: Record<string, number>;
+  #c: string[];
 
   constructor(
     startingSet: Set<string>,
@@ -46,73 +46,69 @@ export class Builder {
     startingWords: string[] = [],
     differentFromStart: boolean = true,
   ) {
-    this.#startingSet = startingSet;
-    this.#wordGraph = wordGraph;
-    this.#random = random;
-    this.#differentFromStart = differentFromStart;
+    this.#e = startingSet;
+    this.#t = wordGraph;
+    this.#o = random;
+    this.#n = differentFromStart;
 
-    this.#wordSet = new Set(startingWords);
-    this.#letterSet = new Set(this.#startingSet);
-    this.#iouCache = {};
-    this.#matchCache = {};
-    this.#wordList = [];
+    this.#a = new Set(startingWords);
+    this.#r = new Set(this.#e);
+    this.#s = {};
+    this.#i = {};
+    this.#c = [];
 
-    this.#calculateIouCache();
+    this.#l();
   }
 
-  #calculateIouCache() {
-    Object.keys(this.#wordGraph).forEach(word => {
-      this.#iouCache[word] = iou(new Set(word), this.#startingSet);
+  #l() {
+    Object.keys(this.#t).forEach(word => {
+      this.#s[word] = iou(new Set(word), this.#e);
     });
   }
 
-  #getSubsetMatches(): [words: string[], matches: number[]] {
+  #u(): [words: string[], matches: number[]] {
     const words = Array<string>(),
       matches = Array<number>();
-    for (const word in this.#wordGraph) {
-      if (!this.#wordSet.has(word) && isSubset(new Set(word), this.#letterSet)) {
+    for (const word in this.#t) {
+      if (!this.#a.has(word) && isSubset(new Set(word), this.#r)) {
         words.push(word);
-        matches.push((1 - this.#iouCache[word]) * word.length);
+        matches.push((1 - this.#s[word]) * word.length);
       }
     }
     return [words, matches];
   }
 
-  #findNextWord(m: number) {
-    const [words, matches] = this.#getSubsetMatches();
+  #p(m: number) {
+    const [words, matches] = this.#u();
     if (words.length === 0) {
-      throw new NoWordError('No words found for ' + Array.from(this.#startingSet));
+      throw new NoWordError('No words found for ' + Array.from(this.#e));
     }
     for (const word of words) {
       const wordSet = new Set(word);
-      if (this.#differentFromStart && isSubset(wordSet, this.#startingSet)) continue;
-      const match = (iou(wordSet, this.#startingSet) + 1) * m;
-      if (!(word in this.#matchCache) || this.#matchCache[word] < match) {
-        this.#matchCache[word] = match;
+      if (this.#n && isSubset(wordSet, this.#e)) continue;
+      const match = (iou(wordSet, this.#e) + 1) * m;
+      if (!(word in this.#i) || this.#i[word] < match) {
+        this.#i[word] = match;
       }
     }
-    const wordIdx = this.#random.cumulateAndGetWeightedRandomIndex(matches);
+    const wordIdx = this.#o.o(matches);
     const nextWord = words[wordIdx];
-    this.#wordSet.add(nextWord);
-    this.#wordList.push(nextWord);
-    addAll(this.#letterSet, nextWord);
-    if (this.#wordGraph[nextWord]) {
-      addAll(this.#letterSet, this.#wordGraph[nextWord]!);
+    this.#a.add(nextWord);
+    this.#c.push(nextWord);
+    addAll(this.#r, nextWord);
+    if (this.#t[nextWord]) {
+      addAll(this.#r, this.#t[nextWord]!);
     }
   }
 
-  getFinalWord(maxLoop: number): string {
-    const maxCacheLength = (Object.keys(this.#wordGraph).length / 3) * 2;
-    while (
-      maxLoop > 0 &&
-      this.#letterSet.size <= MAX_NUMBER_OF_LETTERS &&
-      Object.keys(this.#matchCache).length < maxCacheLength
-    ) {
-      this.#findNextWord(maxLoop);
+  f(maxLoop: number): string {
+    const maxCacheLength = (Object.keys(this.#t).length / 3) * 2;
+    while (maxLoop > 0 && this.#r.size <= MAX_NUMBER_OF_LETTERS && Object.keys(this.#i).length < maxCacheLength) {
+      this.#p(maxLoop);
       --maxLoop;
     }
-    const sortedWords = Object.keys(this.#matchCache).sort((a, b) => {
-      const diff = this.#matchCache[a] - this.#matchCache[b];
+    const sortedWords = Object.keys(this.#i).sort((a, b) => {
+      const diff = this.#i[a] - this.#i[b];
       if (diff === 0) {
         return b.length - a.length;
       }
@@ -121,7 +117,7 @@ export class Builder {
     return sortedWords[0];
   }
 
-  get _wordList(): string[] {
-    return this.#wordList;
+  get d(): string[] {
+    return this.#c;
   }
 }

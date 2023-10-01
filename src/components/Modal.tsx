@@ -1,22 +1,22 @@
 import { JSX, ParentComponent, createEffect } from 'solid-js';
 
 interface CommonModalProps {
-  open: boolean;
-  footer?: JSX.Element;
+  e: boolean;
+  t?: JSX.Element;
 }
 interface CloseableModalProps extends CommonModalProps {
-  keepOpen?: false;
-  handleClose: () => void;
+  o?: false;
+  n: () => void;
 }
 interface KeepOpenModalProps extends CommonModalProps {
-  keepOpen: true;
-  handleClose?: undefined;
+  o: true;
+  n?: undefined;
 }
 const Modal: ParentComponent<CloseableModalProps | KeepOpenModalProps> = props => {
   let dialog!: HTMLDialogElement;
 
   createEffect(() => {
-    if (props.open) {
+    if (props.e) {
       dialog.showModal();
     } else {
       dialog.close();
@@ -27,17 +27,17 @@ const Modal: ParentComponent<CloseableModalProps | KeepOpenModalProps> = props =
     <dialog
       class='modal'
       ref={dialog}
-      onCancel={props.keepOpen ? e => e.preventDefault() : undefined}
-      onClose={props.handleClose}
+      onCancel={props.o ? e => e.preventDefault() : undefined}
+      onClose={props.n}
     >
       <div class='modal-box flex flex-col'>
-        {props.keepOpen || (
+        {props.o || (
           <form method='dialog'>
             <button class='btn btn-circle btn-ghost btn-sm absolute right-2 top-2'>✕</button>
           </form>
         )}
         <div class='overflow-scroll'>{props.children}</div>
-        {props.footer && <div class='pt-4'>{props.footer}</div>}
+        {props.t && <div class='pt-4'>{props.t}</div>}
       </div>
     </dialog>
   );

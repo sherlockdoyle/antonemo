@@ -17,7 +17,7 @@ import handleTheme from './utils/theme';
 function App() {
   const [openSidebar, setOpenSidebar] = createSignal(false);
   const [showLoading, setShowLoading] = createSignal(false);
-  const [showTips, setShowTips] = createSignal(persistentStore.showTips);
+  const [showTips, setShowTips] = createSignal(persistentStore.s);
   const [renderHints, setRenderHints] = createSignal(false);
   const [showHints, setShowHints] = createSignal(false);
   const [showGameOver, setShowGameOver] = createSignal(false);
@@ -25,33 +25,33 @@ function App() {
   const [isCurrentWordWrong, setCurrentWordWrong] = createAutoToggle(1000);
 
   let firstRun = true,
-    today = GameEngine.getCurrentDay(),
+    today = GameEngine.R(),
     engine: GameEngine;
   createEffect(async () => {
-    if (globalStore.gameState === GameState.Starting || (firstRun && !showTips())) {
+    if (globalStore.u === GameState.t || (firstRun && !showTips())) {
       setShowLoading(true);
       const params = firstRun ? parseParam(window.location.search.slice(1)) : {};
       firstRun = false;
-      engine = new GameEngine(params.mode ?? globalStore.gameMode, setGlobalStore);
-      await engine.buildWordGraph(params.listType ?? persistentStore.wordListType);
-      engine.setRandomSeed(params.seed ?? globalStore.seed);
-      let day = params.day ?? today + globalStore.offset;
+      engine = new GameEngine(params.o ?? globalStore.l, setGlobalStore);
+      await engine.f(params.t ?? persistentStore.l);
+      engine.h(params.n ?? globalStore.p);
+      let day = params.e ?? today + globalStore.f;
       while (true) {
         try {
-          engine.initWithWordIdx(((day % engine.numberOfWords) * WORD_PRIME) % engine.numberOfWords);
+          engine.y(((day % engine.d) * WORD_PRIME) % engine.d);
           break;
         } catch (e) {
           ++day;
         }
       }
-      engine.updateStore();
-      setGlobalStore({ gameState: GameState.Playing });
-      if (params.day == null && params.listType == null && params.mode == null && params.seed == null) {
+      engine.O();
+      setGlobalStore({ u: GameState.o });
+      if (params.e == null && params.t == null && params.o == null && params.n == null) {
         setPersistentStore(store => ({
           ...store,
-          playTime: {
-            ...store.playTime,
-            [persistentStore.wordListType]: { ...store.playTime[store.wordListType], [globalStore.gameMode]: today },
+          p: {
+            ...store.p,
+            [persistentStore.l]: { ...store.p[store.l], [globalStore.l]: today },
           },
         }));
       }
@@ -62,7 +62,7 @@ function App() {
     }
   });
   onMount(() => {
-    handleTheme(persistentStore.isLightTheme);
+    handleTheme(persistentStore.t);
     document.body.addEventListener('keydown', handleBodyKeyDown);
   });
   onCleanup(() => {
@@ -70,21 +70,21 @@ function App() {
   });
 
   function handleKeyPress(key: Key | 'HINT') {
-    if (globalStore.gameState !== GameState.Playing || engine.isCurrentWordFinal()) return;
+    if (globalStore.u !== GameState.o || engine.j()) return;
     if (key === 'HINT') {
       setRenderHints(true);
       setShowHints(true);
       return;
     }
-    if (key === 'ENTER' && !engine.isCurrentWordValid()) {
+    if (key === 'ENTER' && !engine.x()) {
       setCurrentWordWrong();
     }
 
-    engine.handleKey(key);
-    engine.updateStore();
-    if (engine.isCurrentWordFinal()) {
+    engine.T(key);
+    engine.O();
+    if (engine.j()) {
       window.setTimeout(() => {
-        setGlobalStore({ gameState: GameState.Won });
+        setGlobalStore({ u: GameState.n });
         setShowGameOver(true);
       }, 2000);
     }
@@ -102,97 +102,93 @@ function App() {
   return (
     <>
       <Shell
-        isLightTheme={persistentStore.isLightTheme}
-        onToggleTheme={() => {
-          const newTheme = !persistentStore.isLightTheme;
+        e={persistentStore.t}
+        t={() => {
+          const newTheme = !persistentStore.t;
           handleTheme(newTheme);
-          setPersistentStore({ isLightTheme: newTheme });
+          setPersistentStore({ t: newTheme });
         }}
-        open={openSidebar()}
-        handleToggle={setOpenSidebar}
-        title={
+        o={openSidebar()}
+        n={setOpenSidebar}
+        a={
           <div
             class={'text-3xl font-black uppercase'}
             classList={{
-              'text-success': globalStore.gameMode === GameMode.Easy,
-              'text-error': globalStore.gameMode === GameMode.Hard,
+              'text-success': globalStore.l === GameMode.e,
+              'text-error': globalStore.l === GameMode.t,
             }}
           >
             Antonemo
           </div>
         }
-        sidebar={<Sidebar handleClose={() => setOpenSidebar(false)} />}
-        footer={
+        r={<Sidebar e={() => setOpenSidebar(false)} />}
+        s={
           <Footer
-            handleTips={() => {
+            e={() => {
               setShowTips(true);
               setOpenSidebar(false);
             }}
           />
         }
       >
-        {globalStore.gameState === GameState.Playing && (
+        {globalStore.u === GameState.o && (
           <div class='flex h-full w-full max-w-lg flex-col gap-2 self-center p-2'>
             <div class='flex items-center justify-between'>
-              {globalStore.finalWord ? (
+              {globalStore.d ? (
                 <span class='flex h-12 items-center px-4 text-xl font-bold uppercase' title='Final word'>
-                  {globalStore.finalWord}
+                  {globalStore.d}
                 </span>
               ) : (
-                <button class='btn' onClick={() => setGlobalStore({ finalWord: engine.finalWord })}>
+                <button class='btn' onClick={() => setGlobalStore({ d: engine.b })}>
                   Show final word
                 </button>
               )}
-              {globalStore.seenSolution || `Steps: ${globalStore.steps}`}
+              {globalStore.c || `Steps: ${globalStore.e}`}
             </div>
             <WordList
-              words={globalStore.words}
-              currentWord={globalStore.currentWord}
-              isCurrentWordValid={globalStore.isCurrentWordValid}
-              currentWordHasAntonym={globalStore.currentWordHasAntonym}
-              isCurrentWordWrong={isCurrentWordWrong()}
-              isCurrentWordFinal={globalStore.isCurrentWordFinal}
-              handleClick={() => handleKeyPress('ENTER')}
+              e={globalStore.t}
+              t={globalStore.o}
+              o={globalStore.n}
+              n={globalStore.a}
+              a={isCurrentWordWrong()}
+              r={globalStore.r}
+              s={() => handleKeyPress('ENTER')}
             />
-            <Keyboard
-              activeLetters={globalStore.activeLetters}
-              correctLetters={globalStore.correctLetters}
-              handleKeyPress={handleKeyPress}
-            />
+            <Keyboard e={globalStore.s} t={globalStore.i} o={handleKeyPress} />
           </div>
         )}
       </Shell>
 
-      {showLoading() && <ToastAlert status='info'>Loading game...</ToastAlert>}
-      {isCurrentWordWrong() && <ToastAlert status='warning'>Not in word list!</ToastAlert>}
+      {showLoading() && <ToastAlert e='info'>Loading game...</ToastAlert>}
+      {isCurrentWordWrong() && <ToastAlert e='warning'>Not in word list!</ToastAlert>}
 
-      <Tips open={showTips()} handleClose={() => setShowTips(false)} />
+      <Tips e={showTips()} t={() => setShowTips(false)} />
       <GameOver
-        open={showGameOver() && !showHints()}
-        today={today}
-        handleNewGame={() => setShowGameOver(false)}
-        handleCustomGame={() => {
+        n={showGameOver() && !showHints()}
+        e={today}
+        t={() => setShowGameOver(false)}
+        o={() => {
           setShowGameOver(false);
           setOpenSidebar(true);
         }}
       />
       {renderHints() && (
         <Hints
-          open={showHints()}
-          handleClose={() => setShowHints(false)}
-          getWords={() => {
-            const words = engine.getValidWords();
-            engine.updateStore();
+          e={showHints()}
+          t={() => setShowHints(false)}
+          o={() => {
+            const words = engine.N();
+            engine.O();
             return words;
           }}
-          getWordsWithAntonyms={() => {
-            const words = engine.getValidWords(true);
-            engine.updateStore();
+          n={() => {
+            const words = engine.N(true);
+            engine.O();
             return words;
           }}
-          getSolution={() => {
-            const words = engine.getSolution();
-            engine.updateStore();
+          a={() => {
+            const words = engine.A();
+            engine.O();
             setShowGameOver(true);
             return words;
           }}

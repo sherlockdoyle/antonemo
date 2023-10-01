@@ -9,11 +9,11 @@ function wordToString(word: WordAndAntonym): string {
 }
 
 interface TipsProps {
-  open: boolean;
-  handleClose: () => void;
-  getWords: () => WordAndAntonym[];
-  getWordsWithAntonyms: () => WordAndAntonym[];
-  getSolution: () => WordAndAntonym[];
+  e: boolean;
+  t: () => void;
+  o: () => WordAndAntonym[];
+  n: () => WordAndAntonym[];
+  a: () => WordAndAntonym[];
 }
 const Hints: Component<TipsProps> = props => {
   const [words, setWords] = createSignal<WordAndAntonym[]>();
@@ -23,25 +23,25 @@ const Hints: Component<TipsProps> = props => {
   let idx = 0;
 
   return (
-    <Modal open={props.open} handleClose={props.handleClose}>
+    <Modal e={props.e} n={props.t}>
       <Tabs>
         {[
           {
-            name: 'Hint',
-            children: (
+            e: 'Hint',
+            t: (
               <div class='mt-3 flex gap-4'>
                 <div class='flex-1'>
                   <button
                     class='btn w-full'
                     onClick={() => {
-                      setWords(props.getWords());
+                      setWords(props.o());
                       ++idx;
                     }}
                   >
                     Show a valid word
                   </button>
                   <div class='text mx-1 text-xs normal-case'>
-                    Number of steps will become {Math.floor(globalStore.steps * WORD_HINT_FACTOR)}.
+                    Number of steps will become {Math.floor(globalStore.e * WORD_HINT_FACTOR)}.
                   </div>
                   {words() && <div class='text-lg font-semibold uppercase'>{words()![idx % words()!.length][0]}</div>}
                 </div>
@@ -49,14 +49,14 @@ const Hints: Component<TipsProps> = props => {
                   <button
                     class='btn w-full'
                     onClick={() => {
-                      setWordsWithAntonyms(props.getWordsWithAntonyms());
+                      setWordsWithAntonyms(props.n());
                       ++idx;
                     }}
                   >
                     with antonym
                   </button>
                   <div class='text mx-1 text-xs normal-case'>
-                    Number of steps will become {Math.floor(globalStore.steps * ANTONYM_HINT_FACTOR)}.
+                    Number of steps will become {Math.floor(globalStore.e * ANTONYM_HINT_FACTOR)}.
                   </div>
                   {wordsWithAntonyms() && (
                     <div class='text-lg font-semibold uppercase'>
@@ -68,8 +68,8 @@ const Hints: Component<TipsProps> = props => {
             ),
           },
           {
-            name: 'Solution',
-            children: solution() ? (
+            e: 'Solution',
+            t: solution() ? (
               <>
                 <h2 class='mt-1 text-xl font-bold'>Here is one possible sequence of words (and their antonyms).</h2>
                 <h3 class='mb-3 text-lg font-bold'>May contain redundant words.</h3>
@@ -105,13 +105,13 @@ const Hints: Component<TipsProps> = props => {
                   <button
                     class='btn'
                     onClick={() => {
-                      setSolution(props.getSolution());
-                      setGlobalStore({ gameState: GameState.Lost });
+                      setSolution(props.a());
+                      setGlobalStore({ u: GameState.a });
                     }}
                   >
                     Yes
                   </button>
-                  <button class='btn btn-secondary' onClick={() => props.handleClose()}>
+                  <button class='btn btn-secondary' onClick={() => props.t()}>
                     No
                   </button>
                 </div>

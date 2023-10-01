@@ -8,15 +8,15 @@ const KEYBOARD_ROWS = [
 ] as const;
 
 interface ButtonProps {
-  key: string;
-  isActive: boolean;
-  isCorrect: boolean;
-  handleClick: () => void;
+  e: string;
+  t: boolean;
+  o: boolean;
+  n: () => void;
 }
 const Button: Component<ButtonProps> = props => {
-  const isEnter = props.key === 'ENTER';
-  const isBackspace = props.key === '⌫';
-  const isHint = props.key === '💡';
+  const isEnter = props.e === 'ENTER';
+  const isBackspace = props.e === '⌫';
+  const isHint = props.e === '💡';
   const isBigKey = isEnter || isBackspace;
   return (
     <button
@@ -27,28 +27,28 @@ const Button: Component<ButtonProps> = props => {
         'text-lg btn-info': isEnter,
         'btn-warning': isBackspace,
         'btn-circle btn-ghost': isHint,
-        'btn-disabled': !(isBigKey || isHint || props.isActive),
-        'btn-success': props.isCorrect,
+        'btn-disabled': !(isBigKey || isHint || props.t),
+        'btn-success': props.o,
       }}
       style={
-        !props.isActive && props.isCorrect ? { 'background-color': 'hsl(var(--su)/var(--tw-bg-opacity))' } : undefined
+        !props.t && props.o ? { 'background-color': 'hsl(var(--su)/var(--tw-bg-opacity))' } : undefined
       }
       onKeyDown={e => {
         if (e.key === 'Enter') {
           e.preventDefault();
         }
       }}
-      onClick={props.handleClick}
+      onClick={props.n}
     >
-      {props.key}
+      {props.e}
     </button>
   );
 };
 
 interface KeyboardProps {
-  activeLetters: Set<string>;
-  correctLetters: Set<string>;
-  handleKeyPress: (key: Key | 'HINT') => void;
+  e: Set<string>;
+  t: Set<string>;
+  o: (key: Key | 'HINT') => void;
 }
 const Keyboard: Component<KeyboardProps> = props => {
   return (
@@ -59,10 +59,10 @@ const Keyboard: Component<KeyboardProps> = props => {
             <For each={row}>
               {key => (
                 <Button
-                  key={key}
-                  isActive={props.activeLetters.has(key)}
-                  isCorrect={props.correctLetters.has(key)}
-                  handleClick={() => props.handleKeyPress(key === '💡' ? 'HINT' : key === '⌫' ? 'BACKSPACE' : key)}
+                  e={key}
+                  t={props.e.has(key)}
+                  o={props.t.has(key)}
+                  n={() => props.o(key === '💡' ? 'HINT' : key === '⌫' ? 'BACKSPACE' : key)}
                 />
               )}
             </For>

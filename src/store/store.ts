@@ -4,43 +4,43 @@ import { WordListType } from '../utils/word-graph';
 import createLocalStore from './createLocalStore';
 
 interface PersistentStore {
-  isLightTheme: boolean;
-  wordListType: WordListType;
-  defaultGameMode: GameMode;
-  showTips: boolean;
-  playTime: Partial<Record<WordListType, Partial<Record<GameMode, number>>>>;
+  t: boolean;
+  l: WordListType;
+  m: GameMode;
+  s: boolean;
+  p: Partial<Record<WordListType, Partial<Record<GameMode, number>>>>;
 }
 const [persistentStore, setPersistentStore] = createLocalStore<PersistentStore>('a', {
-  isLightTheme: false,
-  wordListType: 'manual',
-  defaultGameMode: GameMode.Easy,
-  showTips: true,
-  playTime: {},
+  t: false,
+  l: 'm',
+  m: GameMode.e,
+  s: true,
+  p: {},
 });
 
 interface GlobalStore extends EngineState {
-  gameMode: GameMode;
-  gameState: GameState;
-  seed: number;
-  offset: number;
-  finalWord: string | undefined;
+  l: GameMode;
+  u: GameState;
+  p: number;
+  f: number;
+  d: string | undefined;
 }
 const initialGlobalStore: Readonly<GlobalStore> = {
-  gameMode: persistentStore.defaultGameMode,
-  gameState: GameState.Idle,
-  seed: GameEngine.getCurrentDay(),
-  offset: 0,
-  finalWord: undefined,
-  steps: 0,
+  l: persistentStore.m,
+  u: GameState.e,
+  p: GameEngine.R(),
+  f: 0,
+  d: undefined,
+  e: 0,
 
-  words: [],
-  currentWord: '',
-  isCurrentWordValid: false,
-  currentWordHasAntonym: false,
-  isCurrentWordFinal: false,
-  activeLetters: new Set(),
-  correctLetters: new Set(),
-  seenSolution: false,
+  t: [],
+  o: '',
+  n: false,
+  a: false,
+  r: false,
+  s: new Set(),
+  i: new Set(),
+  c: false,
 };
 const [globalStore, setGlobalStore] = createStore<GlobalStore>({ ...initialGlobalStore });
 

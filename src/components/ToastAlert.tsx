@@ -1,12 +1,12 @@
 import { ParentComponent } from 'solid-js';
 
-const ToastAlert: ParentComponent<{ status?: 'info' | 'warning' }> = props => (
+const ToastAlert: ParentComponent<{ e?: 'info' | 'warning' }> = props => (
   <div class='toast toast-center toast-top top-12'>
     <div
       class='alert'
       classList={{
-        'alert-info': !props.status || props.status === 'info',
-        'alert-warning': props.status === 'warning',
+        'alert-info': !props.e || props.e === 'info',
+        'alert-warning': props.e === 'warning',
       }}
     >
       <span>{props.children}</span>

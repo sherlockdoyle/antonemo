@@ -42,13 +42,13 @@ const KBD2: Component = () => (
   </div>
 );
 
-const Word: ParentComponent<{ success?: boolean }> = props => (
+const Word: ParentComponent<{ e?: boolean }> = props => (
   <div class='flex flex-col items-center'>
     <div
       class='my-1 border-b-2 px-2 text-center text-2xl font-bold transition-all'
       classList={{
-        'border-b-base-content': !props.success,
-        'border-b-success text-success': props.success,
+        'border-b-base-content': !props.e,
+        'border-b-success text-success': props.e,
       }}
     >
       {props.children}
@@ -86,7 +86,7 @@ const EasyTips: Component = () => (
     </p>
     <KBD2 />
     <p>Now, all the letters we need are on, and we can make the final word!</p>
-    <Word success>HARD</Word>
+    <Word e>HARD</Word>
 
     <h3 class='mb-1 mt-4 text-lg font-bold'>Scoring</h3>
     <p>
@@ -138,7 +138,7 @@ const HardTips: Component = () => (
     </p>
     <KBD2 />
     <p>Now, all the required letters are active, and we can construct the final word!</p>
-    <Word success>HARD</Word>
+    <Word e>HARD</Word>
 
     <h3 class='mb-1 mt-4 text-lg font-bold'>Scoring</h3>
     <p>
@@ -160,32 +160,32 @@ const HardTips: Component = () => (
 );
 
 interface TipsProps {
-  open: boolean;
-  handleClose: () => void;
+  e: boolean;
+  t: () => void;
 }
 const Tips: Component<TipsProps> = props => {
   const [showEasy, setShowEasy] = createSignal(Math.random() < 0.5);
 
   return (
     <Modal
-      open={props.open}
-      handleClose={props.handleClose}
-      footer={
+      e={props.e}
+      n={props.t}
+      t={
         <div class='flex justify-between'>
           <label class='label cursor-pointer'>
             <input
               type='checkbox'
               class='checkbox-primary checkbox'
-              checked={persistentStore.showTips}
-              onChange={e => setPersistentStore({ showTips: e.currentTarget.checked })}
+              checked={persistentStore.s}
+              onChange={e => setPersistentStore({ s: e.currentTarget.checked })}
             />
             <span class='label-text ml-2'>Show on startup</span>
           </label>
           <button
             class='btn btn-primary'
             onClick={() => {
-              setGlobalStore({ ...initialGlobalStore, gameState: GameState.Starting });
-              props.handleClose();
+              setGlobalStore({ ...initialGlobalStore, u: GameState.t });
+              props.t();
             }}
           >
             Let's Play

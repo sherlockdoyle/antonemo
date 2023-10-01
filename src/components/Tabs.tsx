@@ -1,8 +1,8 @@
 import { Component, For, JSX, createSignal } from 'solid-js';
 
 interface TabComponent {
-  name: string;
-  children: JSX.Element;
+  e: string;
+  t: JSX.Element;
 }
 const Tabs: Component<{ children: TabComponent[] }> = props => {
   const [active, setActive] = createSignal(0);
@@ -11,14 +11,14 @@ const Tabs: Component<{ children: TabComponent[] }> = props => {
     <>
       <div class='tabs'>
         <For each={props.children}>
-          {({ name }, i) => (
+          {({ e }, i) => (
             <a class='tab tab-bordered' classList={{ 'tab-active': i() === active() }} onClick={() => setActive(i())}>
-              {name}
+              {e}
             </a>
           )}
         </For>
       </div>
-      {props.children[active()].children}
+      {props.children[active()].t}
     </>
   );
 };

@@ -4,15 +4,15 @@ import { addAll, isSubset } from './set-extensions';
 import { Builder, WordListType, fetchAndGetWordList } from './word-graph';
 
 export const enum GameMode {
-  Easy,
-  Hard,
+  e,
+  t,
 }
 export const enum GameState {
-  Idle,
-  Starting,
-  Playing,
-  Won,
-  Lost,
+  e,
+  t,
+  o,
+  n,
+  a,
 }
 
 // Nearest prime to number of words (5000) / 2. This is also coprime with the final number of words, both in easy and
@@ -22,8 +22,8 @@ export const WORD_HINT_FACTOR = 1.25;
 export const ANTONYM_HINT_FACTOR = 1.5;
 
 const ITER_FOR_GAME_MODE: Record<GameMode, number> = {
-  [GameMode.Easy]: 15,
-  [GameMode.Hard]: 30,
+  [GameMode.e]: 15,
+  [GameMode.t]: 30,
 };
 
 export type Key =
@@ -58,212 +58,212 @@ export type Key =
 export type WordAndAntonym = [word: string, antonym: string | undefined];
 
 export interface EngineState {
-  steps: number;
-  words: string[];
-  currentWord: string;
-  isCurrentWordValid: boolean;
-  currentWordHasAntonym: boolean;
-  isCurrentWordFinal: boolean;
-  activeLetters: Set<string>;
-  correctLetters: Set<string>;
-  seenSolution: boolean;
+  e: number;
+  t: string[];
+  o: string;
+  n: boolean;
+  a: boolean;
+  r: boolean;
+  s: Set<string>;
+  i: Set<string>;
+  c: boolean;
 }
 export class GameEngine {
-  #mode: GameMode;
-  #setStore: SetStoreFunction<EngineState>;
+  #e: GameMode;
+  #t: SetStoreFunction<EngineState>;
 
-  #wordGraph: Record<string, string | undefined>;
-  #random: Random;
+  #o: Record<string, string | undefined>;
+  #n: Random;
 
-  #initialLetters: Set<string>;
-  #words: string[];
-  #currentWord: string;
-  #finalWord: string;
-  #steps: number;
-  #solution: string[];
-  #seenSolution: boolean;
+  #a: Set<string>;
+  #r: string[];
+  #s: string;
+  #i: string;
+  #c: number;
+  #l: string[];
+  #u: boolean;
 
-  #_activeLetters: Set<string> | undefined;
+  #p: Set<string> | undefined;
   constructor(mode: GameMode, setStore: SetStoreFunction<EngineState>) {
-    this.#mode = mode;
-    this.#setStore = setStore;
+    this.#e = mode;
+    this.#t = setStore;
 
-    this.#wordGraph = {};
-    this.#random = new Random();
+    this.#o = {};
+    this.#n = new Random();
 
-    this.#initialLetters = new Set();
-    this.#words = [];
-    this.#currentWord = '';
-    this.#finalWord = '';
-    this.#steps = 0;
-    this.#solution = [];
-    this.#seenSolution = false;
+    this.#a = new Set();
+    this.#r = [];
+    this.#s = '';
+    this.#i = '';
+    this.#c = 0;
+    this.#l = [];
+    this.#u = false;
   }
 
-  async buildWordGraph(type: WordListType) {
+  async f(type: WordListType) {
     const words = await fetchAndGetWordList(type);
     const antonymMap: Record<string, string> = {};
     Object.entries(words).forEach(([word, antonyms]) => {
       let antonym: string | undefined;
       if (antonyms.length > 0) {
-        antonym = this.#mode === GameMode.Easy ? antonyms[0] : antonyms[antonyms.length - 1];
+        antonym = this.#e === GameMode.e ? antonyms[0] : antonyms[antonyms.length - 1];
         antonymMap[antonym] = word;
       }
-      this.#wordGraph[word] = antonym;
+      this.#o[word] = antonym;
     });
 
     Object.entries(antonymMap).forEach(([antonym, word]) => {
-      if (!(antonym in this.#wordGraph)) {
-        this.#wordGraph[antonym] = word;
+      if (!(antonym in this.#o)) {
+        this.#o[antonym] = word;
       }
     });
   }
 
-  get numberOfWords(): number {
-    return Object.keys(this.#wordGraph).length;
+  get d(): number {
+    return Object.keys(this.#o).length;
   }
 
-  get activeLetters(): Set<string> {
-    if (!this.#_activeLetters) {
-      this.#_activeLetters = new Set(this.#initialLetters);
-      for (const word of this.#words) {
-        addAll(this.#_activeLetters, word);
+  get m(): Set<string> {
+    if (!this.#p) {
+      this.#p = new Set(this.#a);
+      for (const word of this.#r) {
+        addAll(this.#p, word);
       }
     }
-    return this.#_activeLetters;
+    return this.#p;
   }
 
-  setRandomSeed(seed: number) {
-    this.#random = new Random(seed);
+  h(seed: number) {
+    this.#n = new Random(seed);
   }
 
-  getSetFromWords(...words: string[]): Set<string> {
+  g(...words: string[]): Set<string> {
     const set = new Set<string>();
     for (const word of words) {
       addAll(set, word);
-      if (this.#wordGraph[word]) {
-        addAll(set, this.#wordGraph[word]!);
+      if (this.#o[word]) {
+        addAll(set, this.#o[word]!);
       }
     }
     return set;
   }
 
-  initWithWordIdx(wordIdx: number) {
-    const startingWord = Object.keys(this.#wordGraph)[wordIdx];
-    this.#initialLetters = new Set(startingWord);
-    const builder = new Builder(this.getSetFromWords(startingWord), this.#wordGraph, this.#random, [startingWord]);
-    this.#finalWord = builder.getFinalWord(ITER_FOR_GAME_MODE[this.#mode]);
+  y(wordIdx: number) {
+    const startingWord = Object.keys(this.#o)[wordIdx];
+    this.#a = new Set(startingWord);
+    const builder = new Builder(this.g(startingWord), this.#o, this.#n, [startingWord]);
+    this.#i = builder.f(ITER_FOR_GAME_MODE[this.#e]);
 
-    builder._wordList.unshift(startingWord);
+    builder.d.unshift(startingWord);
     const solutionLetterSet = new Set(startingWord);
-    this.#solution = [];
-    for (const word of builder._wordList) {
-      const wordSet = this.getSetFromWords(word);
+    this.#l = [];
+    for (const word of builder.d) {
+      const wordSet = this.g(word);
       if (!isSubset(wordSet, solutionLetterSet)) {
-        this.#solution.push(word);
+        this.#l.push(word);
         addAll(solutionLetterSet, wordSet);
       }
     }
-    this.#solution.push(this.#finalWord);
+    this.#l.push(this.#i);
   }
 
-  get finalWord(): string {
-    return this.#finalWord;
+  get b(): string {
+    return this.#i;
   }
 
-  addLetter(letter: string) {
-    if (this.activeLetters.has(letter)) {
-      this.#currentWord += letter;
+  v(letter: string) {
+    if (this.m.has(letter)) {
+      this.#s += letter;
     }
   }
 
-  popLetter() {
-    if (this.#currentWord.length > 0) {
-      this.#currentWord = this.#currentWord.slice(0, -1);
+  w() {
+    if (this.#s.length > 0) {
+      this.#s = this.#s.slice(0, -1);
     }
   }
 
-  isCurrentWordValid(): boolean {
-    return this.#currentWord in this.#wordGraph;
+  x(): boolean {
+    return this.#s in this.#o;
   }
 
-  currentWordHasAntonym(): boolean {
-    return Boolean(this.#wordGraph[this.#currentWord]);
+  k(): boolean {
+    return Boolean(this.#o[this.#s]);
   }
 
-  isCurrentWordFinal(): boolean {
-    return this.#currentWord === this.#finalWord;
+  j(): boolean {
+    return this.#s === this.#i;
   }
 
-  #addWord(word: string) {
-    this.#words.push(word);
-    this.#_activeLetters = undefined;
+  #z(word: string) {
+    this.#r.push(word);
+    this.#p = undefined;
   }
 
-  addCurrentWordWithAntonym() {
-    if (this.isCurrentWordValid()) {
-      this.#addWord(this.#currentWord);
-      this.#steps += 1;
-      if (this.currentWordHasAntonym()) {
-        this.#addWord(this.#wordGraph[this.#currentWord]!);
+  E() {
+    if (this.x()) {
+      this.#z(this.#s);
+      this.#c += 1;
+      if (this.k()) {
+        this.#z(this.#o[this.#s]!);
       }
-      this.#currentWord = '';
+      this.#s = '';
     }
   }
 
-  handleKey(key: Key) {
+  T(key: Key) {
     if (key === 'ENTER') {
-      this.addCurrentWordWithAntonym();
+      this.E();
     } else if (key === 'BACKSPACE') {
-      if (this.#currentWord.length > 0) {
-        this.popLetter();
+      if (this.#s.length > 0) {
+        this.w();
       }
     } else {
-      this.addLetter(key);
+      this.v(key);
     }
   }
 
-  updateStore() {
-    this.#setStore({
-      steps: this.#steps,
-      words: [...this.#words],
-      currentWord: this.#currentWord,
-      isCurrentWordValid: this.isCurrentWordValid(),
-      currentWordHasAntonym: this.currentWordHasAntonym(),
-      isCurrentWordFinal: this.isCurrentWordFinal(),
-      activeLetters: new Set(this.activeLetters),
-      correctLetters: new Set(this.#finalWord),
-      seenSolution: this.#seenSolution,
+  O() {
+    this.#t({
+      e: this.#c,
+      t: [...this.#r],
+      o: this.#s,
+      n: this.x(),
+      a: this.k(),
+      r: this.j(),
+      s: new Set(this.m),
+      i: new Set(this.#i),
+      c: this.#u,
     });
   }
 
-  getValidWords(withAntonyms?: false): [word: string, antonym: undefined][];
-  getValidWords(withAntonyms: true): WordAndAntonym[];
-  getValidWords(withAntonyms: boolean = false): WordAndAntonym[] {
+  N(withAntonyms?: false): [word: string, antonym: undefined][];
+  N(withAntonyms: true): WordAndAntonym[];
+  N(withAntonyms: boolean = false): WordAndAntonym[] {
     const words = Array<string>();
-    Object.keys(this.#wordGraph).forEach(word => {
+    Object.keys(this.#o).forEach(word => {
       if (
-        isSubset(new Set(word), this.activeLetters) &&
-        !this.#words.includes(word) &&
-        (!withAntonyms || this.#wordGraph[word])
+        isSubset(new Set(word), this.m) &&
+        !this.#r.includes(word) &&
+        (!withAntonyms || this.#o[word])
       ) {
         words.push(word);
       }
     });
 
-    this.#steps = Math.floor(this.#steps * (withAntonyms ? ANTONYM_HINT_FACTOR : WORD_HINT_FACTOR));
+    this.#c = Math.floor(this.#c * (withAntonyms ? ANTONYM_HINT_FACTOR : WORD_HINT_FACTOR));
     if (withAntonyms) {
-      return words.map(word => [word, this.#wordGraph[word]]);
+      return words.map(word => [word, this.#o[word]]);
     }
     return words.map(word => [word, undefined]);
   }
 
-  getSolution(): WordAndAntonym[] {
-    this.#seenSolution = true;
-    return this.#solution.map(word => [word, this.#wordGraph[word]]);
+  A(): WordAndAntonym[] {
+    this.#u = true;
+    return this.#l.map(word => [word, this.#o[word]]);
   }
 
-  static getCurrentDay(): number {
+  static R(): number {
     return Math.floor(Date.now() / (1000 * 60 * 60 * 24));
   }
 }

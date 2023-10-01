@@ -4,19 +4,19 @@ import { globalStore, initialGlobalStore, persistentStore, setGlobalStore } from
 import { GameMode, GameState } from './utils/engine';
 
 interface CommonProps {
-  today: number;
-  handleNewGame: () => void;
-  handleCustomGame: () => void;
+  e: number;
+  t: () => void;
+  o: () => void;
 }
 const NextStep: Component<CommonProps> = props => (
   <>
-    {(persistentStore.playTime[persistentStore.wordListType]?.[GameMode.Easy] ?? 0) < props.today && (
+    {(persistentStore.p[persistentStore.l]?.[GameMode.e] ?? 0) < props.e && (
       <>
         <button
           class='btn btn-secondary'
           onClick={() => {
-            setGlobalStore({ ...initialGlobalStore, gameMode: GameMode.Easy, gameState: GameState.Starting });
-            props.handleNewGame();
+            setGlobalStore({ ...initialGlobalStore, l: GameMode.e, u: GameState.t });
+            props.t();
           }}
         >
           try the easy mode
@@ -24,13 +24,13 @@ const NextStep: Component<CommonProps> = props => (
         or
       </>
     )}
-    {(persistentStore.playTime[persistentStore.wordListType]?.[GameMode.Hard] ?? 0) < props.today && (
+    {(persistentStore.p[persistentStore.l]?.[GameMode.t] ?? 0) < props.e && (
       <>
         <button
           class='btn btn-secondary'
           onClick={() => {
-            setGlobalStore({ ...initialGlobalStore, gameMode: GameMode.Hard, gameState: GameState.Starting });
-            props.handleNewGame();
+            setGlobalStore({ ...initialGlobalStore, l: GameMode.t, u: GameState.t });
+            props.t();
           }}
         >
           try the hard mode
@@ -38,7 +38,7 @@ const NextStep: Component<CommonProps> = props => (
         or
       </>
     )}
-    <button class='btn btn-accent' onClick={props.handleCustomGame}>
+    <button class='btn btn-accent' onClick={props.o}>
       try a custom game
     </button>
     or try again tomorrow.
@@ -48,8 +48,7 @@ const NextStep: Component<CommonProps> = props => (
 const Won: Component = () => (
   <>
     <h1 class='mb-4 text-4xl font-bold text-success'>You Won!</h1>
-    Congratulations! You won the game in {globalStore.steps} step{globalStore.steps === 1 || 's'}. You are awesome! You
-    can
+    Congratulations! You won the game in {globalStore.e} step{globalStore.e === 1 || 's'}. You are awesome! You can
   </>
 );
 
@@ -63,15 +62,12 @@ const Lost: Component = () => (
 const PAGE_URL = 'https://sherlockdoyle.github.io/antonemo';
 const Share: Component<CommonProps> = props => {
   const text = () =>
-    `I just finished Antonemo, a logical game about opposite words, in only ${globalStore.steps} step${
-      globalStore.steps === 1 ? '' : 's'
+    `I just finished Antonemo, a logical game about opposite words, in only ${globalStore.e} step${
+      globalStore.e === 1 ? '' : 's'
     }! Can you beat my record?`;
   const url = () => {
-    const day = props.today + globalStore.offset;
-    return (
-      PAGE_URL +
-      `?${day}${persistentStore.wordListType}${globalStore.gameMode}${globalStore.seed === day ? '' : globalStore.seed}`
-    );
+    const day = props.e + globalStore.f;
+    return PAGE_URL + `?${day}${persistentStore.l}${globalStore.l}${globalStore.p === day ? '' : globalStore.p}`;
   };
 
   return (
@@ -131,7 +127,7 @@ const Share: Component<CommonProps> = props => {
           class='btn btn-circle'
           title='Share on Reddit'
           href={`https://www.reddit.com/submit?url=${encodeURIComponent(url())}&title=${encodeURIComponent(
-            `I finished Antonemo in ${globalStore.steps} step${globalStore.steps === 1 ? '' : 's'}`,
+            `I finished Antonemo in ${globalStore.e} step${globalStore.e === 1 ? '' : 's'}`,
           )}`}
           target='_blank'
         >
@@ -155,15 +151,15 @@ const Share: Component<CommonProps> = props => {
 };
 
 interface GameOverProps extends CommonProps {
-  open: boolean;
+  n: boolean;
 }
 const GameOver: Component<GameOverProps> = props => {
   return (
-    <Modal open={props.open} keepOpen>
+    <Modal e={props.n} o>
       <div class='flex flex-col items-center gap-2 text-center text-lg'>
-        {globalStore.gameState === GameState.Won ? <Won /> : <Lost />}
+        {globalStore.u === GameState.n ? <Won /> : <Lost />}
         <NextStep {...props} />
-        {globalStore.gameState === GameState.Won && <Share {...props} />}
+        {globalStore.u === GameState.n && <Share {...props} />}
       </div>
     </Modal>
   );

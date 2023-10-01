@@ -2,10 +2,10 @@ import { GameMode } from './engine';
 import { WordListType } from './word-graph';
 
 interface Matches {
-  day?: number;
-  listType?: WordListType;
-  mode?: GameMode;
-  seed?: number;
+  e?: number;
+  t?: WordListType;
+  o?: GameMode;
+  n?: number;
 }
 export function parseParam(param: string): Matches {
   const matches = param.match(/(\d+)?([a-z]+)?(\d)?(\d*)?/);
@@ -19,9 +19,9 @@ export function parseParam(param: string): Matches {
   const dayNum = day ? parseInt(day) : undefined,
     modeNum = mode ? parseInt(mode) : undefined;
   return {
-    day: dayNum,
-    listType: listType === 'large' || listType === 'default' || listType === 'manual' ? listType : undefined,
-    mode: modeNum === GameMode.Easy || modeNum === GameMode.Hard ? modeNum : undefined,
-    seed: seed ? parseInt(seed) : dayNum,
+    e: dayNum,
+    t: listType === 'm' || listType === 'd' || listType === 'l' ? listType : undefined,
+    o: modeNum === GameMode.e || modeNum === GameMode.t ? modeNum : undefined,
+    n: seed ? parseInt(seed) : dayNum,
   };
 }

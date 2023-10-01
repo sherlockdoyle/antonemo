@@ -13,8 +13,8 @@ const GitHub: Component = () => (
   </a>
 );
 
-const HowToPlay: Component<{ handleTips: () => void }> = props => (
-  <button class='flex flex-col items-center' onClick={props.handleTips}>
+const HowToPlay: Component<{ e: () => void }> = props => (
+  <button class='flex flex-col items-center' onClick={props.e}>
     <svg viewBox='0 0 24 24' stroke-width='2' class='h-12 w-12 fill-none stroke-current'>
       <path
         stroke-linecap='round'
@@ -26,11 +26,11 @@ const HowToPlay: Component<{ handleTips: () => void }> = props => (
   </button>
 );
 
-const Footer: Component<{ handleTips: () => void }> = props => {
+const Footer: Component<{ e: () => void }> = props => {
   return (
     <div class='flex justify-around'>
       <GitHub />
-      <HowToPlay handleTips={props.handleTips} />
+      <HowToPlay e={props.e} />
     </div>
   );
 };
