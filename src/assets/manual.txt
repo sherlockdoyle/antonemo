@@ -116,6 +116,7 @@ create,destroy
 crooked,straight
 cruel,kind
 customer,supplier
+dad,child,mother,mom
 damage,improve
 dark,bright,light
 dawn,sunset
@@ -166,6 +167,7 @@ false,true
 famous,unknown
 fast,slow
 fat,skinny,thin
+father,descendant,neglect,mother
 feeble,strong
 feel,doubt
 few,many,plentiful
@@ -285,8 +287,10 @@ midday,midnight
 miser,spendthrift
 mix,separate
 moist,dry
+mom,dad,father,papa
 more,less
 most,least,little,few
+mother,father,neglect,dad
 move,stay
 nadir,zenith
 narrow,broad
@@ -295,6 +299,7 @@ natural,artificial
 near,distance,far
 neat,messy
 negative,positive
+neglect,neat,cherish,heed,remember,care
 nephew,niece
 never,always
 new,old,existing,stale,hackneyed,used,secondhand,conversant,present,dated,original
